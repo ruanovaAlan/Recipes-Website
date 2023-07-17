@@ -2078,10 +2078,4 @@ Recipe.insertMany(seedRecipes)
         console.log(e);
     })
 
-mongoose.connection.close()
-    .then(() => {
-        console.log('Connection closed');
-    })
-    .catch((err) => {
-        console.error('Error while closing connection:', err);
-    });
+

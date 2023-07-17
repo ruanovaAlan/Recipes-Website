@@ -2,6 +2,7 @@ const express = require('express');
 const path = require('path');
 const ejsMate = require("ejs-mate");
 const mongoose = require('mongoose');
+const Recipe = require('./models/recipes')
 
 //Connection to mongoose
 mongoose.connect("mongodb://127.0.0.1:27017/Recipes");
@@ -24,8 +25,9 @@ app.use(express.urlencoded({ extended: true }));
 
 
 //Routes
-app.get('/recipes', (req, res) => {
-    res.render('recipes/index');
+app.get('/recipes', async (req, res) => { //Show all recipes
+    const recipes = await Recipe.find({});
+    res.render('recipes/index', { recipes });
 })
 
 app.listen(3000, () => {
