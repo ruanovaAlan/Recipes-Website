@@ -14,7 +14,7 @@ const seedRecipes = [
     {
         "titulo": "Sopa aguada de almendra",
         "tipo": "salada",
-        "seccion": "sopas aguadas y cremas",
+        "seccion": "sopas-aguadas-y-cremas",
         "ingredientes": "- 40 gramos de mantequilla\r\n- 100 gramos de almendras\r\n- 350 gramos de jitomate\r\n- 1 cebolla\r\n- 1 ½ litro de agua\r\n- ¼ de taza de crema\r\n- 200 gramos de chícharo cambray (guisantes)\r\n- 1 bolillo o pan similar\r\n- Sal y pimienta al gusto",
         "proceso": "1. En una olla grande, derrite la mantequilla a fuego medio. Agrega la cebolla picada finamente, las almendras en trozos y la mitad del bolillo también en pedazos. Sofríe todo junto hasta que la cebolla esté transparente y las almendras y el pan estén ligeramente dorados.\r\n2. Retira la mezcla de la olla y colócala en un procesador de alimentos o licuadora. Tritura los ingredientes hasta obtener una pasta suave y homogénea. Si es necesario, agrega un poco de agua para facilitar la trituración.\r\n3. Vuelve a colocar la mezcla en la olla y agrega el jitomate previamente licuado y colado. Cocina a fuego medio hasta que el jitomate se haya cocido y se haya reducido ligeramente.\r\n4. Mientras tanto, en otra olla aparte, hierve el agua. Agrega sal y pimienta al gusto. Una vez que el jitomate haya reducido, vierte el agua caliente en la olla y deja que la sopa hierva a fuego medio-bajo durante unos minutos para que los sabores se mezclen.\r\n5. Retira la sopa del fuego y añade la crema. Revuelve bien para incorporarla a la sopa.\r\n6. Agrega los chícharos cambray cocidos a la sopa y corta el resto del pan en pequeños trozos. Incorpora los trozos de pan a la sopa.\r\n7. Vuelve a calentar la sopa a fuego bajo durante unos minutos hasta que los ingredientes estén calientes y bien integrados.",
         "imagen": "https://i.postimg.cc/nrrxCNLn/1-sopa-aguada-de-almendras.jpg"
@@ -22,7 +22,7 @@ const seedRecipes = [
     {
         "titulo": "Sopa de perejil ",
         "tipo": "salada",
-        "seccion": "sopas aguadas y cremas",
+        "seccion": "sopas-aguadas-y-cremas",
         "ingredientes": "- 1 ramo de perejil de tamaño regular\r\n- 5 dientes de ajo pequeños\r\n- 1 cucharada sopera de mantequilla\r\n- 4 papas peladas y cortadas en cuadritos\r\n- 1 cucharadita cafetera de maicena\r\n- Sal y pimienta al gusto\r\n- Caldo de pollo o consomé",
         "proceso": "1. Lava el ramo de perejil y retira los tallos más gruesos. Puedes utilizar tanto las hojas como los tallos más tiernos, ya que tienen mucho sabor. \r\n2. En una licuadora o procesador de alimentos, agrega los ajos pelados y el perejil. Agrega un poco de agua y tritura hasta obtener una mezcla homogénea. Agrega más agua si es necesario para facilitar la trituración.\r\n3. En una cacerola grande, derrite la mantequilla a fuego medio. Agrega la maicena y revuelve bien para formar una pasta. \r\n4. Añade las papas cortadas en cuadritos a la cacerola y revuélvelas en la mezcla de mantequilla y maicena. Cocina por unos minutos para que las papas se cubran ligeramente con la mezcla.\r\n5. Vierte la mezcla de ajo y perejil en la cacerola y revuelve bien para combinar todos los ingredientes. \r\n6. Agrega suficiente caldo de pollo o consomé para cubrir las papas y llevar a ebullición. Reduce el fuego y deja que la sopa hierva a fuego lento hasta que las papas estén tiernas y cocidas.\r\n7. Prueba la sopa y sazona con sal y pimienta al gusto. Ajusta la consistencia de la sopa agregando más caldo si es necesario.\r\n8. Cocina a fuego lento por unos minutos más para permitir que los sabores se mezclen y se calienten por completo.",
         "imagen": "https://i.postimg.cc/ZnQS3j9p/2-sopa-de-perejil-anabela.jpg"
@@ -30,7 +30,7 @@ const seedRecipes = [
     {
         "titulo": "Sopa exquisita de salchicha",
         "tipo": "salada",
-        "seccion": "sopas aguadas y cremas",
+        "seccion": "sopas-aguadas-y-cremas",
         "ingredientes": "- 200 gramos de maicena\r\n- 100 gramos de queso amarillo\r\n- 250 gramos de mantequilla\r\n- 250 gramos de crema\r\n- 1 lata de salchichas\r\n- 3 yemas de huevo\r\n- 2 huevos cocidos\r\n- 1 litro de leche\r\n- Sal y pimienta blanca al gusto\r\n- Nuez moscada",
         "proceso": "1. En un recipiente, mezcla la maicena, las yemas de huevo, la sal, la pimienta blanca y la nuez moscada.\r\n2. Agrega gradualmente la leche a la mezcla anterior, asegurándote de que no queden grumos.\r\n3. En una olla grande, derrite la mantequilla a fuego medio. Añade la mezcla de maicena y leche a la olla y cocina a fuego medio-alto, sin dejar de revolver, hasta que la mezcla espese y se forme una bola suave. Esto puede llevar unos minutos.\r\n4. Retira la olla del fuego y continúa batiendo la mezcla durante un poco más de tiempo. Luego, coloca la masa en una servilleta húmeda y déjala reposar durante unos minutos.\r\n5. Precalienta el horno a 180°C (350°F). Engrasa un molde refractario con mantequilla y espolvorea queso amarillo rallado sobre el fondo.\r\n6. Utilizando una duya gruesa, forma pequeñas porciones de masa en forma de petalillos dentro del molde, dejando espacio para los demás ingredientes. Alterna las capas de masa con rebanadas de salchicha, tiras de chile morrón y pedacitos de queso amarillo.\r\n7. Cubre la mezcla en el molde con crema y espolvorea queso amarillo rallado adicional por encima.\r\n8. Hornea la sopa en el horno precalentado durante aproximadamente 20 minutos, o hasta que esté dorada y burbujeante. Retira la sopa del horno y adorna con rodajas de huevo cocido antes de servir.",
         "imagen": "https://i.postimg.cc/tRvyLRrJ/3-sopa-exquisita-salchicha.jpg"
@@ -38,7 +38,7 @@ const seedRecipes = [
     {
         "titulo": "Sopa de camarón seco",
         "tipo": "salada",
-        "seccion": "sopas aguadas y cremas",
+        "seccion": "sopas-aguadas-y-cremas",
         "ingredientes": "- 150 gramos de camarón seco\r\n- 5 calabacitas\r\n- 5 zanahorias\r\n- Cilantro\r\n- Chile chipotle\r\n- Limón",
         "proceso": "1. En una olla, cuece los camarones secos en agua hasta que estén tiernos y cocidos. Luego, retira los camarones del agua y pélalos.\r\n2. En una licuadora, muele las cáscaras de los camarones con un poco de agua y chile chipotle, para obtener una pasta de camarón. Reserva esta mezcla.\r\n3. En la misma olla donde cociste los camarones, agrega el caldo de camarón obtenido al triturar las cáscaras. Añade más agua si es necesario y lleva el caldo a ebullición.\r\n4. Mientras tanto, corta las calabacitas y zanahorias en cuadritos y añádelas al caldo hirviendo. Cocina las verduras hasta que estén tiernas.\r\n5. Una vez que las verduras estén cocidas, agrega los camarones pelados al caldo. Deja que los camarones se calienten en el caldo durante unos minutos.\r\n6. Antes de servir, espolvorea cilantro fresco picado sobre la sopa.\r\n7. Sirve la sopa caliente y acompáñala con rodajas de limón para agregar un toque de acidez al gusto.",
         "imagen": "https://i.postimg.cc/g0Kb4GXY/4-sopa-camaron-seco.jpg"
@@ -46,7 +46,7 @@ const seedRecipes = [
     {
         "titulo": "Sopa de bolitas de carne",
         "tipo": "salada",
-        "seccion": "sopas aguadas y cremas",
+        "seccion": "sopas-aguadas-y-cremas",
         "ingredientes": "- ¼ de kilo de carne molida de cerdo\r\n- 1 taza de espinacas picadas en crudo\r\n- 3 cucharadas soperas de avena\r\n- 2 huevos enteros\r\n- 5 cucharadas soperas de queso gruyere rallado\r\n- ½ cucharadita de cebolla picada\r\n- 1 cucharada sopera de perejil picado\r\n- Sal y pimienta",
         "proceso": "1. En un tazón grande, mezcla la carne molida de cerdo, las espinacas picadas, la avena, los huevos, el queso gruyere rallado, la cebolla picada, el perejil, sal y pimienta. Mezcla bien todos los ingredientes hasta que estén completamente combinados.\r\n2. Forma bolitas del tamaño de una canica grande con la mezcla de carne. Reserva las bolitas.\r\n3. En una cacerola grande, lleva el caldo a ebullición.\r\n4. Una vez que el caldo esté hirviendo, añade las bolitas de carne una a una, asegurándote de no sobrecargar la cacerola. Las bolitas se cocinarán en el caldo caliente.\r\n5. Deja que las bolitas de carne hiervan en el caldo hasta que estén completamente cocidas. Esto tomará aproximadamente de 10 a 15 minutos.\r\n6. Una vez que las bolitas de carne estén cocidas y el caldo se haya reducido ligeramente, retira la cacerola del fuego.\r\n7. Sirve la sopa caliente en platos individuales y adorna con perejil fresco picado.",
         "imagen": "https://i.postimg.cc/dVrYk2JZ/5-sopa-bolitas-carne.jpg"
@@ -54,7 +54,7 @@ const seedRecipes = [
     {
         "titulo": "Fideos nadadores",
         "tipo": "salada",
-        "seccion": "sopas aguadas y cremas",
+        "seccion": "sopas-aguadas-y-cremas",
         "ingredientes": "- 100 gramos de fideo delgado\r\n- 6 tazas de caldo de pollo\r\n- 1 taza de pollo cocido y deshebrado\r\n- 2 cucharadas soperas de salsa de soja\r\n- Un poco de ajinomoto (glutamato monosódico)\r\n- Sal y pimienta",
         "proceso": "1. En una cacerola, vierte el caldo de pollo y llévalo a ebullición.\r\n2. Cuando el caldo esté hirviendo, agrega el pollo deshebrado, los fideos, sal, pimienta y una pizca de ajinomoto. \r\n3. Deja que la sopa hierva a fuego alto durante 10 a 15 minutos, o hasta que los fideos estén cocidos y tiernos.\r\n4. Una vez que los fideos estén cocidos, retira la cacerola del fuego.\r\n5. Al momento de servir, agrega la salsa de soja a la sopa y mezcla bien.\r\n6. Sirve los fideos nadadores en tazas de consomé, asegurándote de que la sopa esté ligera y sabrosa.",
         "imagen": "https://i.postimg.cc/ZK9ZZkgc/6-fideos-nadadores.jpg"
@@ -62,7 +62,7 @@ const seedRecipes = [
     {
         "titulo": "Arroz con garbanzos",
         "tipo": "salada",
-        "seccion": "sopas aguadas y cremas",
+        "seccion": "sopas-aguadas-y-cremas",
         "ingredientes": "- 1 taza de arroz crudo\r\n- ¾ de taza de garbanzos remojados y pelados\r\n- 2 litros de caldo de pollo\r\n- 1 cucharada sopera de perejil picado\r\n- 1 cucharada sopera de cilantro picado\r\n- 2 huevos cocidos, pelados y picados\r\n- 2 tazas de pollo cocido y desmenuzado\r\n- Cebolla",
         "proceso": "1. Remoja los garbanzos en agua fría durante la noche anterior. Al día siguiente, pélalos y lávalos.\r\n2. Lava el arroz en agua fría y déjalo escurrir.\r\n3. En una olla grande, agrega el caldo de pollo y llévalo a ebullición.\r\n4. Cuando el caldo esté hirviendo, añade los garbanzos pelados y la cebolla. Cocina hasta que los garbanzos estén tiernos.\r\n5. Agrega el arroz, el perejil picado y la sal al gusto. Cocina a fuego medio-bajo hasta que el arroz esté cocido y haya absorbido el caldo.\r\n6. Una vez que el arroz esté listo, añade el cilantro picado y el huevo cocido picado. Mezcla bien.",
         "imagen": "https://i.postimg.cc/1zSZp8zC/7-arroz-garbanzos.jpg"
@@ -70,7 +70,7 @@ const seedRecipes = [
     {
         "titulo": "Sopa de papa rallada",
         "tipo": "salada",
-        "seccion": "sopas aguadas y cremas",
+        "seccion": "sopas-aguadas-y-cremas",
         "ingredientes": "- 2 papas grandes, peladas y ralladas en crudo\r\n- 2 ½ litros de caldo de pollo\r\n- 2 huevos\r\n- 1 cucharada sopera de aceite de oliva\r\n- 1 cucharada sopera de cebolla picada\r\n- 1 cucharada sopera de perejil picado\r\n- Sal y pimienta al gusto",
         "proceso": "1. En una olla grande, calienta el aceite de oliva a fuego medio. Agrega la cebolla picada y cocínala hasta que esté dorada y ligeramente transparente.\r\n2. Vierte el caldo de pollo en la olla y lleva a ebullición.\r\n3. Añade el perejil picado y las papas ralladas poco a poco, revolviendo constantemente para evitar que se peguen.\r\n4. Bate los huevos en un tazón aparte. Lentamente, vierte los huevos batidos en la sopa mientras revuelves suavemente para que se formen hilos de huevo.\r\n5. Sazona la sopa con sal y pimienta al gusto. Continúa cocinando a fuego medio hasta que las papas estén tiernas y la sopa haya espesado ligeramente.\r\n6. Prueba la sopa y ajusta los condimentos según sea necesario.\r\n7. Sirve la sopa de papa rallada caliente y espolvorea un poco de perejil picado adicional por encima si lo deseas.",
         "imagen": "https://i.postimg.cc/Kvdb8qhy/8-sopa-papa-rallada.jpg"
@@ -78,7 +78,7 @@ const seedRecipes = [
     {
         "titulo": "Consomé de navidad",
         "tipo": "salada",
-        "seccion": "sopas aguadas y cremas",
+        "seccion": "sopas-aguadas-y-cremas",
         "ingredientes": "- 4 litros de agua\r\n- 6 cubos de Knorr suiza \r\n- 1 cebolla grande o 2 chicas rebanadas en cruz\r\n- 3 zanahorias grandes\r\n- 4 chuletas ahumadas\r\n- 1 manojo grande de apio\r\n- Jugo maggi\r\n- Salsa inglesa\r\n- Vino blanco\r\n- Chile tabasco",
         "proceso": "Se deja hervir todos los ingredientes 2 horas, después se cuela, se le pone bastante salsa inglesa, 1 botellita de jugo maggi mediana y 1 vaso de vino blanco.",
         "imagen": "https://i.postimg.cc/FRW55GV8/9-consome-navidad.jpg"
@@ -86,7 +86,7 @@ const seedRecipes = [
     {
         "titulo": "Gazpacho",
         "tipo": "salada",
-        "seccion": "sopas aguadas y cremas",
+        "seccion": "sopas-aguadas-y-cremas",
         "ingredientes": "- 1 litro de jugo de jitomate\r\n- 6 jitomates\r\n- 4 aguacates\r\n- 4 pepinos\r\n- ½ cebolla\r\n- 1 diente de ajo\r\n- Aceite de oliva\r\n- Salsa cátsup\r\n- Sal y pimienta",
         "proceso": "1. Pelar los jitomates y cortarlos en trozos grandes.\r\n2. En una licuadora, colocar los jitomates pelados y el diente de ajo. Licuar hasta obtener una mezcla suave.\r\n3. Agregar el jugo de jitomate a la licuadora y mezclar bien.\r\n4. Pelar y cortar los aguacates y los pepinos en cubos pequeños.\r\n5. Picar finamente la cebolla.\r\n6. En un recipiente grande, combinar el jugo de jitomate, los jitomates licuados, los cubos de aguacate, los cubos de pepino y la cebolla picada.\r\n7. Mezclar todo suavemente para combinar los ingredientes.\r\n8. Sazonar con sal, pimienta, aceite de oliva y salsa cátsup al gusto. Ajustar los condimentos según tu preferencia.\r\n9. Refrigerar el gazpacho durante al menos 1 hora para que los sabores se mezclen y se enfríe.\r\n10. Servir el gazpacho frío en tazones o copas individuales.\r\n11. Decorar con rodajas de pepino o trozos de aguacate si lo deseas.",
         "imagen": "https://i.postimg.cc/tJs0XPrT/10-gazpacho.jpg"
@@ -94,7 +94,7 @@ const seedRecipes = [
     {
         "titulo": "Arroz chino",
         "tipo": "salada",
-        "seccion": "sopas secas y pasta ",
+        "seccion": "sopas-secas-y-pastas",
         "ingredientes": "- Arroz crudo\r\n- Agua",
         "proceso": "1. Lava el arroz crudo en agua fría hasta que el agua salga clara. Esto ayuda a eliminar el exceso de almidón y asegura que el arroz quede suelto y no se pegue durante la cocción.\r\n2. Utiliza una proporción de 1 taza de arroz crudo por 3 tazas de agua para cocinarlo. Puedes ajustar las cantidades según la cantidad de arroz que desees preparar.\r\n3. En una olla o arrocera, agrega el arroz lavado y el agua necesaria. Asegúrate de que el agua cubra el arroz aproximadamente hasta la altura de la muñeca.\r\n4. Cocina el arroz según las instrucciones del paquete o de tu preferencia. Si estás utilizando una olla presto, cocina el arroz durante aproximadamente 10 minutos a presión. Si estás usando una olla convencional, puedes cocinarlo a fuego medio-alto hasta que el agua hierva y luego reducir el fuego a bajo, tapar y cocinar durante unos 15-20 minutos o hasta que el arroz esté tierno y todo el líquido se haya absorbido.\r\n5. Una vez que el arroz esté cocido, retíralo del fuego y déjalo reposar tapado durante unos minutos.\r\n6. Después de reposar, destapa el arroz y con un tenedor, revuelve suavemente para soltar los granos y asegurarte de que estén bien cocidos y separados.",
         "imagen": "https://i.postimg.cc/mkJvhDqS/11-arroz-chino.jpg"
@@ -102,7 +102,7 @@ const seedRecipes = [
     {
         "titulo": "Cebolla a la francesa",
         "tipo": "salada",
-        "seccion": "sopas secas y pasta ",
+        "seccion": "sopas-secas-y-pastas",
         "ingredientes": "- 3 cebollas grandes cortadas en ruedas gruesas, remojadas en leche\r\n- Harina, la necesaria\r\n- 1 huevo batido\r\n- Sal y pimienta blanca al gusto\r\n- 1 cucharada de salsa inglesa\r\n- Aceite vegetal para freír",
         "proceso": "1. Corta las cebollas en ruedas gruesas y colócalas en un recipiente. Cubre las cebollas con leche y deja reposar durante al menos 30 minutos. Esto ayudará a suavizar su sabor y textura.\r\n2. Prepara tres platos o recipientes poco profundos. Coloca harina en uno, el huevo batido con sal y pimienta en otro, y mezcla la salsa inglesa con el huevo.\r\n3. Saca las rodajas de cebolla de la leche y sécalas ligeramente con papel absorbente.\r\n4. Pasa cada rodaja de cebolla primero por la harina, luego por la mezcla de huevo y salsa inglesa, y nuevamente por la harina. Asegúrate de cubrir bien cada rodaja con harina.\r\n5. Calienta suficiente aceite vegetal en una sartén grande a fuego medio-alto. El aceite debe ser suficiente para cubrir las cebollas al freírlas.\r\n6. Cuando el aceite esté caliente, coloca las rodajas de cebolla cuidadosamente en el aceite caliente. Fríe las rodajas de cebolla en lotes, evitando llenar demasiado la sartén para que no se amontonen.\r\n7. Fríe las rodajas de cebolla hasta que estén doradas y crujientes. Esto puede tomar alrededor de 3-4 minutos por cada lado. Voltea las rodajas con cuidado para que se cocinen de manera pareja.\r\n8. Retira las rodajas de cebolla frita del aceite con una espumadera o tenazas y colócalas sobre papel absorbente para eliminar el exceso de grasa.\r\n9. Repite el proceso con las rodajas de cebolla restantes hasta que todas estén fritas.",
         "imagen": "https://i.postimg.cc/gc7FgSJ6/12-cebolla-ala-francesa.jpg"
@@ -110,7 +110,7 @@ const seedRecipes = [
     {
         "titulo": "Lasagna",
         "tipo": "salada",
-        "seccion": "sopas secas y pasta ",
+        "seccion": "sopas-secas-y-pastas",
         "ingredientes": "Salsa:\r\n- ¼ de taza de cebolla picada\r\n- ½ kilo de jitomate cocido y colado\r\n- 1 taza de puré de tomate\r\n- 2 tazas de agua\r\n- Sal y pimienta al gusto\r\n- 1/8 de cucharadita de clavo molido o 1 clavo entero\r\n- 2 dientes de ajo picados o sal de ajo\r\n- Canela al gusto\r\n\r\nPasta y relleno:\r\n- 1 paquete de pasta lasagna cocinada (no se enjuaga)\r\n- 1 manojo de espinacas lavadas y cortadas en trozos\r\n- 2 huevos\r\n- ½ taza de queso parmesano rallado\r\n- 2 tazas de queso cottage (requesón)",
         "proceso": "1. En una sartén grande, caliente un poco de aceite y saltee la cebolla hasta que esté transparente.\r\n2. Agregue el jitomate cocido y colado, el puré de tomate y el agua. Condimente con sal, pimienta, clavo molido, ajo y canela al gusto. Cocine a fuego medio-bajo durante unos 15-20 minutos, hasta que la salsa se haya reducido y espesado ligeramente.\r\n3. Mientras tanto, prepare el relleno de lasagna. Cocine las espinacas a fuego lento en una sartén sin agregar agua durante 5-6 minutos. Retírelas del fuego y déjelas enfriar.\r\n4. En un tazón aparte, bata los huevos y agregue las espinacas escurridas, el queso parmesano rallado y el queso cottage. Mezcle bien hasta obtener una consistencia homogénea.\r\n5. Precaliente el horno a la temperatura indicada en las instrucciones del paquete de pasta lasagna.\r\n6. En un refractario largo engrasado, vierta una tercera parte de la salsa en el fondo. Coloque tiras de pasta sobre la salsa para cubrir el fondo.\r\n7. Extienda una capa de la mezcla de espinacas y queso sobre la pasta. Repita el proceso de capas alternando salsa, pasta y relleno hasta terminar, asegurándose de que la última capa sea de salsa.\r\n8. Cubra el refractario con papel de aluminio y colóquelo en el horno precalentado. Hornee según las indicaciones del paquete de pasta lasagna, generalmente de 25 a 30 minutos.\r\n9. Retire el papel de aluminio y continúe horneando durante otros 10-15 minutos, o hasta que la parte superior esté dorada y burbujeante.\r\n10. Una vez cocida, retire la lasagna del horno y deje reposar durante unos minutos antes de cortarla y servirla.",
         "imagen": "https://i.postimg.cc/pXnN4fhc/13-lasagna.jpg"
@@ -118,7 +118,7 @@ const seedRecipes = [
     {
         "titulo": "Spaghetti a la italiana",
         "tipo": "salada",
-        "seccion": "sopas secas y pasta ",
+        "seccion": "sopas-secas-y-pastas",
         "ingredientes": "Albóndigas:\r\n- ¾ de kilo de carne de res\r\n- ½ kilo de carne de cerdo\r\n- 6 cucharadas de galleta salada molida o pan molido\r\n- 6 cucharadas de queso parmesano rallado\r\n- 2 huevos\r\n- 2 dientes de ajo picados\r\n- Sal y pimienta al gusto\r\n- 1 taza de agua\r\n\r\nSalsa:\r\n- 1 cebolla grande picada\r\n- 1 lata grande de pasta de tomate o 1 lata de puré de tomate (800 gramos)\r\n- 1 lata de jugo de tomate fresco\r\n- Canela molida\r\n- Sal y pimienta al gusto\r\n- 1 cucharada de azúcar\r\n\r\nSpaghetti:\r\n- Spaghetti suficiente para la cantidad de personas\r\n- Queso parmesano rallado (para servir)",
         "proceso": "1. En un tazón grande, combine la carne de res, la carne de cerdo, la galleta salada molida o el pan molido, el queso parmesano rallado, los huevos, el ajo picado, la sal y la pimienta. Mezcle bien todos los ingredientes. Agregue el agua y mezcle hasta obtener una masa uniforme.\r\n2. Forme bolitas con la mezcla de carne y dórelas en una sartén con suficiente aceite caliente. Una vez doradas, retírelas y déjelas aparte.\r\n3. En la misma sartén, con menos grasa, agregue la cebolla picada y cocine hasta que esté transparente.\r\n4. Agregue la pasta de tomate o el puré de tomate y el jugo de tomate fresco. Cocine durante 5 minutos.\r\n5. Añada el agua, la canela molida, la sal, la pimienta y el azúcar a la salsa. Baje el fuego y cocine tapado durante 1 hora.\r\n6. Después de 1 hora, agregue las albóndigas a la salsa y cocine durante 1 hora adicional. Si es necesario, agregue más agua.\r\n7. Mientras tanto, cocine el spaghetti de acuerdo con las instrucciones del paquete hasta que esté al dente. Escurra el agua y mezcle el spaghetti con la salsa.\r\n8. Precaliente el horno a 180°C.\r\n9. Transfiera el spaghetti con salsa a una fuente redonda apta para horno. Espolvoree queso parmesano rallado al gusto sobre el spaghetti.\r\n10. Hornee durante 15-20 minutos o hasta que el queso esté dorado y burbujeante.\r\n11. Sirva caliente, acompañado de más queso parmesano rallado si lo desea.",
         "imagen": "https://i.postimg.cc/Gmw0C4vL/14-spaghetti-italiana.jpg"
@@ -126,7 +126,7 @@ const seedRecipes = [
     {
         "titulo": "Spaghetti en salsa de jamón",
         "tipo": "salada",
-        "seccion": "sopas secas y pasta ",
+        "seccion": "sopas-secas-y-pastas",
         "ingredientes": "- 1/2 taza de cebolla picada\r\n- 1 chile morrón verde picado\r\n- 2 cucharadas de harina\r\n- 1/2 taza de leche tibia\r\n- 1 yema de huevo batida\r\n- 1 taza de leche evaporada\r\n- Sal y pimienta blanca al gusto\r\n- 1 taza de jamón en cuadritos\r\n- 1 1/2 paquete de spaghetti cocido\r\n- Queso rallado (para espolvorear)",
         "proceso": "1. En una sartén con aceite, acitrona la cebolla picada y el chile morrón verde picado.\r\n2. Retira la sartén del fuego y añade la harina. Mezcla bien hasta que se dore.\r\n3. Agrega poco a poco la leche tibia, mezclando constantemente para evitar la formación de grumos. Lleva la mezcla a un ligero hervor.\r\n4. Aparte, mezcla la yema de huevo batida con la leche evaporada.\r\n5. Agrega la mezcla de yema y leche evaporada a la preparación anterior. Vuelve a colocar la sartén en el fuego y continúa mezclando para obtener una salsa suave y sin grumos. Sazonar con sal y pimienta blanca al gusto.\r\n6. Agrega el jamón en cuadritos a la salsa y mezcla bien.\r\n7. Enjuaga el spaghetti cocido en agua caliente y escúrrelo.\r\n8. Añade el spaghetti cocido a la salsa de jamón y mezcla hasta que esté bien cubierto.\r\n9. Espolvorea queso rallado sobre el spaghetti y la salsa.",
         "imagen": "https://i.postimg.cc/rwSBFq9S/15-spaghetti-salsa-jamon.jpg"
@@ -134,7 +134,7 @@ const seedRecipes = [
     {
         "titulo": "Spaghetti con camarones",
         "tipo": "salada",
-        "seccion": "sopas secas y pasta ",
+        "seccion": "sopas-secas-y-pastas",
         "ingredientes": "- 500 gramos de spaghetti no.5\r\n- 900 gramos de camarón mediano\r\n- 90 gramos de mantequilla\r\n- ½ taza de cebolla picada\r\n- 8 cucharadas de brandy\r\n- 2 tazas de crema\r\n- 3 cucharadas de perejil, picado\r\n- Sal y pimienta negra\r\n- 2 cucharadas de cebollín, picado",
         "proceso": "1. Quitar la cáscara y limpiar los camarones, cortarlos en mariposa, cuidando que la cola no se rompa para que tomen buena forma al cocinar.\r\n2. En un sartén, calentar la mantequilla y saltear la cebolla, agregar los camarones y saltearlos hasta que tomen un color rosado, agregar el brandy y saltear bien hasta que se evapore el alcohol. Agregar entonces la crema, el perejil y sazonar con sal y pimienta.\r\n3. Mientras tanto, cocer la pasta al dente como se indica en el paquete y escurrir.\r\n4. Combinar la pasta con los camarones. Espolvorear el cebollín picado y servir caliente.",
         "imagen": "https://i.postimg.cc/vmbp4CPC/16-spaghetti-camarones.jpg"
@@ -142,7 +142,7 @@ const seedRecipes = [
     {
         "titulo": "Spaghetti al chipotle con arrechera",
         "tipo": "salada",
-        "seccion": "sopas secas y pasta ",
+        "seccion": "sopas-secas-y-pastas",
         "ingredientes": "- 1 cebolla morada en rodajas\r\n- 3 dientes de ajo, aplastados\r\n- Aceite de oliva\r\n- 2 tazas de crema\r\n- Chile chipotle picado al gusto\r\n- Spaghetti cocido (reserva el agua de cocción)\r\n- Arrechera (carne asada) cortada en tiras y luego en cuadritos\r\n- Brotes de vegetales para decorar\r\n- Sal de mar\r\n- Aceite de oliva\r\n- Pimienta",
         "proceso": "1. En una sartén grande, calienta un poco de aceite de oliva y agrega las rodajas de cebolla y los ajos aplastados. Fríe hasta que la cebolla esté suave y ligeramente dorada.\r\n2. Retira los ajos aplastados de la sartén y agrega la crema y el chile chipotle picado al gusto. Mezcla bien y cocina a fuego medio-bajo durante unos minutos para que los sabores se mezclen.\r\n3. Agrega la pasta cocida a la salsa de chipotle en la sartén. Mezcla bien para que la salsa cubra todos los fideos. Si la salsa está demasiado espesa, agrega un poco del agua de cocción de la pasta para diluirla y obtener la consistencia deseada.\r\n4. Mientras tanto, en otra sartén, calienta un poco de aceite de oliva y añade la arrechera (carne asada) cortada en tiras. Cocina hasta que esté dorada y cocida a tu gusto. Luego, córtala en cuadritos.\r\n5. Sirve la pasta en platos individuales y coloca los cuadritos de arrechera sobre la pasta. Decora con brotes de vegetales para darle un toque fresco.\r\n6. Espolvorea sal de mar, aceite de oliva y pimienta al gusto sobre la pasta.",
         "imagen": "https://i.postimg.cc/7L9j0Xdh/17-spaghetti-chipotle-arrachera.jpg"
@@ -150,7 +150,7 @@ const seedRecipes = [
     {
         "titulo": "Spaghetti al cilantro",
         "tipo": "salada",
-        "seccion": "sopas secas y pasta ",
+        "seccion": "sopas-secas-y-pastas",
         "ingredientes": "- 1 paquete de spaghetti (500 gramos)\r\n- 1 lata de leche clavel\r\n- 1 cucharada sopera de consomé\r\n- 1 manojo de cilantro\r\n- 2 chiles poblanos\r\n- 1 taza de crema\r\n- Ajo picado\r\n- Sal y pimienta al gusto\r\n- 1 kilo de camarones, pelados\r\n- Mantequilla\r\n- Queso parmesano rallado (opcional, para espolvorear)",
         "proceso": "1. Cocina el spaghetti según las instrucciones del paquete, en agua con sal. Cuando esté al dente, escúrrelo y reserva.\r\n2. En una licuadora, agrega la leche clavel, el consomé, el manojo de cilantro lavado y desinfectado, los chiles poblanos (previamente asados, pelados y sin semillas), la crema y el ajo picado. Licua hasta obtener una mezcla suave y homogénea.\r\n3. En una sartén grande, derrite mantequilla a fuego medio-alto y añade los camarones. Cocina hasta que los camarones estén rosados y cocidos.\r\n4. Agrega la mezcla de cilantro y crema a los camarones en la sartén. Revuelve bien para que los camarones se impregnen de la salsa.\r\n5. Añade el spaghetti cocido a la sartén y mezcla todo junto. Cocina por unos minutos para que los sabores se combinen.\r\n6. Ajusta la sazón con sal y pimienta al gusto.\r\n7. Sirve el spaghetti al cilantro con camarones en platos individuales y espolvorea queso parmesano rallado por encima, si lo deseas.",
         "imagen": "https://i.postimg.cc/50tT3LW3/18-spaghetti-cilantro.jpg"
@@ -158,7 +158,7 @@ const seedRecipes = [
     {
         "titulo": "Fetuccini (tallarín)",
         "tipo": "salada",
-        "seccion": "sopas secas y pasta ",
+        "seccion": "sopas-secas-y-pastas",
         "ingredientes": "- 125 gramos de queso Roquefort\r\n- 1 cajita de queso cottage (200 gramos)\r\n- 1 taza de crema\r\n- Sal y pimienta al gusto\r\n- 4 rebanadas de tocino finamente picado\r\n- 1 cucharada de perejil picado\r\n- Fetuccini (cantidad necesaria para 4 porciones)",
         "proceso": "1. Precalienta el horno a 180°C (350°F).\r\n2. En una vasija, combina el queso Roquefort, el queso cottage y la crema. Mezcla bien hasta obtener una mezcla suave y homogénea. Sazonar con sal y pimienta al gusto. Reserva esta salsa de queso.\r\n3. En una sartén, fríe las rebanadas de tocino picado hasta que estén crujientes. Retira el tocino de la sartén y colócalo sobre papel absorbente para eliminar el exceso de grasa.\r\n4. Cocina el fetuccini siguiendo las instrucciones del paquete. Escúrrelo y colócalo en una vasija apta para horno.\r\n5. Agrega el tocino crujiente y el perejil picado al fetuccini.\r\n6. Vierte la salsa de queso Roquefort sobre la pasta y mezcla bien para que todos los ingredientes se integren.\r\n7. Hornea la preparación en el horno precalentado durante 15 a 20 minutos, o hasta que la superficie esté dorada y burbujeante.",
         "imagen": "https://i.postimg.cc/Jndgd01W/19-fetuccini.jpg"
@@ -166,7 +166,7 @@ const seedRecipes = [
     {
         "titulo": "Pastel de cebolla",
         "tipo": "salada",
-        "seccion": "sopas secas y pasta ",
+        "seccion": "sopas-secas-y-pastas",
         "ingredientes": "Para la masa:\r\n- 1 ½ taza de harina, cernida\r\n- ½ cucharadita de sal\r\n- 2/3 de taza de margarina chantilly\r\n- 1 yema de huevo\r\n- 3 cucharadas de agua helada\r\n\r\nPara el relleno:\r\n- 1 tableta de huevo crudo\r\n- 3 cebollas, cortadas en rodajas finas y remojadas en leche\r\n- 4 rebanadas de tocino, cortadas en trozos\r\n- Margarina (si es necesario)\r\n- 2 huevos\r\n- ½ taza de leche\r\n- ¼ de taza de crema\r\n- Sal y pimienta al gusto\r\n- 3 cucharadas de harina, disueltas en ¼ de taza de crema",
         "proceso": "1. En un recipiente, mezcla la harina cernida con la sal. Haz un hueco en el centro y agrega la margarina chantilly. Mezcla con la punta de los dedos hasta obtener una textura similar a bolitas pequeñas.\r\n2. Por separado, bate la yema de huevo con el agua helada.\r\n3. Agrega la mezcla de yema y agua a la harina poco a poco, hasta formar una masa tersa. Evita manipularla demasiado. Extiende la masa con un rodillo y forra un molde para tartaleta. Si vas a rellenarla sin cocinar previamente, no es necesario pincharla. Con los restos de masa, haz tiras de 25x3 cm de ancho y entrelázalas sobre la tartaleta. Pega las tiras con clara de huevo y barnízalas con el sobrante del huevo batido.\r\n4. En un sartén, dora los trozos de tocino y retíralos del fuego. En la grasa del tocino, agrega las cebollas y, si es necesario, añade un poco de margarina para acitronarlas.\r\n5. En otro recipiente, combina los huevos, la leche, ¼ de taza de crema, sal, pimienta y la harina disuelta en la crema reservada. Mezcla bien todos los ingredientes.\r\n6. Vierte la mezcla de huevo sobre las cebollas en el molde para tartaleta. Rellena el molde por completo.\r\n7. Precalienta el horno a temperatura alta y hornea el pastel de cebolla durante aproximadamente 30 minutos, o hasta que esté firme y dorado.\r\n8. Retira el pastel del horno y espolvorea el tocino desmenuzado por encima.",
         "imagen": "https://i.postimg.cc/rsBHMH0n/20-pastel-cebolla.jpg"
@@ -174,7 +174,7 @@ const seedRecipes = [
     {
         "titulo": "Zanahoria al horno",
         "tipo": "salada",
-        "seccion": "sopas secas y pasta ",
+        "seccion": "sopas-secas-y-pastas",
         "ingredientes": "- 2 o 3 rebanadas de tocino\r\n- 3 cucharadas de harina\r\n- 2 tazas de leche tibia\r\n- 100 gramos de queso rallado\r\n- Margarina (cantidad necesaria)\r\n- 2 cucharadas de cebolla picada\r\n- 1 kilo de zanahorias, peladas, cocidas y cortadas en ruedas\r\n- 2 tazas de pan tostado molido",
         "proceso": "1. En un sartén, derrite 2 cucharadas de margarina y agrega el pan tostado molido. Dóralo por unos minutos, revolviendo constantemente. Retira el pan del sartén y reserva.\r\n2. En el mismo sartén, fríe el tocino hasta que esté crujiente. Retíralo del sartén y reserva.\r\n3. En la grasa del tocino, acitrona la cebolla picada hasta que esté transparente. Luego, retira del fuego y agrega la harina, mezclando bien hasta formar una pasta.\r\n4. Vuelve a poner el sartén en el fuego y, poco a poco, agrega la leche tibia, revolviendo constantemente para evitar que se formen grumos. Cocina la mezcla hasta que espese y tenga una consistencia de salsa blanca. Sazonar con sal y pimienta al gusto.\r\n5. Precalienta el horno a una temperatura de 180°C (350°F).\r\n6. En un molde refractario engrasado, coloca una capa de zanahorias cocidas y cortadas en ruedas. Espolvorea una capa de queso rallado sobre las zanahorias. Repite este proceso para crear otra capa de zanahorias y queso rallado.\r\n7. Vierte la salsa blanca sobre las capas de zanahorias y espolvorea la superficie con el pan tostado previamente dorado.\r\n8. Hornea el platillo en el horno precalentado durante aproximadamente 20 minutos, o hasta que la parte superior esté dorada y burbujeante.\r\n9. Retira el molde del horno y deja reposar por unos minutos antes de servir.\r\n10. Decora con las rebanadas de tocino crujiente reservadas antes de servir.",
         "imagen": "https://i.postimg.cc/3rkJrD0m/21-zanahoria-al-horno.jpg"
@@ -182,7 +182,7 @@ const seedRecipes = [
     {
         "titulo": "Berenjenas con queso",
         "tipo": "salada",
-        "seccion": "sopas secas y pasta ",
+        "seccion": "sopas-secas-y-pastas",
         "ingredientes": "- 2 berenjenas medianas, cortadas en rebanadas de 1 o 2 centímetros\r\n- 1 huevo batido\r\n- 2 cucharadas de agua\r\n- Sal y pimienta al gusto\r\n- Pan molido\r\n- Aceite (suficiente para freír)\r\n- ½ taza de queso parmesano rallado\r\n- 2 rebanadas de queso mozzarella\r\n\r\nSalsa:\r\n- 1 taza de jugo de tomate fresco o de lata\r\n- ½ taza de agua\r\n- Sal y pimienta al gusto\r\n- ¼ de cucharadita de orégano\r\n- 1 cubo de caldo de pollo",
         "proceso": "1. Corta las berenjenas en rebanadas de 1 o 2 centímetros y colócalas en un recipiente. Espolvorea sal sobre las rebanadas y déjalas reposar en agua con sal durante unos minutos para que suelten el líquido amargo. Luego, escúrrelas y sécalas con papel de cocina.\r\n2. En un plato hondo, bate el huevo con 2 cucharadas de agua, sal y pimienta al gusto.\r\n3. Pasa las rebanadas de berenjena por el huevo batido y luego por el pan molido, asegurándote de cubrirlas completamente.\r\n4. Calienta suficiente aceite en una sartén grande y fríe las rebanadas de berenjena por ambos lados hasta que estén doradas. Retíralas y colócalas sobre papel absorbente para eliminar el exceso de aceite.\r\n5. Precalienta el horno a la temperatura adecuada.\r\n6. En un sartén donde se doraron las berenjenas, prepara la salsa. Vierte el jugo de tomate y deja que hierva ligeramente. Luego, reduce el fuego y agrega ½ taza de agua, sal, pimienta, orégano y el cubo de caldo de pollo. Cocina la salsa a fuego bajo durante unos minutos para que los sabores se mezclen bien.\r\n7. En un molde refractario, coloca una capa de berenjenas fritas. Baña las rebanadas con la salsa preparada y espolvorea ½ taza de queso parmesano rallado sobre ellas. Luego, coloca otra capa de berenjenas, más salsa y cubre con las 2 rebanadas de queso mozzarella.\r\n8. Mete el molde refractario en el horno precalentado y hornea las berenjenas gratinadas hasta que el queso esté derretido y burbujeante.\r\n9. Una vez listas, retira las berenjenas gratinadas del horno y sírvelas caliente como guarnición o plato principal.",
         "imagen": "https://i.postimg.cc/156mwhHz/22-berenjena-horno.jpg"
@@ -190,7 +190,7 @@ const seedRecipes = [
     {
         "titulo": "Tallarines verdes Alfredo",
         "tipo": "salada",
-        "seccion": "sopas secas y pasta ",
+        "seccion": "sopas-secas-y-pastas",
         "ingredientes": "- 1 paquete de tallarines verdes (tamaño chico)\r\n- 1 queso crema\r\n- 1 cucharada sopera de mantequilla\r\n- ¼ de taza de leche\r\n- Queso parmesano rallado",
         "proceso": "1. Cocina los tallarines verdes de acuerdo con las instrucciones del paquete hasta que estén al dente. Luego, escúrrelos.\r\n2. En una sartén a fuego bajo, agrega la leche, la mantequilla y el queso crema. Revuelve constantemente hasta que los ingredientes se hayan mezclado y formen una consistencia cremosa.\r\n3. Vierte la salsa cremosa sobre los tallarines cocidos y mezcla bien para cubrirlos por completo.\r\n4. Espolvorea queso parmesano rallado por encima de los tallarines Alfredo.",
         "imagen": "https://i.postimg.cc/SQHQnNc5/23-tallarines-verdes-alfredo.jpg"
@@ -198,7 +198,7 @@ const seedRecipes = [
     {
         "titulo": "Sopa de spaghetti con crema de espárragos",
         "tipo": "salada",
-        "seccion": "sopas secas y pasta ",
+        "seccion": "sopas-secas-y-pastas",
         "ingredientes": "- 1/4 de paquete de spaghetti\r\n- 1 lata de crema de espárragos\r\n- 1/4 de taza de crema\r\n- 50 gramos de mantequilla\r\n- 150 gramos de queso chihuahua rallado\r\n- Sal y pimienta al gusto",
         "proceso": "1. Precalienta el horno a la temperatura adecuada.\r\n2. Cocina el spaghetti según las instrucciones del paquete. Una vez cocido, enjuágalo con agua fría y escúrrelo.\r\n3. En un refractario, coloca el spaghetti cocido y añade la mantequilla, mezclando suavemente para que se distribuya de manera uniforme.\r\n4. En un tazón aparte, combina la crema de espárragos y la crema. Revuelve bien hasta obtener una mezcla homogénea.\r\n5. Vierte la mezcla de crema sobre el spaghetti en el refractario, asegurándote de cubrirlo completamente.\r\n6. Espolvorea el queso chihuahua rallado sobre la superficie del spaghetti con crema.\r\n7. Sazona con sal y pimienta al gusto.\r\n8. Hornea el refractario en el horno precalentado hasta que el queso esté gratinado y burbujeante.\r\n9. Una vez listo, retira el refractario del horno y sirve el Spaghetti Gratinado con Crema de Espárragos caliente como plato principal o guarnición.\r\nOjo: \r\nSe puede preparar como soufflé sustituyendo el spaghetti por pan bimbo blanco sin corteza.",
         "imagen": "https://i.postimg.cc/K82Z5qqD/24-sopa-spaghetti-crema-esparragos.jpg"
@@ -206,7 +206,7 @@ const seedRecipes = [
     {
         "titulo": "Pizza para bocaditos",
         "tipo": "salada",
-        "seccion": "sopas secas y pasta ",
+        "seccion": "sopas-secas-y-pastas",
         "ingredientes": "- Aproximadamente 3 bolillos largos \r\n- 1 cebolla\r\n- 3 o 4 jitomates\r\n- Orégano y mejorana al gusto\r\n- 1/4 de queso chihuahua rallado\r\n- 1/4 de jamón picado",
         "proceso": "1. Precalienta el horno a la temperatura adecuada.\r\n2. Corta los bolillos en rebanadas no muy gruesas.\r\n3. Pica la cebolla y fríela en una sartén hasta que esté dorada. Agrega los jitomates también picados y continúa cocinando hasta que se ablanden.\r\n4. Sazona la mezcla de cebolla y jitomate con orégano y mejorana al gusto. Añade también el jamón picado y continúa cocinando por unos minutos más.\r\n5. Unta la mezcla de cebolla, jitomate y jamón sobre las rebanadas de pan, cubriéndolas por completo.\r\n6. Espolvorea el queso chihuahua rallado sobre la parte superior de cada rebanada de pan con la mezcla de ingredientes.\r\n7. Coloca las rebanadas de pan en una bandeja para hornear y mételas en el horno precalentado.\r\n8. Hornea los molletes hasta que el queso se derrita y se dore ligeramente.\r\n9. Una vez listos, retira los molletes del horno y sírvelos calientes como un delicioso bocadillo.",
         "imagen": "https://i.postimg.cc/qvxpDsWV/25-pizza-bites.jpg"
@@ -214,7 +214,7 @@ const seedRecipes = [
     {
         "titulo": "Paella a la valenciana",
         "tipo": "salada",
-        "seccion": "sopas secas y pasta ",
+        "seccion": "sopas-secas-y-pastas",
         "ingredientes": "- 500 gramos de arroz\r\n- 1 kilo de jitomate\r\n- 2 pollos tiernos\r\n- ½ kilo de lomo de puerco (de la parte de la caña)\r\n- ½ kilo de chícharos\r\n- 4 chiles morrones frescos o 2 de lata\r\n- 2 latas de almejas\r\n- 1 kilo de camarón fresco\r\n- 3 dientes de ajo\r\n- 2 cebollas\r\n- 7 alcachofas\r\n- 1 manojo de perejil\r\n- Aceite de oliva\r\n- Especias: laurel, pimienta, canela\r\n- Caldo de consomé\r\n- Agua",
         "proceso": "1. En una paellera o sartén grande, dora los pedazos de pollo con las especias (laurel, pimienta, canela) y reserva.\r\n2. En la misma paellera, dora el arroz hasta que se vuelva transparente.\r\n3. Agrega el pollo dorado nuevamente, junto con los chícharos, los chiles morrones, la carne de puerco en trozos, las alcachofas cocidas y los ajos fritos. Mezcla bien los ingredientes.\r\n4. Añade el jitomate picado y cocínalo hasta que se suavice.\r\n5. Agrega las almejas y los camarones frescos a la paellera.\r\n6. Por cada taza de arroz, añade 2 tazas de agua y caldo de consomé. Mezcla bien todos los ingredientes.\r\n7. Cocina a fuego medio-alto hasta que el arroz esté tierno y absorba el líquido. Asegúrate de no revolver el arroz una vez que haya comenzado a cocinarse para evitar que se vuelva pegajoso.\r\n8. Una vez que el arroz esté cocido, retira la paellera del fuego y deja reposar durante unos minutos.",
         "imagen": "https://i.postimg.cc/yN6sMJzJ/26-paella-valenciana.jpg"
@@ -222,7 +222,7 @@ const seedRecipes = [
     {
         "titulo": "Torta de zanahoria",
         "tipo": "salada",
-        "seccion": "sopas secas y pasta ",
+        "seccion": "sopas-secas-y-pastas",
         "ingredientes": "- ½ kilo de zanahorias\r\n- ¼ de kilo de harina de arroz\r\n- ½ taza de azúcar\r\n- 4 huevos enteros\r\n- 4 cucharaditas de polvo para hornear\r\n- ½ taza de jugo de naranja\r\n- Mantequilla (para engrasar el molde)",
         "proceso": "1. Precalienta el horno a 180°C (350°F). Engrasa un molde para pastel con mantequilla y reserva.\r\n2. Pela las zanahorias y córtalas en trozos pequeños. Cocínalas en agua hirviendo hasta que estén tiernas. Luego, escúrrelas y aplástalas con un tenedor o tritúralas con un procesador de alimentos hasta obtener un puré suave. Reserva.\r\n3. En un tazón grande, bate la mantequilla y el azúcar hasta obtener una mezcla suave y cremosa.\r\n4. Agrega los huevos de uno en uno, batiendo bien después de cada adición.\r\n5. En otro tazón, tamiza la harina de arroz y el polvo para hornear. Añade esta mezcla a la mezcla de mantequilla y huevos, alternando con el jugo de naranja. Comienza y termina con la harina.\r\n6. Agrega el puré de zanahorias a la masa y mezcla hasta que esté bien incorporado.\r\n7. Vierte la masa en el molde preparado y alisa la superficie con una espátula.\r\n8. Hornea en el horno precalentado durante aproximadamente 40-50 minutos, o hasta que, al insertar un palillo en el centro de la torta, este salga limpio.\r\n9. Una vez horneada, retira la torta del horno y déjala enfriar en el molde durante unos minutos. Luego, transfiérela a una rejilla para que se enfríe completamente.",
         "imagen": "https://i.postimg.cc/GpMddccX/27-torta-zanahoria.jpg"
@@ -230,7 +230,7 @@ const seedRecipes = [
     {
         "titulo": "Torta de calabacita",
         "tipo": "salada",
-        "seccion": "sopas secas y pasta ",
+        "seccion": "sopas-secas-y-pastas",
         "ingredientes": "- 1/2 kilo de calabacitas\r\n- 1/4 kilo de mantequilla\r\n- 2 tazas de harina de arroz\r\n- 4 huevos\r\n- 1 cucharadita de sal\r\n- 1/2 taza de azúcar\r\n- 3 cucharaditas de polvo de hornear (Royal)\r\n- Una pizca de bicarbonato de sodio",
         "proceso": "1. Precalienta el horno a la temperatura adecuada.\r\n2. Ralla las calabacitas en crudo y déjalas aparte.\r\n3. En un tazón grande, bate la mantequilla y el azúcar hasta obtener una mezcla cremosa.\r\n4. Agrega los huevos uno a uno, asegurándote de batir bien después de cada adición.\r\n5. Añade la harina de arroz, la sal y una pizca de bicarbonato de sodio. Mezcla hasta que todos los ingredientes estén bien incorporados.\r\n6. Agrega el polvo de hornear (Royal) a la masa y mezcla nuevamente.\r\n7. Incorpora las calabacitas ralladas a la masa y mezcla hasta que estén distribuidas de manera uniforme.\r\n8. Engrasa y enharina un molde para pastel y vierte la masa en él.\r\n9. Hornea el pastel a fuego lento durante el tiempo adecuado, o hasta que, al insertar un palillo en el centro, salga limpio. Esto puede tomar aproximadamente de 40 a 50 minutos, pero asegúrate de comprobarlo con regularidad.\r\n10. Una vez que el pastel esté listo, retíralo del horno y déjalo enfriar antes de desmoldarlo.\r\n11. Sirve el pastel de calabacita acompañado de crema, si lo deseas.",
         "imagen": "https://i.postimg.cc/RFN90jh4/28-torta-calabacita.jpg"
@@ -238,7 +238,7 @@ const seedRecipes = [
     {
         "titulo": "Pastel de papa",
         "tipo": "salada",
-        "seccion": "sopas secas y pasta ",
+        "seccion": "sopas-secas-y-pastas",
         "ingredientes": "- ½ barrita de mantequilla\r\n- 1 taza de crema\r\n- 500 gramos de queso manchego rallado\r\n- 6 papas cocidas y cortadas en rodajas\r\n- 5 rebanadas de tocino picado y frito\r\n- 10 rebanadas de jamón picado\r\n- Perejil picado\r\n- Sal y pimienta al gusto",
         "proceso": "1. Precalienta el horno a 180°C (350°F).\r\n2. En un recipiente apto para horno, coloca una capa de papas cortadas en rodajas en el fondo. Espolvorea sal y pimienta al gusto.\r\n3. Sobre las papas, agrega una capa de jamón picado, seguida de una capa de tocino frito y espolvorea perejil picado.\r\n4. Repite el proceso, añadiendo otra capa de papas, jamón, tocino y perejil.\r\n5. Continúa alternando capas hasta agotar los ingredientes, asegurándote de terminar con una capa de papas en la parte superior.\r\n6. En un recipiente aparte, derrite la mantequilla y mezcla con la crema. Vierte esta mezcla sobre el pastel de papas, asegurándote de que se distribuya de manera uniforme.\r\n7. Espolvorea generosamente el queso manchego rallado sobre la capa superior del pastel.\r\n8. Cubre el recipiente con papel de aluminio y colócalo en el horno precalentado.\r\n9. Hornea por aproximadamente 20 minutos, o hasta que el queso se haya derretido y gratinado.\r\n10. Retira el papel de aluminio y cocina por unos minutos adicionales, hasta que la parte superior esté dorada y crujiente.\r\n11. Una vez cocido, retira el pastel de papa del horno y déjalo reposar durante unos minutos antes de servir.",
         "imagen": "https://i.postimg.cc/kXr9nYmP/29-pastel-papa.jpg"
@@ -246,7 +246,7 @@ const seedRecipes = [
     {
         "titulo": "Budín de elote relleno",
         "tipo": "salada",
-        "seccion": "sopas secas y pasta ",
+        "seccion": "sopas-secas-y-pastas",
         "ingredientes": "- 1 pechuga de pollo\r\n- 2 chiles poblanos\r\n- ½ cebolla\r\n- ½ kilo de elote desgranado\r\n- 3 huevos\r\n- 1 lata de leche condensada (lechera)\r\n- 3 cucharadas de polvo para hornear (royal)\r\n- 6 cucharadas de harina\r\n- Sal al gusto\r\n- Mantequilla (para engrasar el refractario)\r\n- Pan molido (para espolvorear el refractario)",
         "proceso": "1. En una sartén, fríe la cebolla en mantequilla hasta que esté transparente. Agrega el ajo picado y los chiles poblanos pelados y cortados en rajas. Cocina por unos minutos más.\r\n2. Agrega el puré de jitomate, el pollo desmenuzado, la pimienta y el consomé. Cocina a fuego medio hasta que los sabores se mezclen y se forme un guiso. Reserva.\r\n3. En una licuadora, agrega el elote desgranado, los huevos, la leche condensada, el polvo para hornear, la harina y una pizca de sal. Licua hasta obtener una mezcla homogénea.\r\n4. Precalienta el horno a 180°C (350°F).\r\n5. Engrasa un refractario con mantequilla y espolvorea pan molido en el fondo y las paredes.\r\n6. Vierte una capa de la mezcla de elote en el fondo del refractario.\r\n7. Agrega una capa del guiso de pollo previamente preparado.\r\n8. Cubre con el resto de la mezcla de elote, asegurándote de que el guiso de pollo quede completamente cubierto.\r\n9. Hornea el budín de elote en el horno precalentado durante aproximadamente 35 minutos, o hasta que esté dorado y firme al tacto.\r\n10. Retira del horno y deja enfriar ligeramente antes de servir.",
         "imagen": "https://i.postimg.cc/bJWPS3Sb/30-budin-elote-relleno.jpg"
@@ -254,7 +254,7 @@ const seedRecipes = [
     {
         "titulo": "Sopa suprema de maicena",
         "tipo": "salada",
-        "seccion": "sopas secas y pasta ",
+        "seccion": "sopas-secas-y-pastas",
         "ingredientes": "- 1 litro de leche hervida\r\n- 300 gramos de maicena (harina de maíz)\r\n- 200 gramos de mantequilla\r\n- 100 gramos de jamón, picado en trozos pequeños\r\n- 100 gramos de queso seco rallado\r\n- 1/4 de taza de crema\r\n- 1 lata de chiles morrones\r\n- 5 chiles jalapeños, picados en rodajas\r\n- 1/2 cucharadita de pimienta blanca\r\n- 1/3 de cucharadita de nuez moscada\r\n- 5 huevos",
         "proceso": "1. En una cazuela grande, combina la leche hervida y la maicena. Agrega los huevos enteros y las especias (pimienta blanca y nuez moscada). Bate enérgicamente hasta que todos los ingredientes estén bien incorporados.\r\n2. Pasa la mezcla por un colador fino para eliminar cualquier grumo que pueda haber quedado. Luego, coloca la cazuela a fuego medio-bajo y agrega la mitad de la mantequilla. Continúa revolviendo constantemente para evitar que se formen grumos y para que la mezcla espese.\r\n3. Una vez que la mezcla esté espesa y se despegue fácilmente de la cazuela, retírala del fuego. Vierte la mezcla en un paño de cocina húmedo y envuélvelo bien para formar un cilindro. Deja reposar durante 3 minutos.\r\n4. Mientras la mezcla reposa, engrasa un molde largo refractario con mantequilla.\r\n5. Pasa la mitad de la mezcla por un pasapurés o prensa de papas para formar una capa uniforme en el molde. Luego, agrega el jamón picado, los chiles morrones y jalapeños, y el queso seco rallado. Añade pedacitos de mantequilla y crema. Cubre todo con el resto de la mezcla de maicena.\r\n6. Coloca pequeños trozos de mantequilla, crema y queso encima de la capa superior de maicena. Esto ayudará a que la sopa suprema tenga un aspecto dorado y cremoso al hornearse.\r\n7. Precalienta el horno a una temperatura de 180°C (350°F) y coloca el molde en el horno. Hornea durante aproximadamente 30-40 minutos, o hasta que la superficie esté dorada y burbujeante.\r\n8. Retira la sopa suprema del horno y déjala reposar durante unos minutos antes de servir. Puedes adornarla con una flor hecha de chiles morrones para darle un toque decorativo.",
         "imagen": "https://i.postimg.cc/L5PptLjW/31-sopa-suprema-maicena.jpg"
@@ -262,7 +262,7 @@ const seedRecipes = [
     {
         "titulo": "Tallarines en salsa de camarones",
         "tipo": "salada",
-        "seccion": "sopas secas y pasta ",
+        "seccion": "sopas-secas-y-pastas",
         "ingredientes": "- 3 paquetes de tallarines\r\n- 2 kilos de camarones, pelados y desvenados\r\n- 1 kilo de jitomate muy rojo\r\n- 1 lata de puré de tomate\r\n- 1 cebolla grande, picada finamente\r\n- 1/2 cabeza de ajo, picada finamente\r\n- 1 manojito de perejil, picado finamente\r\n- 1 vaso de vino blanco\r\n- 1 barrita de mantequilla\r\n- 150 gramos de queso parmesano rallado\r\n- Aceite de oliva\r\n- Sal y pimienta al gusto",
         "proceso": "1. En una licuadora, mezcla los jitomates, el puré de tomate, la cebolla y el ajo. Licúa hasta obtener una salsa suave y homogénea. Cuela la salsa para eliminar cualquier trozo o semilla.\r\n2. En una sartén grande, calienta un poco de aceite de oliva. Agrega la salsa de tomate y cocina a fuego medio-alto hasta que la salsa comience a burbujear. Sazona con sal y pimienta al gusto.\r\n3. Añade los camarones a la salsa de tomate y cocínalos hasta que estén rosados y completamente cocidos. Esto tomará unos minutos, dependiendo del tamaño de los camarones. Agrega el vino blanco y deja que hierva durante un par de minutos para que se evapore el alcohol.\r\n4. Mientras tanto, en una olla grande, hierve agua con sal y un chorrito de aceite. Agrega los tallarines y cocínalos según las instrucciones del paquete hasta que estén al dente. Escúrrelos y reserva.\r\n5. En un plato hondo grande, coloca la barrita de mantequilla. Agrega los tallarines calientes sobre la mantequilla y revuélvelos para que se derrita.\r\n6. Vierte la salsa de camarones caliente sobre los tallarines y mezcla bien para que todos los tallarines estén cubiertos con la salsa.\r\n7. Espolvorea generosamente queso parmesano rallado sobre los tallarines con salsa de camarones.\r\n8. Sirve caliente y decora con perejil picado finamente.",
         "imagen": "https://i.postimg.cc/xjNnVDBP/32-tallarines-salsa-camarones.jpg"
@@ -270,7 +270,7 @@ const seedRecipes = [
     {
         "titulo": "Pastel de tortilla Xochimilco",
         "tipo": "salada",
-        "seccion": "sopas secas y pasta ",
+        "seccion": "sopas-secas-y-pastas",
         "ingredientes": "- 1 kilo de tortillas de maíz\r\n- 1 kilo de calabacitas, cortadas en cuadritos pequeños\r\n- 4 elotes tiernos, desgranados\r\n- 3 manojos de flor de calabaza, rebanadas delgadas\r\n- 1/2 cebolla grande o 1 cebolla mediana, picada\r\n- Aceite vegetal\r\n- Sal al gusto\r\n- 1 litro de crema\r\n- 1/4 de queso manchego o asadero, rallado",
         "proceso": "1. En una sartén grande, calienta suficiente aceite vegetal y agrega la cebolla picada. Cocina la cebolla hasta que esté transparente y suave.\r\n2. Agrega las calabacitas picadas, los elotes desgranados y las flores de calabaza a la sartén. Sazona con sal al gusto y mezcla bien para combinar todos los ingredientes. Tapa la sartén y cocina a fuego medio-bajo hasta que las verduras estén cocidas y tiernas en su jugo.\r\n3. Mientras tanto, en otra sartén, calienta un poco de aceite vegetal y pasa las tortillas por el aceite caliente hasta que estén ligeramente doradas y crujientes. Retira las tortillas y colócalas sobre papel absorbente para eliminar el exceso de aceite.\r\n4. Precalienta el horno a 180°C (350°F).\r\n5. En un molde largo grande, coloca una capa de tortillas en el fondo del molde. Cubre las tortillas con una capa de la mezcla de verduras cocidas. Repite este proceso, alternando capas de tortillas y capas de verduras, hasta terminar con una capa de tortillas en la parte superior.\r\n6. Vierte la crema sobre las capas de tortillas y verduras, asegurándote de cubrir bien todo el pastel. Espolvorea el queso rallado sobre la crema.\r\n7. Coloca el molde en el horno precalentado y hornea durante aproximadamente 30 minutos, o hasta que el queso esté dorado y gratinado.\r\n8. Retira del horno y deja enfriar ligeramente antes de cortar en porciones individuales.",
         "imagen": "https://i.postimg.cc/3JghWj84/33-pastel-tortilla-xochimilco.jpg"
@@ -278,7 +278,7 @@ const seedRecipes = [
     {
         "titulo": "Sopa seca de col con salchicha",
         "tipo": "salada",
-        "seccion": "sopas secas y pasta ",
+        "seccion": "sopas-secas-y-pastas",
         "ingredientes": "- 1 col grande, rebanada finamente\r\n- 1/2 kilo de salchichas, rebanadas\r\n- 1 cebolla mediana, picada\r\n- 5 tallos de apio tierno, picados en cuadritos\r\n- Caldo de res o consomé de carne\r\n- Pimienta al gusto\r\n- 1 1/2 barritas de mantequilla\r\n- Puré de tomate",
         "proceso": "1. En una olla grande, derrite la mantequilla a fuego medio. Agrega la cebolla picada y el apio y cocina hasta que estén dorados y fragantes.\r\n2. Agrega el puré de tomate a la olla y cocina por unos minutos para que se mezcle bien con la cebolla y el apio.\r\n3. Añade la col rebanada a la olla y mezcla para que se combine con el sofrito de cebolla y apio. Cocina por unos minutos hasta que la col comience a ablandarse.\r\n4. Agrega suficiente caldo de res o consomé de carne para cubrir la col en la olla. Añade sal y pimienta al gusto. Deja que la sopa hierva a fuego medio durante unos 15-20 minutos, o hasta que la col esté tierna.\r\n5. Mientras tanto, en una sartén aparte, dora las salchichas rebanadas hasta que estén cocidas y ligeramente doradas.\r\n6. Una vez que la col esté tierna, agrega las salchichas doradas a la olla de sopa y mezcla bien. Deja que la sopa hierva por unos minutos adicionales para que los sabores se mezclen.\r\n7. Prueba la sopa y ajusta el sazón si es necesario.",
         "imagen": "https://i.postimg.cc/RZdzLMnv/34-sopa-seca-col-salchicha.jpg"
@@ -286,7 +286,7 @@ const seedRecipes = [
     {
         "titulo": "Col a la catalana",
         "tipo": "salada",
-        "seccion": "sopas secas y pasta ",
+        "seccion": "sopas-secas-y-pastas",
         "ingredientes": "- 1/2 kilo de papas, cortadas en cubos\r\n- 1/4 kilo de salchichas, rebanadas\r\n- 1/4 kilo de tocino, cortado en trozos\r\n- 1/2 kilo de jitomate, picado\r\n- 1 cebolla, picada\r\n- 2 dientes de ajo, picados\r\n- Sal y pimienta al gusto",
         "proceso": "1. En una olla grande, hierve las papas en agua con sal hasta que estén medio cocidas. Luego, escúrrelas y resérvalas.\r\n2. En una sartén grande, fríe el tocino hasta que esté crujiente. Luego, agrega las salchichas y cocina hasta que estén doradas.\r\n3. Añade la cebolla picada a la sartén y cocina hasta que esté transparente. Luego, agrega el ajo y cocina por unos minutos más.\r\n4. Agrega el jitomate picado a la sartén y cocina hasta que se ablande y se forme una salsa espesa. Condimenta con sal y pimienta al gusto.\r\n5. Añade las papas cocidas y la col a la sartén. Mezcla bien para que se impregnen con la salsa de jitomate y los demás ingredientes.\r\n6. Cocina a fuego medio durante unos minutos, revolviendo ocasionalmente, hasta que las papas y la col estén completamente cocidas y se hayan mezclado bien con los sabores.\r\n7. Prueba la col a la catalana y ajusta el sazón si es necesario.",
         "imagen": "https://i.postimg.cc/g2mWhwjM/35-col-catalana.jpg"
@@ -294,7 +294,7 @@ const seedRecipes = [
     {
         "titulo": "Pastel de col",
         "tipo": "salada",
-        "seccion": "sopas secas y pasta ",
+        "seccion": "sopas-secas-y-pastas",
         "ingredientes": "- 1 col grande, cortada en cuadros\r\n- 3 cucharadas soperas de aceite\r\n- 1 cebolla grande, picada\r\n- 2 cucharadas de perejil picado\r\n- 3 huevos\r\n- 1 diente de ajo, picado\r\n- Nuez moscada al gusto\r\n- Sal y pimienta al gusto",
         "proceso": "1. Precalienta el horno a 180°C (350°F).\r\n2. Hierve los cuadros de col en agua con sal durante 3 minutos. Luego, escúrrelos bien y reserva.\r\n3. En una sartén grande, calienta el aceite a fuego medio. Agrega la cebolla y el ajo picados, y cocina hasta que estén dorados y fragantes.\r\n4. Añade el perejil picado a la sartén y mezcla bien.\r\n5. Agrega la col escurrida a la sartén y saltea junto con la cebolla, el ajo y el perejil, hasta que esté tierna y ligeramente dorada. Condimenta con sal, pimienta y nuez moscada al gusto. Retira del fuego y deja enfriar ligeramente.\r\n6. En un tazón aparte, bate los huevos y luego incorpóralos a la mezcla de col en la sartén. Mezcla bien para que se distribuyan de manera uniforme.\r\n7. Vierte la mezcla en un refractario previamente engrasado, asegurándote de nivelarla de manera uniforme.\r\n8. Hornea durante aproximadamente 30-40 minutos, o hasta que el pastel esté firme y ligeramente dorado en la parte superior.\r\n9. Retira del horno y deja enfriar durante unos minutos antes de cortar en porciones y servir.",
         "imagen": "https://i.postimg.cc/Dzz3CtqL/36-pastel-col.jpg"
@@ -302,7 +302,7 @@ const seedRecipes = [
     {
         "titulo": "Arroz a la cantonesa",
         "tipo": "salada",
-        "seccion": "sopas secas y pasta ",
+        "seccion": "sopas-secas-y-pastas",
         "ingredientes": "- 2 tazas de arroz crudo\r\n- 2 tazas de pollo cocido y cortado en cuadritos\r\n- 2 tazas de brotes de soja (soya germinada)\r\n- 1 taza de champiñones, rebanados\r\n- 1/2 taza de cebolla picada\r\n- 1/2 taza de apio picado\r\n- 6 tazas de caldo de pollo\r\n- 4 huevos\r\n- 4 cucharadas de salsa de soja\r\n- Ajinomoto (glutamato monosódico) al gusto\r\n- Sal y pimienta al gusto\r\n- Aceite vegetal",
         "proceso": "1. Remoja el arroz en agua caliente durante 15 minutos. Luego, enjuágalo y escúrrelo bien.\r\n2. En una cacerola grande o wok, calienta un poco de aceite vegetal a fuego medio-alto. Agrega el arroz escurrido y dóralo ligeramente, revolviendo constantemente para evitar que se pegue.\r\n3. A un lado del arroz en la misma cacerola, añade el apio y la cebolla picados y saltéalos hasta que estén tiernos y ligeramente dorados. Luego, escurre el exceso de aceite.\r\n4. A un lado del arroz, agrega los huevos batidos y revuélvelos rápidamente para que se cocinen en trozos tiernos. Luego, mézclalos con el arroz y las verduras.\r\n5. Agrega el pollo cocido, los brotes de soja y los champiñones rebanados. Mezcla bien todos los ingredientes en la cacerola.\r\n6. Vierte el caldo de pollo en la cacerola y agrega la salsa de soja. Sazona con sal, pimienta y ajinomoto al gusto. Mezcla nuevamente para combinar todos los sabores.\r\n7. Tapa la cacerola y deja que el arroz hierva a fuego medio. Reduce el fuego a bajo y cocina a fuego lento hasta que el arroz esté completamente cocido y haya absorbido todo el líquido (aproximadamente 15-20 minutos).\r\n8. Una vez que el arroz esté cocido, retira la cacerola del fuego y deja reposar durante unos minutos antes de servir.\r\nArroz a la cantonesa con camarón\r\n\r\nEste arroz se prepara igual al anterior, nada más que se suprime el pollo y se agregan los camarones frescos, pelados en crudo.\r\nArroz a la catalana con carne de puercos\r\n\r\nIgual a la anterior, pero se suprime el pollo y el caldo de pollo. Se agrega carne de cerdo partida en pedacitos cocida y frita y se aprovecha el caldo en que se coció.",
         "imagen": "https://i.postimg.cc/tgmQ825f/37-arroz-cantonesa.jpg"
@@ -310,7 +310,7 @@ const seedRecipes = [
     {
         "titulo": "Torta de elote",
         "tipo": "salada",
-        "seccion": "sopas secas y pasta ",
+        "seccion": "sopas-secas-y-pastas",
         "ingredientes": "- 7 elotes\r\n- 2 barras de mantequilla\r\n- 1/2 taza de azúcar\r\n- 1 taza de maicena\r\n- 2 cucharaditas de polvo de hornear (royal)\r\n- Una pizca de sal\r\n- 1 lata de leche evaporada (leche clavel)\r\n- 5 huevos",
         "proceso": "1. Precalienta el horno a 180°C (350°F) y engrasa un molde para pastel.\r\n2. Rebana los elotes y colócalos en una licuadora o procesadora de alimentos. Agrega la leche evaporada y licúa hasta obtener una mezcla suave y homogénea. No es necesario colarla.\r\n3. En un tazón grande, bate la mantequilla junto con el azúcar hasta que esté cremosa y esponjosa.\r\n4. Agrega los huevos uno por uno, batiendo bien después de cada adición.\r\n5. En otro recipiente aparte, combina la maicena, el polvo de hornear y la pizca de sal. Mezcla bien.\r\n6. Incorpora la mezcla de elote a la mezcla de mantequilla y huevos, alternando con la mezcla de maicena. Bate bien hasta obtener una masa homogénea.\r\n7. Vierte la masa en el molde para pastel previamente engrasado.\r\n8. Hornea en el horno precalentado durante aproximadamente 45-50 minutos, o hasta que, al insertar un palillo en el centro del pastel, este salga limpio.\r\n9. Retira del horno y deja enfriar antes de desmoldar.",
         "imagen": "https://i.postimg.cc/SsB0xRHf/38-torta-elote.jpg"
@@ -318,7 +318,7 @@ const seedRecipes = [
     {
         "titulo": "Arroz con elote",
         "tipo": "salada",
-        "seccion": "sopas secas y pasta ",
+        "seccion": "sopas-secas-y-pastas",
         "ingredientes": "- 2 tazas de arroz\r\n- 2 tazas de leche\r\n- 2 tazas de agua\r\n- Mantequilla\r\n- 4 elotes tiernos, desgranados\r\n- Sal al gusto",
         "proceso": "1. Precalienta el horno a 180°C (350°F).\r\n2. Lava el arroz varias veces en agua fría para quitar el almidón. Luego, escúrrelo bien.\r\n3. En un molde largo refractario, coloca el arroz lavado y escurrido.\r\n4. Agrega la leche, el agua y los granos de elote desgranados al molde con el arroz.\r\n5. Añade unos bodoques de mantequilla sobre el arroz y sazona con sal al gusto.\r\n6. Cubre el molde con papel aluminio, sellando bien los bordes para evitar que se escape el vapor.\r\n7. Coloca el molde en el horno precalentado y hornea durante aproximadamente 45 minutos, o hasta que el arroz esté tierno y haya absorbido el líquido.\r\n8. Retira el papel aluminio y deja que el arroz repose durante unos minutos antes de servir.",
         "imagen": "https://i.postimg.cc/gJXFp8t0/39-arroz-elote.jpg"
@@ -326,7 +326,7 @@ const seedRecipes = [
     {
         "titulo": "Rollo de champiñones",
         "tipo": "salada",
-        "seccion": "sopas secas y pasta ",
+        "seccion": "sopas-secas-y-pastas",
         "ingredientes": "- ½ kilo de pasta de hojaldre\r\n- ½ kilo de champiñones, picados\r\n- 2 chiles morrón frescos, picados\r\n- 2 tallos de apio, picados\r\n- 4 dientes de ajo, picados\r\n- ½ cebolla, picada\r\n- ½ barra de mantequilla\r\n- ¼ de taza de crema\r\n- ¼ de taza de queso manchego rallado\r\n- Pimienta al gusto\r\n- Sal de ajo y cebolla al gusto\r\n- Knorr Suiza al gusto\r\n- Salsa inglesa al gusto\r\n- 1 yema de huevo (para barnizar)",
         "proceso": "1. Precalienta el horno a la temperatura indicada en las instrucciones de la pasta de hojaldre.\r\n2. En una sartén grande, derrite la mantequilla a fuego medio. Agrega los ajos, la cebolla y el apio picados, y cocínalos hasta que estén dorados y fragantes.\r\n3. Añade los champiñones picados y los chiles morrón a la sartén. Sazona con pimienta, sal de ajo y cebolla, Knorr Suiza y salsa inglesa. Cocina a fuego medio-bajo, tapando la sartén, hasta que los champiñones estén tiernos y sueltan su jugo. Retira del fuego y deja enfriar un poco.\r\n4. Extiende la pasta de hojaldre sobre una superficie enharinada y forma un rectángulo grande y delgado.\r\n5. En un molde refractario, coloca la mitad del hojaldre en el fondo, presionando suavemente para que se ajuste. Añade la mitad de la mezcla de champiñones sobre la pasta.\r\n6. Vierte la crema sobre los champiñones y esparce el queso manchego rallado encima. Luego, coloca el resto de la mezcla de champiñones sobre el queso.\r\n7. Cubre el relleno con la otra mitad de la pasta de hojaldre y sella los bordes presionando con los dedos o un tenedor.\r\n8. Barniza la parte superior del hojaldre con la yema de huevo batida para obtener un color dorado al hornear.\r\n9. Hornea el rollo de champiñones en el horno precalentado según las indicaciones de la pasta de hojaldre, o hasta que esté dorado y crujiente.\r\n10. Retira del horno y deja enfriar ligeramente antes de cortarlo en rodajas y servir.",
         "imagen": "https://i.postimg.cc/T1gzLG6M/40-rollo-champi-ones.jpg"
@@ -334,7 +334,7 @@ const seedRecipes = [
     {
         "titulo": "Tallarines a la mantequilla de perejil",
         "tipo": "salada",
-        "seccion": "sopas secas y pasta ",
+        "seccion": "sopas-secas-y-pastas",
         "ingredientes": "- Perejil fresco, picado\r\n- Dientes de ajo, picados\r\n- Mantequilla\r\n- Pasta spaghetti\r\n- Queso parmesano rallado (opcional)",
         "proceso": "1. Prepara una olla con agua y sal para cocinar la pasta según las instrucciones del paquete. Cuando esté al dente, escúrrela y reserva.\r\n2. Mientras tanto, en una sartén grande, derrite la mantequilla a fuego medio.\r\n3. Agrega el ajo picado a la sartén y cocínalo hasta que esté fragante y ligeramente dorado. Ten cuidado de no quemar el ajo, ya que puede volverse amargo.\r\n4. Añade el perejil picado a la sartén y saltea durante unos minutos hasta que se marchite y libere su aroma. El perejil le dará un sabor fresco y vibrante a la mantequilla.\r\n5. Agrega la pasta cocida a la sartén y mezcla bien para que los tallarines se impregnen de la mantequilla de perejil. Asegúrate de cubrir todos los tallarines con la salsa.\r\n6. Si lo deseas, puedes espolvorear queso parmesano rallado sobre la pasta antes de servir. El queso añadirá un sabor adicional y un toque de salinidad al plato.",
         "imagen": "https://i.postimg.cc/QxrGLBQX/41-tallarines-ala-mantequilla-perejil.jpg"
@@ -342,7 +342,7 @@ const seedRecipes = [
     {
         "titulo": "Crepas",
         "tipo": "salada",
-        "seccion": "sopas secas y pasta ",
+        "seccion": "sopas-secas-y-pastas",
         "ingredientes": "- 6 cucharadas copeteadas de harina\r\n- 2 tazas escasas de leche\r\n- 2 huevos\r\n- Sal al gusto",
         "proceso": "1. En un recipiente, bate bien la harina, la leche, los huevos y la sal hasta obtener una masa suave y homogénea. Asegúrate de que no queden grumos en la mezcla.\r\n2. En un sartén pequeño, calienta un poco de grasa o mantequilla a fuego medio-bajo. Puedes utilizar una brocha de cocina para untar una fina capa de grasa en el sartén y asegurarte de que no se peguen las crepas.\r\n3. Vierte aproximadamente una cucharada de la masa en el centro del sartén caliente. Asegúrate de mover rápidamente el sartén en un movimiento circular para que la masa se extienda y forme una capa delgada y redonda.\r\n4. Cocina la crepa durante unos minutos hasta que los bordes comiencen a dorarse y la parte inferior esté firme. Luego, con ayuda de una espátula, voltea la crepa y cocina el otro lado durante un par de minutos más.\r\n5. Repite el proceso con el resto de la masa hasta agotarla, añadiendo grasa al sartén cuando sea necesario.\r\n6. Una vez que las crepas estén listas, puedes rellenarlas con lo que desees. Algunas opciones populares incluyen crema, jamón, queso, espinacas, champiñones, frutas, entre otros ingredientes dulces o salados.\r\n7. Si deseas, puedes bañar las crepas en una salsa de tu elección, como recaudo, crema o salsa bechamel. También puedes añadir queso rallado o ingredientes adicionales para gratinarlas en el horno.\r\nCrepa de champiñones\r\n\r\nSe pican champiñones, se fríe cebolla, ajo y jitomate picado en aceite de oliva y se sazona con sal y pimienta.\r\nA las crepas se les unta queso crema, se rellenan con los champiñones y se bañan con queso y chipotle.",
         "imagen": "https://i.postimg.cc/8PB8T14L/42-crepas.jpg"
@@ -350,7 +350,7 @@ const seedRecipes = [
     {
         "titulo": "Salsa bechamel",
         "tipo": "salada",
-        "seccion": "sopas secas y pasta ",
+        "seccion": "sopas-secas-y-pastas",
         "ingredientes": "- 1 cucharada rasa de harina por persona\r\n- ½ cuarto de leche por persona\r\n- Mantequilla\r\n- Cebolla\r\n- Hoja de laurel\r\n- Pimienta\r\n- Nuez moscada al gusto",
         "proceso": "1. En una cacerola, derrite una porción de mantequilla a fuego medio. La cantidad de mantequilla dependerá de la cantidad de salsa que deseas hacer. Puedes usar alrededor de una cucharada de mantequilla por cada cucharada de harina.\r\n2. Agrega la cebolla picada finamente y la hoja de laurel a la cacerola con la mantequilla derretida. Cocina hasta que la cebolla esté transparente y fragante.\r\n3. Añade la harina a la cacerola y revuelve bien para incorporarla con la mantequilla y la cebolla. Cocina por unos minutos, removiendo constantemente, hasta que la harina adquiera un ligero color dorado. Esto ayudará a eliminar el sabor a crudo de la harina.\r\n4. Poco a poco, vierte la leche en la cacerola mientras revuelves constantemente para evitar la formación de grumos. Añade la leche en pequeñas cantidades al principio y mezcla bien antes de agregar más. Continúa añadiendo la leche gradualmente hasta obtener la consistencia deseada. La salsa bechamel generalmente tiene una consistencia suave y cremosa.\r\n5. Condimenta la salsa con pimienta y nuez moscada al gusto. Puedes usar una pizca de cada una o ajustar las cantidades según tus preferencias personales.\r\n6. Continúa cocinando la salsa a fuego medio-bajo, revolviendo constantemente, hasta que espese y alcance la consistencia deseada. Esto puede tomar alrededor de 5-10 minutos. La salsa bechamel debe tener una textura suave y sedosa.",
         "imagen": "https://i.postimg.cc/7ZxF6ptd/43-salsa-bechamel.jpg"
@@ -358,7 +358,7 @@ const seedRecipes = [
     {
         "titulo": "Chow mein de pollo y camarón",
         "tipo": "salada",
-        "seccion": "sopas secas y pasta ",
+        "seccion": "sopas-secas-y-pastas",
         "ingredientes": "- 1 pechuga de pollo\r\n- 30 camarones en mariposa\r\n- 3 chiles morrón (rojo, amarillo, verde)\r\n- 1 cebolla\r\n- Ejotes\r\n- Brócoli\r\n- 2 zanahorias\r\n- Spaghetti o tallarín\r\n- Salsa de soya\r\n- Maicena\r\n- Jengibre (opcional)",
         "proceso": "1. Corta la pechuga de pollo en cubos grandes y marínala en una mezcla de salsa de soya, 1 cucharada sopera de maicena y jengibre rallado (opcional). Deja que el pollo repose en la marinada durante al menos 15 minutos.\r\n2. Cuece la pasta según las instrucciones del paquete. Escúrrela y reserva.\r\n3. En una sartén grande o wok, calienta un poco de aceite a fuego medio-alto. Agrega los camarones en mariposa y cocínalos hasta que estén rosados y bien cocidos. Retira los camarones de la sartén y reserva.\r\n4. En la misma sartén, agrega un poco más de aceite si es necesario y añade la cebolla cortada en cuadros grandes. Saltea la cebolla hasta que esté transparente y ligeramente dorada.\r\n5. Agrega los chiles morrones cortados en cuadros grandes, las zanahorias en rodajas y el brócoli en ramitos. Cocina las verduras hasta que estén tiernas, pero aún crujientes.\r\n6. Mientras tanto, cuece los ejotes por separado en agua con sal hasta que estén tiernos. Luego, córtalos en trozos de aproximadamente 3 centímetros de largo.\r\n7. Retira las verduras de la sartén y reserva.\r\n8. En la misma sartén, agrega un poco más de aceite si es necesario y añade los cubos de pollo marinados. Cocina el pollo hasta que esté dorado y completamente cocido.\r\n9. Vuelve a agregar las verduras cocidas a la sartén junto con los camarones. Mezcla todo suavemente.\r\n10. En un tazón aparte, mezcla 2 cucharadas de maicena con un poco de agua fría para hacer una pasta líquida. Agrega esta mezcla a la sartén y revuelve bien para incorporarla a los ingredientes. Esto ayudará a espesar la salsa.\r\n11. Vierte salsa de soya al gusto sobre los ingredientes en la sartén y continúa cocinando hasta que la salsa se haya espesado y cubra todos los ingredientes.\r\n12. Agrega la pasta cocida al wok y mezcla bien para combinar todos los ingredientes. Asegúrate de que la pasta esté bien cubierta con la salsa.",
         "imagen": "https://i.postimg.cc/qvj9Cj9R/44-chow-mein-pollo.jpg"
@@ -366,7 +366,7 @@ const seedRecipes = [
     {
         "titulo": "Pastel Azteca",
         "tipo": "salada",
-        "seccion": "sopas secas y pasta ",
+        "seccion": "sopas-secas-y-pastas",
         "ingredientes": "- 2 ½ litros de agua\r\n- 2 pechugas de pollo (aproximadamente 1.3 kg)\r\n- Laurel\r\n- Orégano\r\n- 1 cebolla\r\n- 2 dientes de ajo\r\n- Sal\r\n- Consomé\r\n\r\nPara la salsa:\r\n- 8 jitomates\r\n- 1 chile guajillo\r\n- 1 chile verde\r\n- ½ cajita de puré de tomate\r\n- ½ cebolla\r\n- 1 diente de ajo\r\n- Epazote\r\n- 5 chiles poblanos, asados y pelados\r\n- 1 lata de elote (1 ½ taza)\r\n- Pimienta\r\n\r\nOtros ingredientes:\r\n- Tortillas de maíz\r\n- 1 ½ taza de crema\r\n- 300 gramos de queso chihuahua rallado",
         "proceso": "1. En una olla grande, cuece las pechugas de pollo en 2 ½ litros de agua con laurel, orégano, 1 cebolla, 2 dientes de ajo, sal y consomé. Cocina hasta que el pollo esté tierno y se pueda desmenuzar. Retira las pechugas del caldo y desmenúzalas.\r\n2. Para la salsa, cuece los jitomates y los chiles en agua. Una vez cocidos, licúa los jitomates y chiles con media cebolla, 1 diente de ajo y el puré de tomate. Agrega 1 taza de agua de cocción para ayudar a licuar. Reserva.\r\n3. En una sartén grande, calienta un poco de aceite y cocina la cebolla en julianas y el ajo picado hasta que estén dorados. Agrega el pollo desmenuzado, sal, pimienta y consomé al gusto. Añade los chiles poblanos asados y pelados, el elote y la salsa que preparaste anteriormente. Cocina durante 3 minutos y luego agrega el epazote picado. Apaga el fuego y reserva.\r\n4. Mezcla la crema con ¼ de cucharada de consomé de pollo.\r\n5. En un sartén aparte, pasa las tortillas por aceite caliente para suavizarlas.\r\n6. Prepara el montaje del pastel en un refractario grande:\r\no Coloca una capa de tortillas en el fondo.\r\no Añade una capa de pollo con salsa.\r\no Vierte crema sobre la capa de pollo.\r\no Espolvorea queso rallado.\r\no Repite este proceso 3 veces, terminando con una capa de pollo, crema y queso.\r\n7. Hornea el pastel en el horno precalentado a 180°C (350°F) durante 30 minutos, o hasta que el queso esté gratinado.\r\n8. Retira del horno y deja reposar unos minutos antes de servir.",
         "imagen": "https://i.postimg.cc/QMCvgc3q/45-pastel-azteca.jpg"
@@ -1606,7 +1606,7 @@ const seedRecipes = [
     {
         "titulo": "Jericallas",
         "tipo": "dulce",
-        "seccion": "flan y gelatina",
+        "seccion": "flan-y-gelatina",
         "ingredientes": "- 1 litro de leche\r\n- Azúcar al gusto\r\n- 1 raja de canela\r\n- 1 lata de leche condensada\r\n- 5 huevos",
         "proceso": "1. En una olla grande, agrega la leche, azúcar al gusto y la raja de canela. Lleva la mezcla a hervir a fuego medio-alto, removiendo ocasionalmente para disolver el azúcar.\r\n2. Una vez que la leche haya hervido, reduce el fuego a medio-bajo y deja que la mezcla siga cocinándose a fuego suave durante unos 10 minutos, para que se infusione el sabor de la canela. Remueve de vez en cuando para evitar que se pegue.\r\n3. Retira la olla del fuego y deja que la mezcla se enfríe un poco.\r\n4. Añade la leche condensada a la mezcla de leche y canela, y mezcla bien hasta que esté completamente incorporada.\r\n5. En un tazón aparte, bate los huevos hasta que estén bien mezclados.\r\n6. Agrega los huevos batidos a la mezcla de leche condensada y mezcla nuevamente hasta obtener una mezcla homogénea.\r\n7. Cuela la mezcla para eliminar cualquier grumo o residuo de canela. Puedes usar un colador fino o una gasa para asegurarte de que quede una mezcla suave.\r\n8. Vierte la mezcla colada en moldes refractarios individuales o en un molde grande para jericallas.\r\n9. Coloca los moldes dentro de una bandeja para horno más grande y llénala con agua caliente hasta alcanzar aproximadamente la mitad de la altura de los moldes.\r\n10. Precalienta el horno a 180 grados Celsius (350 grados Fahrenheit).\r\n11. Coloca la bandeja con los moldes a baño maría en el horno precalentado y hornea durante aproximadamente 40-50 minutos, o hasta que las jericallas estén cuajadas y doradas en la parte superior.\r\n12. Retira las jericallas del horno y déjalas enfriar a temperatura ambiente. Luego, refrigéralas durante al menos 2 horas antes de servir.",
         "imagen": "https://i.postimg.cc/gJZhZtBb/83-jericallas.jpg"
@@ -1614,7 +1614,7 @@ const seedRecipes = [
     {
         "titulo": "Delicias de fresas con crema",
         "tipo": "dulce",
-        "seccion": "flan y gelatina",
+        "seccion": "flan-y-gelatina",
         "ingredientes": "- 1 lata de leche condensada (La Lechera)\r\n- ¼ de taza de jugo de limón\r\n- 2 tazas de fresas, cortadas en trozos, y algunas enteras para decorar\r\n- 30 soletas \r\n- 2 tazas de crema para batir (crema para hacer chantilly)\r\n- 2 cucharadas de azúcar (para batir la crema)",
         "proceso": "1. En un tazón grande, mezcla la leche condensada, el jugo de limón y las fresas cortadas. Revuelve bien hasta que estén bien combinados. La mezcla se espesará ligeramente debido al jugo de limón.\r\n2. En otro recipiente aparte, bate la mitad de la crema para batir hasta que forme picos firmes.\r\n3. Agrega la crema batida a la mezcla de leche condensada y fresas. Dobla suavemente la crema batida en la mezcla hasta que esté bien incorporada. La crema ayudará a suavizar y dar ligereza a la mezcla.\r\n4. Forra un molde rectangular con las soletas. Coloca una capa de soletas en el fondo del molde y asegúrate de cubrir todo el fondo.\r\n5. Vierte la mezcla de leche condensada, limón y fresas sobre las soletas en el molde. Extiéndela de manera uniforme para cubrir las soletas.\r\n6. Cubre la mezcla con otra capa de soletas, asegurándote de cubrir toda la superficie.\r\n7. Refrigera el pastel durante al menos 4 horas, o hasta que esté bien frío y cuajado.\r\n8. Antes de servir, bate la crema restante con 2 cucharadas de azúcar hasta que forme picos firmes. Esto será la crema chantilly para cubrir el pastel.\r\n9. Retira el pastel de la nevera y cubre la parte superior con la crema chantilly batida. Puedes utilizar una espátula para extenderla de manera uniforme.\r\n10. Decora el pastel con fresas enteras, colocándolas en la parte superior de la crema chantilly.",
         "imagen": "https://i.postimg.cc/pVK8V7FD/85-delicias-fresas-con-crema.jpg"
@@ -1622,7 +1622,7 @@ const seedRecipes = [
     {
         "titulo": "Gelatina sencilla de leche",
         "tipo": "dulce",
-        "seccion": "flan y gelatina",
+        "seccion": "flan-y-gelatina",
         "ingredientes": "- 1 lata de leche condensada\r\n- 1 lata de leche evaporada\r\n- ½ litro de leche\r\n- 2 sobrecitos de grenetina sin sabor",
         "proceso": "1. En una olla, coloca la leche condensada, la leche evaporada y la leche. Calienta a fuego medio-alto y deja que las leches hiervan durante unos minutos, removiendo constantemente para evitar que se peguen o quemen.\r\n2. Mientras las leches se calientan, en un recipiente aparte, hidrata la grenetina en poca leche. Espolvorea los sobrecitos de grenetina sobre la leche y deja reposar durante 5 minutos para que se hidrate.\r\n3. Pasados los 5 minutos, calienta la mezcla de grenetina en el microondas o a baño maría hasta que se disuelva por completo y se vuelva líquida.\r\n4. Una vez que las leches estén hirviendo y la grenetina esté disuelta, retira la olla del fuego y agrega la grenetina líquida a las leches. Mezcla bien para incorporar la grenetina de manera uniforme.\r\n5. Vierte la mezcla de leche y grenetina en un molde para gelatina previamente engrasado o enmantequillado. Asegúrate de que el molde tenga suficiente capacidad para contener la gelatina.\r\n6. Refrigera la gelatina durante al menos 3 horas, o hasta que cuaje por completo y adquiera una consistencia firme.\r\n7. Una vez que la gelatina esté cuajada, puedes desmoldarla sumergiendo el molde en agua caliente durante unos segundos y luego volteándola suavemente sobre un plato.",
         "imagen": "https://i.postimg.cc/28wZhZTy/87-gelatina-leche.jpg"
@@ -1630,7 +1630,7 @@ const seedRecipes = [
     {
         "titulo": "Crema de fresa",
         "tipo": "dulce",
-        "seccion": "flan y gelatina",
+        "seccion": "flan-y-gelatina",
         "ingredientes": "- 1 lata de leche condensada\r\n- 1/2 kilo de fresas",
         "proceso": "1. Lava y corta las fresas en trozos.\r\n2. En una licuadora, agrega la leche condensada y las fresas cortadas.\r\n3. Licua la mezcla hasta obtener una crema suave y homogénea.\r\n4. Prueba la crema y ajusta la cantidad de azúcar si es necesario. Si deseas una crema más dulce, puedes agregar un poco de azúcar adicional.\r\n5. Una vez que la crema de fresa esté lista, puedes utilizarla de diferentes formas. Puedes utilizarla para decorar pasteles, como relleno entre capas de bizcocho o como cobertura sobre el pastel. También puedes servirla sola como postre, acompañada de galletas.",
         "imagen": "https://i.postimg.cc/CxxfNx6N/88-crema-fresa.jpg"
@@ -1638,7 +1638,7 @@ const seedRecipes = [
     {
         "titulo": "Flan de cajeta",
         "tipo": "dulce",
-        "seccion": "flan y gelatina",
+        "seccion": "flan-y-gelatina",
         "ingredientes": "- 5 huevos\r\n- 1/4 de litro de leche\r\n- 3 latas de leche condensada\r\n- 2 copas de coñac\r\n- 1 cucharada de esencia de vainilla\r\n- Azúcar para el caramelo",
         "proceso": "1. Precalienta el horno a 180°C (350°F).\r\n2. Prepara el caramelo en un molde para flan. Para hacer el caramelo, coloca una cantidad generosa de azúcar en una sartén a fuego medio. Deja que el azúcar se derrita y se caramelice, moviendo la sartén ocasionalmente para que se distribuya de manera uniforme. Una vez que el azúcar se haya convertido en un caramelo dorado, retira la sartén del fuego y vierte el caramelo en el fondo del molde para flan, cubriendo toda la superficie. Deja que el caramelo se enfríe y endurezca.\r\n3. En un tazón grande, bate los huevos hasta que estén bien mezclados. Agrega la leche y mezcla nuevamente.\r\n4. Añade las latas de leche condensada al tazón y mezcla hasta obtener una mezcla suave y homogénea. Luego, agrega el coñac y la esencia de vainilla y mezcla bien todos los ingredientes.\r\n5. Vierte la mezcla de flan en el molde acaramelado, sobre el caramelo endurecido.\r\n6. Coloca el molde para flan dentro de una fuente para horno más grande y llena la fuente con agua caliente hasta alcanzar aproximadamente la mitad de la altura del molde para flan. Esto creará un baño maría.\r\n7. Coloca la fuente para horno en el horno precalentado y hornea durante aproximadamente 1 hora, o hasta que el flan esté firme en el centro. Puedes verificar la cocción insertando un palillo en el centro del flan; si sale limpio, el flan está listo.\r\n8. Una vez que el flan esté cocido, retira el molde del baño maría y deja que se enfríe a temperatura ambiente. Luego, refrigera el flan durante al menos 4 horas, o hasta que esté completamente frío y firme.\r\n9. Para servir, pasa un cuchillo alrededor del borde del molde para aflojar el flan. Coloca un plato grande boca abajo sobre el molde y gira rápidamente para voltear el flan sobre el plato. El caramelo líquido se verterá sobre el flan, formando una deliciosa salsa.",
         "imagen": "https://i.postimg.cc/vTvcrJrk/94-flan-cajeta.jpg"
@@ -1646,7 +1646,7 @@ const seedRecipes = [
     {
         "titulo": "Flan de ciruela de España",
         "tipo": "dulce",
-        "seccion": "flan y gelatina",
+        "seccion": "flan-y-gelatina",
         "ingredientes": "- 3 latas de leche condensada\r\n- 5 huevos\r\n- 1/2 litro de leche\r\n- 1 copa de jerez o ron\r\n- 1 cucharadita de esencia de vainilla\r\n- 1 pan de molde tipo Bimbo\r\n- 1 bolsa de ciruelas de España (ciruelas pasas)",
         "proceso": "1. Precalienta el horno a 180°C (350°F).\r\n2. Prepara el caramelo en un molde para flan. Para hacer el caramelo, coloca una cantidad generosa de azúcar en una sartén a fuego medio. Deja que el azúcar se derrita y se caramelice, moviendo la sartén ocasionalmente para que se distribuya de manera uniforme. Una vez que el azúcar se haya convertido en un caramelo dorado, retira la sartén del fuego y vierte el caramelo en el fondo del molde para flan, cubriendo toda la superficie. Deja que el caramelo se enfríe y endurezca.\r\n3. Pica las ciruelas de España en trozos pequeños.\r\n4. En un tazón grande, bate los huevos hasta que estén bien mezclados. Agrega la leche condensada, la leche, el jerez o ron y la esencia de vainilla. Mezcla bien todos los ingredientes hasta obtener una mezcla suave y homogénea.\r\n5. Corta el pan de molde en rebanadas delgadas.\r\n6. En el molde con caramelo, comienza alternando capas de pan y ciruelas picadas. Vierte un poco de la mezcla de flan sobre cada capa de pan y ciruelas. Continúa haciendo capas hasta terminar con los ingredientes, asegurándote de que la última capa sea de la mezcla de flan.\r\n7. Coloca el molde para flan dentro de una fuente para horno más grande y llena la fuente con agua caliente hasta alcanzar aproximadamente la mitad de la altura del molde para flan. Esto creará un baño maría.\r\n8. Coloca la fuente para horno en el horno precalentado y hornea durante aproximadamente una hora, o hasta que el flan esté firme en el centro. Puedes verificar la cocción insertando un palillo en el centro del flan; si sale limpio, el flan está listo.\r\n9. Una vez que el flan esté cocido, retira el molde del baño maría y deja que se enfríe a temperatura ambiente. Luego, refrigera el flan durante al menos 4 horas, o hasta que esté completamente frío y firme.\r\n10. Para servir, pasa un cuchillo alrededor del borde del molde para aflojar el flan. Coloca un plato grande boca abajo sobre el molde y gira rápidamente para voltear el flan sobre el plato. ",
         "imagen": "https://i.postimg.cc/zDwbYgs7/95-flan-ciruela-espana.jpg"
@@ -1654,7 +1654,7 @@ const seedRecipes = [
     {
         "titulo": "Flan de elote",
         "tipo": "dulce",
-        "seccion": "flan y gelatina",
+        "seccion": "flan-y-gelatina",
         "ingredientes": "- 4 elotes tiernos crudos\r\n- 4 huevos\r\n- 1 lata de leche condensada (lechera)\r\n- 1 lata de leche (puede ser leche evaporada o leche entera)",
         "proceso": "1. Precalienta el horno a 180°C (350°F).\r\n2. Desgrana los elotes y coloca los granos en una licuadora o procesador de alimentos.\r\n3. Agrega los huevos, la leche condensada y la leche a la licuadora con los elotes.\r\n4. Licua todos los ingredientes hasta obtener una mezcla suave y homogénea.\r\n5. Engrasa un molde refractario con mantequilla o aceite vegetal para evitar que el flan se pegue.\r\n6. Vierte la mezcla del flan de elote en el molde preparado.\r\n7. Coloca el molde dentro de otro recipiente más grande y vierte agua caliente en el recipiente más grande para crear un baño maría. El agua debe llegar aproximadamente a la mitad del molde del flan.\r\n8. Coloca el baño maría con el molde en el horno precalentado.\r\n9. Hornea el flan a baño maría durante unos 40 minutos, o hasta que esté firme en el centro. Puedes comprobar la cocción insertando un palillo en el centro del flan; si sale limpio, estará listo.\r\n10. Retira el molde del horno y del baño maría y deja que el flan de elote se enfríe a temperatura ambiente.\r\n11. Una vez que el flan se haya enfriado, puedes refrigerarlo durante al menos 2 horas o durante toda la noche para que adquiera una textura más firme.",
         "imagen": "https://i.postimg.cc/wM9BjwCV/103-flan-elote.jpg"
@@ -1662,7 +1662,7 @@ const seedRecipes = [
     {
         "titulo": "Gelatina de almendra",
         "tipo": "dulce",
-        "seccion": "flan y gelatina",
+        "seccion": "flan-y-gelatina",
         "ingredientes": "- 1 lata de leche condensada (lechera)\r\n- 1 lata de leche evaporada (leche clavel)\r\n- 150 gramos de almendras peladas\r\n- 2 sobres de grenetina sin sabor\r\n- 1 taza de agua",
         "proceso": "1. Pelar las almendras: Remoja las almendras en agua caliente durante unos minutos para ablandar la piel. Luego, escúrrelas y pélalas. La piel debe desprenderse fácilmente después del remojo.\r\n2. Licuar los ingredientes: En una licuadora, agrega la leche condensada, la leche evaporada y las almendras peladas. Licúa hasta obtener una mezcla suave y homogénea.\r\n3. Disolver la grenetina: En un recipiente aparte, disuelve los sobres de grenetina en ½ taza de agua tibia. Revuelve bien para asegurarte de que la grenetina se disuelva por completo.\r\n4. Mezclar la grenetina con la mezcla de almendra: Agrega la grenetina disuelta a la mezcla de leche y almendras en la licuadora. Vuelve a licuar brevemente para incorporar la grenetina.\r\n5. Verter en el molde: Vierte la mezcla de gelatina de almendra en un molde para gelatina. Puedes usar un molde rectangular, cuadrado o cualquier otro de tu elección. Asegúrate de que el molde esté limpio y seco antes de verter la gelatina.\r\n6. Refrigerar y desmoldar: Coloca el molde con la gelatina en el refrigerador y déjalo enfriar y solidificar durante al menos 3-4 horas, o hasta que esté firme.\r\n7. Desmoldar y servir: Una vez que la gelatina esté completamente firme, retira el molde del refrigerador. Para desmoldar la gelatina, puedes sumergir rápidamente el fondo del molde en agua caliente para aflojar los bordes. Luego, coloca un plato grande sobre el molde y voltea cuidadosamente para que la gelatina caiga sobre el plato.",
         "imagen": "https://i.postimg.cc/3rZRcHGb/105-gelatina-almendra.jpg"
@@ -1670,7 +1670,7 @@ const seedRecipes = [
     {
         "titulo": "Gelatina de yogurt",
         "tipo": "dulce",
-        "seccion": "flan y gelatina",
+        "seccion": "flan-y-gelatina",
         "ingredientes": "- 1 litro de yogurt natural\r\n- ¼ de litro de crema\r\n- 2 sobres de grenetina sin sabor\r\n- 1 taza de azúcar\r\n- 1 cajita de fresas (opcional)\r\n- Azúcar al gusto (opcional)\r\n- 2 jugos de naranja",
         "proceso": "1. En una olla a fuego lento, agrega el yogurt natural, la crema y el azúcar. Mezcla bien hasta que el azúcar se disuelva y los ingredientes estén bien incorporados. \r\n2. Mientras tanto, disuelve los sobres de grenetina en ½ taza de agua caliente. Revuelve bien hasta que la grenetina esté completamente disuelta. Luego, agrega ½ taza de agua fría y mezcla nuevamente.\r\n3. Añade la grenetina disuelta a la mezcla de yogurt y crema. Revuelve bien para asegurarte de que la grenetina se distribuya de manera uniforme.\r\n4. Si deseas agregar fresas a la gelatina, lava y corta las fresas en trozos pequeños. Puedes endulzar las fresas con azúcar al gusto si lo prefieres.\r\n5. Agrega las fresas a la mezcla de yogurt y grenetina. Mezcla suavemente para distribuir las fresas de manera uniforme.\r\n6. Si deseas darle un toque cítrico, exprime los jugos de naranja y añádelos a la mezcla de gelatina. Mezcla nuevamente para incorporar el jugo de naranja.\r\n7. Vierte la mezcla en un molde para gelatina y colócalo en el refrigerador. Deja que la gelatina se enfríe y solidifique durante al menos 3-4 horas, o hasta que esté firme.\r\n8. Una vez que la gelatina esté firme, retira el molde del refrigerador. Puedes desmoldarla sumergiendo rápidamente el fondo del molde en agua caliente y luego invertirlo sobre un plato para que la gelatina caiga suavemente.",
         "imagen": "https://i.postimg.cc/J44nwdc7/106-gelatina-yogurt.jpg"
@@ -1678,7 +1678,7 @@ const seedRecipes = [
     {
         "titulo": "Postre de fresa Anabela",
         "tipo": "dulce",
-        "seccion": "flan y gelatina",
+        "seccion": "flan-y-gelatina",
         "ingredientes": "- 2 paquetes de galletas Ritz\r\n- 1 taza de nuez picada\r\n- 1 taza de azúcar (para la mezcla de galletas y nuez)\r\n- ½ taza de azúcar o menos (para cubrir las fresas)\r\n- 4 claras de huevo\r\n- 1 kilo de fresas\r\n- 1 litro de crema chantilly (Lyncott)\r\n- 1 cucharada de vainilla",
         "proceso": "1. En una bolsa de plástico, coloca los paquetes de galletas Ritz y utiliza un rodillo para triturarlas hasta obtener migas finas. También puedes utilizar un procesador de alimentos para moler las galletas.\r\n2. Pica las nueces en trozos pequeños.\r\n3. En un tazón grande, bate las claras de huevo hasta que estén a punto de turrón (formen picos suaves). Añade la taza de azúcar y continúa batiendo hasta que esté bien incorporada.\r\n4. Agrega las migas de galletas y las nueces picadas a la mezcla de claras de huevo. Revuelve suavemente con una cuchara de palo hasta que todos los ingredientes estén bien combinados.\r\n5. Engrasa un refractario rectangular y extiende la mezcla de galletas, presionando ligeramente para que quede compacta. Hornea a temperatura baja hasta que las galletas adquieran un color café claro. Deja enfriar por completo.\r\n6. Mientras tanto, corta las fresas por la mitad y pásalas por azúcar (2) para endulzarlas ligeramente.\r\n7. En otro tazón, bate la crema chantilly con la ½ taza de azúcar (3) y la cucharada de vainilla hasta que espese y forme picos suaves.\r\n8. Coloca las fresas en el refractario sobre la capa de galletas, con la parte cortada hacia abajo.\r\n9. Cubre las fresas con la crema chantilly batida, asegurándote de que estén completamente cubiertas.\r\n10. Transfiere el postre al refrigerador y déjalo enfriar durante al menos 2 horas, o hasta que esté bien frío y la crema esté firme.",
         "imagen": "https://i.postimg.cc/gkS0GqNV/107-postre-fresa-anabela.jpg"
@@ -1686,7 +1686,7 @@ const seedRecipes = [
     {
         "titulo": "Flan dulce de leche",
         "tipo": "dulce",
-        "seccion": "flan y gelatina",
+        "seccion": "flan-y-gelatina",
         "ingredientes": "Caramelo:\r\n- 1 taza de azúcar\r\n- Poca agua (suficiente para disolver el azúcar y formar el caramelo dorado)\r\n\r\nFlan:\r\n- 400 ml de leche\r\n- 250 gramos de cajeta (dulce de leche)\r\n- 1 cucharadita de extracto de vainilla\r\n- 5 huevos enteros",
         "proceso": "1. Prepara el caramelo: En una cacerola pequeña, agrega el azúcar y una pequeña cantidad de agua. Calienta a fuego medio-alto hasta que el azúcar se disuelva por completo y se forme un caramelo dorado. Es importante tener cuidado al manipular el caramelo caliente para evitar quemaduras.\r\n2. Vierte el caramelo caliente en el fondo de un molde para flan, asegurándote de cubrir bien toda la superficie del molde. Deja que se enfríe y solidifique.\r\n3. En una olla, calienta la leche a fuego medio hasta que esté caliente pero no hirviendo. Agrega la cajeta y mezcla bien hasta que se disuelva por completo.\r\n4. Retira la olla del fuego y deja que la mezcla de leche y cajeta se enfríe un poco. Agrega la vainilla y mezcla nuevamente.\r\n5. En un tazón aparte, bate los huevos enteros hasta que estén bien mezclados. Agrega los huevos batidos a la mezcla de leche y cajeta, y revuelve hasta obtener una mezcla homogénea.\r\n6. Vierte la mezcla de flan sobre el caramelo en el molde preparado.\r\n7. Coloca el molde dentro de una bandeja para hornear más grande y llena la bandeja con agua caliente hasta alcanzar aproximadamente la mitad de la altura del molde para flan. Esto creará un baño maría que ayudará a que el flan se cocine de manera uniforme.\r\n8. Precalienta el horno a 180°C (350°F).\r\n9. Coloca la bandeja con el molde de flan dentro del horno precalentado y hornea a baño maría durante aproximadamente 50-60 minutos, o hasta que el flan esté firme en el centro, pero aun ligeramente tembloroso.\r\n10. Retira el flan del horno y deja que se enfríe a temperatura ambiente. Luego, refrigera durante al menos 4 horas, o preferiblemente durante toda la noche, para que se enfríe y se asiente completamente.\r\n11. Para servir, pasa un cuchillo alrededor del borde del molde para aflojar el flan. Coloca un plato boca abajo sobre el molde y dale la vuelta rápida y suavemente para que el flan caiga sobre el plato con el caramelo en la parte superior.",
         "imagen": "https://i.postimg.cc/pLmLrh6g/109-flan-dulce-leche.jpg"
@@ -1694,7 +1694,7 @@ const seedRecipes = [
     {
         "titulo": "Masa para empanadas",
         "tipo": "dulce",
-        "seccion": "galletas y polvorones",
+        "seccion": "galletas-y-polvorones",
         "ingredientes": "- 500 gramos de harina\r\n- 2 cucharadas soperas de leche\r\n- 2 ½ barritas de 225 gramos de mantequilla\r\n- 1 huevo\r\n- 2 cucharadas soperas de azúcar\r\n- 1 cucharada cafetera de vainilla\r\n- Pisca de canela o pisca de sal",
         "proceso": "1. En una superficie limpia o en un tazón grande, forma una fuente con la harina.\r\n2. En el centro de la fuente, agrega el huevo, la vainilla, la canela o la sal, el azúcar y 2 cucharadas soperas de leche.\r\n3. Mezcla los ingredientes en el centro con las manos hasta que estén bien combinados.\r\n4. Agrega la mantequilla a temperatura ambiente a la mezcla y comienza a integrarla poco a poco con las manos, mezclando la harina y la mantequilla hasta obtener una masa homogénea. Si es necesario, puedes agregar otra cucharada de leche (en total, serían 8 cucharadas de leche).\r\n5. Forma una bola con la masa y envuélvela en plástico transparente. Refrigera la masa durante 20 minutos para que se enfríe y sea más fácil de manejar.\r\n6. Pasado el tiempo de refrigeración, retira la masa del refrigerador y procede a estirarla con un rodillo sobre una superficie enharinada. Puedes darle la forma y el grosor deseado para tus empanadas.\r\n7. Rellena las empanadas con el relleno de tu elección y ciérralas, presionando los bordes con un tenedor para sellarlas.\r\n8. Precalienta el horno a la temperatura indicada en la receta del relleno de las empanadas.\r\n9. Coloca las empanadas en una bandeja para hornear previamente engrasada o forrada con papel de horno.\r\n10. Opcionalmente, espolvorea un poco de azúcar sobre las empanadas antes de hornearlas para obtener un toque de dulzura y un acabado dorado.\r\nHornea las empanadas según las indicaciones de tiempo y temperatura de la receta del relleno, o hasta que estén doradas y cocidas.",
         "imagen": "https://i.postimg.cc/pTfNyRxN/2-masa-empanadas.jpg"
@@ -1702,7 +1702,7 @@ const seedRecipes = [
     {
         "titulo": "Masa para polvorones",
         "tipo": "dulce",
-        "seccion": "galletas y polvorones",
+        "seccion": "galletas-y-polvorones",
         "ingredientes": "- 1 kilo de harina\r\n- ½ kilo de manteca de cerdo\r\n- 2 cucharadas de atole blanco\r\n- Azúcar granulada molida en la licuadora con rajitas de canela",
         "proceso": "1. Precalienta el horno a 180 grados Celsius (350 grados Fahrenheit). Prepara hojas de horno engrasadas o forradas con papel de horno.\r\n2. Cierne la harina en un tazón grande para asegurarte de que esté suelta y sin grumos.\r\n3. Agrega la manteca de cerdo a la harina y comienza a mezclarlos con las manos hasta obtener una textura arenosa y bien incorporada.\r\n4. En una olla pequeña, disuelve el atole blanco en un poco de agua hasta que se forme una especie de masa espesa.\r\n5. Agrega el atole blanco a la mezcla de harina y manteca y amasa todo junto hasta obtener una masa suave y manejable. Si es necesario, agrega un poco más de harina si la masa está muy pegajosa.\r\n6. Toma porciones pequeñas de masa y forma bolitas del tamaño deseado. Coloca cada bolita en las hojas de horno preparadas y aplasta ligeramente con el dedo para formar una galleta redonda.\r\n7. Hornea las galletas de polvorones durante aproximadamente 12-15 minutos, o hasta que estén firmes y cocidas. No deben dorarse demasiado.\r\n8. Mientras las galletas aún están calientes, espolvoréalas generosamente con la mezcla de azúcar granulada molida y canela. Presiona suavemente el azúcar y la canela en las galletas para que se adhieran.\r\n9. Deja que las galletas de polvorones se enfríen completamente antes de manipularlas y almacenarlas en un recipiente hermético.",
         "imagen": "https://i.postimg.cc/j2n7yggr/54-masa-polvorones.jpg"
@@ -1710,7 +1710,7 @@ const seedRecipes = [
     {
         "titulo": "Polvorones de nuez",
         "tipo": "dulce",
-        "seccion": "galletas y polvorones",
+        "seccion": "galletas-y-polvorones",
         "ingredientes": "- 230 gramos de mantequilla\r\n- 2 tazas de harina\r\n- 1 cucharadita de vainilla\r\n- 1 taza de azúcar glass\r\n- 125 gramos de nueces, picadas",
         "proceso": "1. Precalienta el horno a 180 grados Celsius (350 grados Fahrenheit). Prepara una hoja de horno forrada con papel de horno.\r\n2. En un tazón grande, acrema la mantequilla hasta que esté suave y cremosa.\r\n3. Agrega el azúcar glass y la vainilla a la mantequilla y mezcla hasta que estén bien combinados.\r\n4. En otro recipiente, revuelve la harina y las nueces picadas.\r\n5. Agrega la mezcla de harina y nueces a la mezcla de mantequilla y azúcar. Mezcla todo hasta obtener una masa uniforme.\r\n6. Toma porciones de masa y forma bolitas del tamaño deseado. Coloca cada bolita en la hoja de horno preparada, dejando un poco de espacio entre ellas.\r\n7. Hornea los polvorones durante aproximadamente 12-15 minutos, o hasta que estén firmes y ligeramente dorados en los bordes.\r\n8. Retira del horno y deja que los polvorones se enfríen completamente en la bandeja.\r\n9. Una vez que los polvorones estén completamente fríos, espolvorea generosamente con azúcar glass. Puedes hacerlo usando un tamizador o un colador fino.",
         "imagen": "https://i.postimg.cc/sfM6n3b3/55-polvorones-nuez.jpg"
@@ -1718,7 +1718,7 @@ const seedRecipes = [
     {
         "titulo": "Polvorones de nuez Genoveva",
         "tipo": "dulce",
-        "seccion": "galletas y polvorones",
+        "seccion": "galletas-y-polvorones",
         "ingredientes": "- 800 gramos de harina\r\n- 600 gramos de mantequilla\r\n- 500 gramos de nuez\r\n- 1 cucharada de polvo de hornear (royal)\r\n- 1 cucharada de esencia de vainilla\r\n- 200 gramos de azúcar granulada",
         "proceso": "1. Precalienta el horno a 180 grados Celsius (350 grados Fahrenheit). Prepara una bandeja de horno forrada con papel de horno.\r\n2. En un tazón grande, acrema la mantequilla con el azúcar y la esencia de vainilla hasta obtener una mezcla suave y cremosa.\r\n3. Agrega la harina cernida y el polvo de hornear a la mezcla de mantequilla. Mezcla todo sin batir, solo hasta que los ingredientes estén bien combinados y se forme una masa.\r\n4. Añade la nuez a la masa, utilizando una parte molida para darle color y otra parte picada para agregar textura.\r\n5. Toma porciones de masa y forma bolitas del tamaño deseado. Colócalas en la bandeja de horno preparada, dejando espacio entre ellas.\r\n6. Hornea los polvorones durante aproximadamente 20 minutos, o hasta que estén firmes y ligeramente dorados en los bordes.\r\n7. Retira del horno y deja que los polvorones se enfríen en la bandeja durante unos minutos.\r\n8. Mientras aún están calientes, revuelca los polvorones en azúcar granulada, asegurándote de cubrirlos completamente.\r\n9. Transfiere los polvorones a una rejilla de enfriamiento y déjalos enfriar por completo.\r\n10. Una vez que los polvorones estén fríos, guárdalos en un recipiente hermético para mantener su frescura.",
         "imagen": "https://i.postimg.cc/59DPTZML/56-polvorones-genoveva.jpg"
@@ -1726,7 +1726,7 @@ const seedRecipes = [
     {
         "titulo": "Galletas de maicena Lizie",
         "tipo": "dulce",
-        "seccion": "galletas y polvorones",
+        "seccion": "galletas-y-polvorones",
         "ingredientes": "- ½ taza de maicena\r\n- ½ taza de azúcar glass\r\n- 1 taza de harina\r\n- 1 taza de mantequilla o margarina",
         "proceso": "1. En un tazón, tamiza juntos el azúcar glass, la maicena y la harina para asegurarte de que no haya grumos y los ingredientes estén bien combinados.\r\n2. Agrega la mantequilla o margarina, a temperatura ambiente, a los ingredientes secos. Mezcla todo hasta obtener una masa suave y blanda. Puedes hacerlo a mano o con una batidora eléctrica a velocidad baja.\r\n3. Una vez que la masa esté bien mezclada, forma bolitas del tamaño deseado con las manos y colócalas en una hoja de horno sin engrasar, dejando suficiente espacio entre ellas para que no se peguen al hornearse.\r\n4. Usa un tenedor cubierto con harina para aplastar ligeramente cada bolita de masa, formando un patrón de rayas en la superficie de las galletas.\r\n5. Precalienta el horno a 148°C (300°F) y hornea las galletas durante 20 a 25 minutos, o hasta que los bordes estén ligeramente dorados.\r\n6. Una vez que estén listas, retira las galletas del horno y déjalas enfriar en la bandeja durante unos minutos. Luego, transfiérelas a una rejilla de enfriamiento para que se enfríen por completo.\r\nNota:\r\nSi la masa está demasiado blanda para manipular, puedes cubrirla y refrigerarla durante 1 hora antes de formar las bolitas y hornearlas.",
         "imagen": "https://i.postimg.cc/Qx5630XP/57-galletas-maicena.jpg"
@@ -1734,7 +1734,7 @@ const seedRecipes = [
     {
         "titulo": "Cartas de amor",
         "tipo": "dulce",
-        "seccion": "galletas y polvorones",
+        "seccion": "galletas-y-polvorones",
         "ingredientes": "Masa:\r\n- 1 ½ taza de mantequilla\r\n- 1 taza de harina\r\n- 4 yemas de huevo fresco\r\n\r\nRelleno:\r\n- ½ taza de azúcar granulada\r\n- 150 gramos de nuez molida\r\n- 1 cucharadita de ralladura de limón\r\n- 4 claras batidas a punto de turrón\r\n- ¼ cucharadita de canela\r\n- Una pizca de clavo molido",
         "proceso": "1. Para preparar el relleno, bate las claras de huevo hasta que estén a punto de turrón, es decir, hasta que formen picos suaves. Agrega el azúcar granulada, la nuez molida, la ralladura de limón, la canela y el clavo molido. Mezcla bien todos los ingredientes hasta obtener una mezcla homogénea. Reserva el relleno.\r\n2. Para hacer la masa, cierne la harina en un tazón grande y forma un hueco en el centro. Agrega la mantequilla y las yemas de huevo al hueco. Amasa todos los ingredientes juntos hasta obtener una masa suave y manejable. Divide la masa en 24 bolitas y colócalas en el refrigerador durante 1 hora para que se enfríen y se endurezcan.\r\n3. Precalienta el horno a 350 °F (180 °C).\r\n4. Saca las bolitas de masa del refrigerador y extiéndelas con un rodillo sobre una superficie enharinada. Deben quedar delgadas y en forma de círculo.\r\n5. Coloca una cucharada del relleno preparado en el centro de cada círculo de masa extendida. Luego, dóblalas en forma de carta, presionando los bordes para sellarlas. Puedes darles forma de sobre o de carta doblada, como prefieras.\r\n6. Coloca las cartas de amor rellenas en una bandeja para hornear previamente engrasada o forrada con papel de horno. Barniza cada carta con huevo batido para darles un brillo dorado al hornearlas.\r\n7. Hornea las cartas de amor en el horno precalentado durante aproximadamente 15 minutos, o hasta que estén ligeramente doradas.",
         "imagen": "https://i.postimg.cc/zGrxXKvf/58-cartas-amor.jpg"
@@ -1742,7 +1742,7 @@ const seedRecipes = [
     {
         "titulo": "Galletas de naranja",
         "tipo": "dulce",
-        "seccion": "galletas y polvorones",
+        "seccion": "galletas-y-polvorones",
         "ingredientes": "- 450 gramos de harina\r\n- 200 gramos de mantequilla\r\n- 150 gramos de azúcar\r\n- 3 huevos grandes\r\n- Raspadura de una naranja\r\n- 1 cucharadita de royal",
         "proceso": "1. Cierne la harina junto con el royal en un tazón grande.\r\n2. Haz un hueco en el centro de la harina cernida y agrega el azúcar, los huevos, la mantequilla y la raspadura de naranja. Puedes agregar un poco de leche fría si la masa está demasiado seca.\r\n3. Mezcla todos los ingredientes con suavidad hasta obtener una masa homogénea. Puedes hacer esto utilizando tus manos o una espátula.\r\n4. Espolvorea un poco de harina sobre una superficie de trabajo y extiende la masa sobre ella con un rodillo. La masa debe tener un grosor de aproximadamente 1/4 de pulgada.\r\n5. Utiliza cortadores de galletas para cortar la masa en las formas deseadas. Puedes elegir figuras como corazones, estrellas, círculos, etc.\r\n6. Coloca las galletas en hojas de horno previamente engrasadas o forradas con papel de horno. Asegúrate de dejar suficiente espacio entre cada galleta.\r\n7. Barniza las galletas con huevo batido para darles un brillo dorado al hornearlas. También puedes espolvorear un poco de azúcar granulada sobre las galletas y agregar una pasita en el centro para darles un toque extra de dulzura.\r\n8. Precalienta el horno a 375 °F (190 °C).\r\n9. Hornea las galletas en el horno precalentado durante aproximadamente 10-12 minutos, o hasta que estén ligeramente doradas en los bordes.\r\n10. Una vez que estén cocidas, retira las galletas del horno y déjalas enfriar completamente en una rejilla.\r\nNota: Cuando se quieren las galletas de vainilla se le pone una cucharadita de vainilla y cuando se quieren de limón se les ponen la raspadura de 3 limones. ",
         "imagen": "https://i.postimg.cc/sg4wBxG4/59-galletas-naranja.jpg"
@@ -1750,7 +1750,7 @@ const seedRecipes = [
     {
         "titulo": "Galletas de nuez",
         "tipo": "dulce",
-        "seccion": "galletas y polvorones",
+        "seccion": "galletas-y-polvorones",
         "ingredientes": "- 300 gramos de nuez pelada\r\n- 100 gramos de galletas María\r\n- 4 claras de huevo\r\n- ½ lata de leche condensada\r\n- 150 gramos de azúcar",
         "proceso": "1. En un procesador de alimentos o utilizando un mortero, muele la nuez y las galletas María juntas hasta obtener una textura fina. Puedes dejar algunas nueces más grandes para decorar las galletas.\r\n2. En un tazón grande, bate las claras de huevo a punto de turrón. Esto significa que las claras deben formar picos suaves y mantener su forma cuando se levantan con las aspas de la batidora.\r\n3. Agrega la mezcla de nuez y galleta molida a las claras batidas. Añade también la leche condensada y el azúcar. Mezcla todo suavemente hasta obtener una pasta homogénea.\r\n4. Precalienta el horno a 180°C (350°F).\r\n5. Toma pequeñas porciones de la pasta de nuez y galleta y forma bolitas con las manos. Coloca una mitad de nuez en el centro de cada bolita, presionándola ligeramente.\r\n6. Coloca las bolitas de pasta de nuez en una bandeja para hornear previamente engrasada o forrada con papel de horno, dejando suficiente espacio entre cada galleta.\r\n7. Hornea las galletas en el horno precalentado durante aproximadamente 10 minutos, o hasta que estén ligeramente doradas en los bordes.\r\n8. Una vez que estén cocidas, retira las galletas del horno y déjalas enfriar completamente en una rejilla.",
         "imagen": "https://i.postimg.cc/5tPg3r3H/60-galletas-nuez.jpg"
@@ -1758,7 +1758,7 @@ const seedRecipes = [
     {
         "titulo": "Galletas de espiral",
         "tipo": "dulce",
-        "seccion": "galletas y polvorones",
+        "seccion": "galletas-y-polvorones",
         "ingredientes": "- 500 gramos de harina\r\n- 200 gramos de mantequilla\r\n- 4 yemas de huevo\r\n- 150 gramos de azúcar\r\n- Un poco de cocoa (chocolate en polvo)\r\n- 1 cucharadita de royal (levadura en polvo)",
         "proceso": "1. En un tazón grande, tamiza la harina junto con el royal. Esto ayudará a que las galletas tengan una textura más suave y esponjosa.\r\n2. En una superficie de trabajo limpia, forma un círculo con la harina tamizada. En el centro del círculo, agrega la mantequilla ligeramente batida, las yemas de huevo y el azúcar. También puedes añadir un poco de leche si la masa está demasiado seca.\r\n3. Amasa suavemente todos los ingredientes hasta obtener una masa homogénea. Si la masa está demasiado pegajosa, puedes agregar un poco más de harina.\r\n4. Divide la masa en dos partes iguales. A una de las partes, agrega un poco de cocoa y amasa nuevamente hasta que esté bien incorporada y la masa tenga un color uniforme.\r\n5. Extiende la masa sin cocoa en una superficie enharinada hasta obtener un rectángulo de aproximadamente 10 cm de ancho.\r\n6. Toma la masa con cocoa y extiéndela en forma de rectángulo del mismo tamaño que el primero.\r\n7. Coloca el rectángulo de masa con cocoa sobre el rectángulo de masa sin cocoa, de manera que queden uno encima del otro.\r\n8. Comienza a enrollar ambos rectángulos juntos desde uno de los extremos más largos, formando un cilindro.\r\n9. Con un cuchillo afilado, corta rodajas de aproximadamente 1 cm de grosor del cilindro de masa enrollada.\r\n10. Coloca las galletas en una bandeja para hornear previamente engrasada o forrada con papel de horno, dejando suficiente espacio entre cada galleta.\r\n11. Precalienta el horno a 375⁰.\r\n12. Hornea las galletas en el horno precalentado durante aproximadamente 10-12 minutos, o hasta que estén ligeramente doradas en los bordes.\r\n13. Una vez que estén cocidas, retira las galletas del horno y déjalas enfriar completamente en una rejilla.",
         "imagen": "https://i.postimg.cc/Twp9Hc7t/61-galletas-espiral.jpg"
@@ -1766,7 +1766,7 @@ const seedRecipes = [
     {
         "titulo": "Cream Puffs",
         "tipo": "dulce",
-        "seccion": "galletas y polvorones",
+        "seccion": "galletas-y-polvorones",
         "ingredientes": "Para 18 panecitos aproximadamente:\r\n- 1/2 taza de mantequilla\r\n- 1/2 taza de agua hirviendo\r\n- 1/8 cucharadita de sal\r\n- 1/2 cucharadita de azúcar\r\n- 1/2 taza de harina\r\n- 2 huevos\r\n\r\nRelleno:\r\n- Crema chantilly o crema pastelera",
         "proceso": "1. Precalienta el horno a 200°C (400°F). Prepara una bandeja para hornear engrasándola o cubriéndola con papel de horno.\r\n2. En una olla, derrite la mantequilla a fuego medio-bajo. Agrega el agua hirviendo, la sal y el azúcar. Mezcla bien hasta que la mantequilla se haya derretido por completo.\r\n3. Añade toda la harina de una vez y mezcla vigorosamente hasta que se forme una masa espesa y suave. Continúa cocinando a fuego medio-bajo, revolviendo constantemente, durante aproximadamente 1-2 minutos para eliminar cualquier exceso de humedad.\r\n4. Retira la olla del fuego y deja que la masa se enfríe ligeramente. Agrega los huevos uno a uno, batiendo bien después de cada adición. La masa se volverá suave y brillante.\r\n5. Coloca cucharaditas de masa que terminen en piquito en la bandeja para hornear, dejando espacio entre ellas. \r\n6. Hornea en el horno precalentado durante 15 minutos. Luego, reduce la temperatura del horno a 180°C (350°F) y hornea por otros 10 minutos, entonces se saca un panecito y si no se baja significa que ya está listo.\r\n7. Retira los Cream Puffs del horno y déjalos enfriar completamente en una rejilla.\r\n8. Una vez que estén fríos, puedes cortarlos por la mitad y rellenarlos con crema chantilly o crema pastelera. También puedes utilizar una manga pastelera para rellenarlos.\r\n9. Espolvorea los Cream Puffs con azúcar glass antes de servir.",
         "imagen": "https://i.postimg.cc/SKQVc4WF/62-cream-puffs.jpg"
@@ -1774,7 +1774,7 @@ const seedRecipes = [
     {
         "titulo": "Biscuits",
         "tipo": "dulce",
-        "seccion": "galletas y polvorones",
+        "seccion": "galletas-y-polvorones",
         "ingredientes": "- 500 gramos de harina\r\n- 125 gramos de mantequilla\r\n- 1 huevo\r\n- 1 cucharadita de sal\r\n- 2 cucharaditas de polvo de hornear (royal)\r\n- Leche fría (la necesaria)",
         "proceso": "1. Precalienta el horno a 200°C (400°F). Prepara una bandeja para hornear engrasándola o cubriéndola con papel de horno.\r\n2. En un tazón grande, cierne la harina junto con el polvo de hornear y la sal. Esto se coloca sobre una mesa formando un círculo en el centro.\r\n3. En el centro del círculo se agrega la mantequilla, huevo y leche. No añadas demasiada leche, solo la necesaria para obtener la consistencia adecuada.\r\n4. Amasa suavemente durante unos minutos hasta que la masa esté suave y elástica.\r\n5. Extiende la masa con un rodillo hasta que tenga aproximadamente 1.5 cm de grosor. Corta círculos con un cortador de galletas redondo.\r\n6. Coloca los círculos de masa en la bandeja para hornear preparada, dejando un pequeño espacio entre ellos. Con el dedo o el reverso de una cuchara pequeña, haz una ligera depresión en el centro de cada círculo. (formando un círculo pequeño)\r\n7. Barniza la superficie de los Biscuits con un poco de huevo batido para obtener un color dorado y un acabado brillante.\r\n8. Hornea en el horno precalentado durante aproximadamente 12-15 minutos, o hasta que los Biscuits estén dorados y ligeramente inflados.\r\n9. Retira los Biscuits del horno y déjalos enfriar en la bandeja durante unos minutos. Luego, transfiérelos a una rejilla de enfriamiento para que se enfríen por completo.\r\n10. Sirve los Biscuits calientes o a temperatura ambiente. Puedes disfrutarlos solos, untarlos con mantequilla, mermelada o miel, o usarlos para hacer sándwiches.",
         "imagen": "https://i.postimg.cc/bJWTX24p/63-biscuits.jpg"
@@ -1782,7 +1782,7 @@ const seedRecipes = [
     {
         "titulo": "Empanadas de leche",
         "tipo": "dulce",
-        "seccion": "galletas y polvorones",
+        "seccion": "galletas-y-polvorones",
         "ingredientes": "Para la masa:\r\n- 750 gramos de harina\r\n- 250 gramos de mantequilla\r\n- 100 gramos de azúcar\r\n- 4 huevos\r\n- 1 cucharadita de sal\r\n- 2 cucharaditas de polvo de hornear (royal)\r\n- 1/8 de litro de leche\r\n\r\nPara la crema del relleno:\r\n- 3/4 litro de leche\r\n- 350 gramos de azúcar\r\n- 2 yemas de huevo\r\n- 3 cucharadas de harina\r\n- Esencia de vainilla",
         "proceso": "1. Prepara la crema para el relleno:  A la leche hervida y fría se le añade la harina y las yemas, se revuelve muy bien y se cuela poniéndole el azúcar y un poco de carbonato.\r\n2. Lleva la olla a fuego medio y continúa revolviendo constantemente hasta que la crema espese. Añade la esencia de vainilla y sigue cocinando hasta obtener una consistencia cremosa. Retira del fuego y deja enfriar.\r\n3. Precalienta el horno a 180°C (350°F).\r\n4. Para hacer la masa: En un tazón grande, cierne la harina junto con el polvo de hornear y la sal.\r\n5. Se hace un círculo poniendo en el centro la mantequilla, azúcar y huevos enteros, revolviendo todo con cuchillos, después se agrega la leche y se amasa con cuidado.\r\n6. Extiende la masa con un rodillo hasta que tenga un grosor de aproximadamente 1/4 de pulgada (0.6 cm). Corta círculos del tamaño deseado.\r\n7. Coloca una cucharada de crema en el centro de cada círculo de masa. Dobla la masa por la mitad, sellando los bordes con los dedos o un tenedor.\r\n8. Coloca las empanadas en una bandeja para hornear previamente engrasada o forrada con papel de hornear. Barniza la parte superior de las empanadas con huevo batido.\r\n9. Hornea las empanadas en el horno precalentado durante aproximadamente 20-25 minutos, o hasta que estén doradas y cocidas.\r\n10. Retira las empanadas del horno y déjalas enfriar antes de espolvorearlas con azúcar glass.",
         "imagen": "https://i.postimg.cc/0jSC9yqm/64-empanadas-leche.jpg"
@@ -1790,7 +1790,7 @@ const seedRecipes = [
     {
         "titulo": "Galletas de ron",
         "tipo": "dulce",
-        "seccion": "galletas y polvorones",
+        "seccion": "galletas-y-polvorones",
         "ingredientes": "- 2 tazas de harina\r\n- 2 ½ tazas de mantequilla\r\n- 2/3 de taza de azúcar granulada blanca\r\n- 3 cucharadas de ron\r\n- 1 cucharadita de vainilla\r\n- 1 cucharadita de jugo de limón\r\n- 1 huevo entero\r\n- 1 huevo para barnizar o azúcar granulada",
         "proceso": "1. Cierne la harina y colócala sobre una superficie de trabajo. Forma un círculo con la harina y haz un hueco en el centro.\r\n2. Agrega la mantequilla, el azúcar, el ron, la vainilla, el jugo de limón y el huevo entero en el hueco del centro. \r\n3. Comienza a mezclar todos los ingredientes hasta obtener una masa suave y homogénea. Puedes amasar con las manos o utilizar una batidora eléctrica con el accesorio de paletas.\r\n4. Envuelve la masa en papel film y déjala reposar en el refrigerador durante al menos 1 hora para que tome consistencia.\r\n5. Precalienta el horno a 175°C (350°F) y prepara una bandeja para hornear cubriéndola con papel de hornear o engrasándola ligeramente.\r\n6. Saca la masa del refrigerador y extiéndela con un rodillo sobre una superficie enharinada. Debe tener un grosor de aproximadamente 1/4 de pulgada (0.6 cm).\r\n7. Corta las galletas con moldes de diferentes formas, como círculos, estrellas, corazones, etc.\r\n8. Coloca las galletas en la bandeja para hornear, dejando un espacio entre ellas.\r\n9. Puedes barnizar las galletas con huevo batido para obtener un acabado brillante, o espolvorearlas con azúcar granulada para darles un toque crujiente.\r\n10. Hornea las galletas en el horno precalentado durante aproximadamente 10-12 minutos, o hasta que estén ligeramente doradas en los bordes.\r\n11. Retira las galletas del horno y déjalas enfriar completamente en una rejilla antes de servirlas.",
         "imagen": "https://i.postimg.cc/hPFrpT90/65-galletas-ron.jpg"
@@ -1798,7 +1798,7 @@ const seedRecipes = [
     {
         "titulo": "Buñuelos de molde",
         "tipo": "dulce",
-        "seccion": "galletas y polvorones",
+        "seccion": "galletas-y-polvorones",
         "ingredientes": "- Harina\r\n- Leche\r\n- Huevos\r\n- Sal\r\n- Azúcar\r\n- Canela en polvo\r\n- Aceite vegetal (suficiente para freír)\r\n- Moneda de plata (opcional, para regular la temperatura del aceite)",
         "proceso": "1. En un recipiente, mezcla 1 taza de harina con 1 taza de leche. Añade 2 huevos, una pizca de sal y una pizca de azúcar. Mezcla bien hasta obtener una masa suave y sin grumos. La consistencia de la masa debe ser líquida, similar a la de los crepes o panqueques.\r\n2. En una olla o sartén profundo, agrega suficiente aceite vegetal para freír los buñuelos. Si deseas, puedes poner una moneda de plata (preferiblemente de 50 centavos) en el aceite para regular la temperatura y evitar que se queme.\r\n3. Calienta el aceite a fuego medio-alto hasta que esté bien caliente, pero no humeante.\r\n4. Prepara el molde para buñuelos. Puedes utilizar un molde especial para buñuelos de molde o incluso una manga pastelera con una boquilla grande en forma de estrella. El molde debe estar limpio y seco.\r\n5. Sumerge el molde en el aceite caliente para calentarlo. Luego, pásalo por un lienzo húmedo o papel absorbente para eliminar cualquier exceso de aceite.\r\n6. Sumerge el molde caliente en la masa líquida, asegurándote de que esté bien cubierto, pero sin llegar hasta la parte superior del molde.\r\n7. Sujeta el molde sobre el aceite caliente y sacude ligeramente para que el buñuelo se despegue y caiga al aceite.\r\n8. Fríe los buñuelos de molde hasta que estén dorados y crujientes. Asegúrate de voltearlos para que se cocinen de manera uniforme.\r\n9. Retira los buñuelos del aceite y colócalos sobre papel absorbente para eliminar el exceso de grasa.\r\n10. En un plato aparte, mezcla azúcar y canela en polvo. Revuelca los buñuelos aún calientes en esta mezcla hasta que estén bien cubiertos.\r\n11. Sirve los buñuelos de molde calientes y disfrútalos como un delicioso postre navideño.",
         "imagen": "https://i.postimg.cc/RCJd7XnF/66-bunuelos.jpg"
@@ -1806,7 +1806,7 @@ const seedRecipes = [
     {
         "titulo": "Donas sorpresa",
         "tipo": "dulce",
-        "seccion": "galletas y polvorones",
+        "seccion": "galletas-y-polvorones",
         "ingredientes": "Para aproximadamente 40 donas:\r\n- 1 ¼ tazas de agua caliente\r\n- ½ taza de mantequilla\r\n- ½ cucharadita de sal\r\n- 2 huevos batidos\r\n- ½ taza de jugo de naranja\r\n- 1 paquete de mezcla para glaseado de papa \"muselin\"\r\n- 4 tazas de harina cernida\r\n- 2 cucharadas de polvo de hornear (royal)\r\n- 1 lata grande de leche condensada\r\n- Azúcar y canela en polvo para espolvorear",
         "proceso": "1. En una olla, calienta el agua y agrega la mantequilla y la sal. Retira del fuego una vez que el agua hierva.\r\n2. En un tazón aparte, mezcla los huevos batidos con el jugo de naranja.\r\n3. Vierte la mezcla de huevos y jugo de naranja en el agua caliente con mantequilla. Luego, añade el paquete de mezcla para glaseado de papa \"muselin\". Revuelve bien hasta que esté completamente incorporado.\r\n4. En una superficie de trabajo, coloca la harina cernida y el polvo de hornear (royal). Agrega la leche condensada y la mezcla líquida de muselin. Amasa hasta obtener una masa suave y tersa.\r\n5. Extiende la masa con un rodillo hasta que tenga un grosor de aproximadamente 1 centímetro.\r\n6. Con un cortador de donas, corta la masa en forma de donas. Si no tienes un cortador de donas, puedes usar un vaso grande para cortar círculos y luego hacer un agujero en el centro con un cortador más pequeño o con la ayuda de un cuchillo.\r\n7. Calienta suficiente aceite en una olla profunda o en una freidora hasta que alcance una temperatura de aproximadamente 180°C.\r\n\r\n8. Fríe las donas en el aceite caliente hasta que estén doradas en ambos lados. Asegúrate de voltearlas para que se cocinen de manera uniforme. Retira las donas del aceite y colócalas sobre papel absorbente para eliminar el exceso de grasa.\r\n9. En un plato aparte, mezcla azúcar y canela en polvo al gusto. Revuelca las donas aún calientes en esta mezcla hasta que estén bien cubiertas.",
         "imagen": "https://i.postimg.cc/WbM7Kz8c/67-donas-sorpresa.jpg"
@@ -1814,7 +1814,7 @@ const seedRecipes = [
     {
         "titulo": "Empanaditas",
         "tipo": "dulce",
-        "seccion": "galletas y polvorones",
+        "seccion": "galletas-y-polvorones",
         "ingredientes": "- 1 queso crema grande\r\n- 2 tazas de harina\r\n- 225 gramos de mantequilla\r\n- Mermelada de piña u otra mermelada de tu elección\r\n- Azúcar glass",
         "proceso": "1. En un tazón grande, mezcla el queso crema, la harina y la mantequilla hasta obtener una masa homogénea. Puedes hacerlo con tus manos o utilizar una batidora eléctrica con el accesorio de paleta.\r\n2. Una vez que la masa esté bien mezclada, envuélvela en papel film o en una bolsa de plástico y déjala reposar en el refrigerador durante al menos 30 minutos. Esto ayudará a que la masa se enfríe y sea más fácil de manejar.\r\n3. Precalienta el horno a una temperatura de 180°C (350°F).\r\n4. Retira la masa del refrigerador y extiéndela con un rodillo sobre una superficie enharinada. Debe tener un grosor de aproximadamente 3-4 milímetros.\r\n5. Con un cortador redondo, corta la masa en forma de rueditas. Si no tienes un cortador redondo, puedes utilizar un vaso o cualquier otro objeto circular para hacer los cortes.\r\n6. Coloca una cucharadita de mermelada en el centro de cada ruedita de masa.\r\n7. Dobla la masa por la mitad, cubriendo el relleno, y sella los bordes presionando con los dedos o utilizando un tenedor.\r\n8. Coloca las empanaditas en una bandeja para hornear previamente engrasada o forrada con papel de horno.\r\n9. Hornea las empanaditas en el horno precalentado durante aproximadamente 15-20 minutos, o hasta que estén doradas.\r\n10. Retira las empanaditas del horno y déjalas enfriar ligeramente. Luego, revuélcalas en azúcar glass para cubrir su superficie. No es necesario agregar demasiado azúcar glass, solo lo suficiente para darles un toque dulce.",
         "imagen": "https://i.postimg.cc/zG8k1N2b/68-empanaditas.jpg"
@@ -1822,7 +1822,7 @@ const seedRecipes = [
     {
         "titulo": "Caracolitos almendrados",
         "tipo": "dulce",
-        "seccion": "galletas y polvorones",
+        "seccion": "galletas-y-polvorones",
         "ingredientes": "- 150 gramos de almendra limpia, tostada y molida\r\n- ½ lata de leche condensada\r\n- 2 huevos\r\n- 100 gramos de mantequilla\r\n- 300 gramos de harina\r\n- 1 cucharadita de royal\r\n- 1 huevo para barnizar\r\n- 1 cucharada de azúcar",
         "proceso": "1. En un tazón grande, combina la almendra molida, la leche condensada, los huevos y la mantequilla. Mezcla bien todos los ingredientes.\r\n2. Agrega la harina cernida junto con el royal a la mezcla anterior. Amasa con “raspa” (especie de espátula) hasta obtener una pasta suave y homogénea.\r\n3. Toma porciones de masa del tamaño de una nuez y enróllalas en forma de caracol. Cada caracolito debe tener aproximadamente 1 centímetro de grosor y 10 centímetros de largo.\r\n4. Coloca los caracolitos en charolas previamente engrasadas y enharinadas.\r\n5. En un tazón pequeño, bate el huevo con una cucharada de azúcar. Utiliza esta mezcla para barnizar los caracolitos, asegurándote de cubrirlos por completo.\r\n6. Precalienta el horno a una temperatura de 180°C (350°F).\r\n7. Hornea los caracolitos en el horno precalentado durante 10-15 minutos, o hasta que estén dorados.\r\n8. Retira del horno y deja enfriar antes de servir.",
         "imagen": "https://i.postimg.cc/9QbYmksx/69-caracolitos-almendrados.jpg"
@@ -1830,7 +1830,7 @@ const seedRecipes = [
     {
         "titulo": "Bisquets",
         "tipo": "dulce",
-        "seccion": "galletas y polvorones",
+        "seccion": "galletas-y-polvorones",
         "ingredientes": "- 4 tazas de harina\r\n- 3 huevos\r\n- 150 gramos de mantequilla\r\n- 1 tacita cafetera de azúcar\r\n- 1 cucharadita de sal\r\n- 4 cucharaditas de royal\r\n- Agua con leche, casi 1 vaso",
         "proceso": "1. En un tazón grande, cierne la harina para eliminar cualquier grumo y obtener una textura más ligera.\r\n2. Haz un hueco en el centro de la harina y agrega los huevos y la mantequilla. Con los dedos, aprieta y mezcla los ingredientes hasta obtener una mezcla uniforme.\r\n3. Añade el azúcar, la sal y el royal a la mezcla. Continúa mezclando hasta que todos los ingredientes estén bien incorporados.\r\n4. Agrega gradualmente agua con leche, casi un vaso, a la mezcla para obtener una masa suave. La cantidad de líquido puede variar, así que añádelo poco a poco hasta obtener la consistencia adecuada.\r\n5. Extiende la masa con un rodillo sobre una superficie enharinada hasta obtener un grosor de aproximadamente 1 centímetro.\r\n6. Con un cortador de galletas o un vaso, corta la masa en forma de bisquets del tamaño deseado.\r\n7. Coloca los bisquets en una bandeja para hornear previamente engrasada o forrada con papel de hornear.\r\n8. Precalienta el horno a 180°C (350°F).\r\n9. Hornea los bisquets en el horno precalentado durante aproximadamente 15-20 minutos, o hasta que estén dorados en la parte superior.\r\n10. Retira del horno y deja que los bisquets se enfríen antes de servir.",
         "imagen": "https://i.postimg.cc/B6LTCnby/70-bisquets.jpg"
@@ -1838,7 +1838,7 @@ const seedRecipes = [
     {
         "titulo": "Galletas de maicena",
         "tipo": "dulce",
-        "seccion": "galletas y polvorones",
+        "seccion": "galletas-y-polvorones",
         "ingredientes": "- 450 gramos de maicena\r\n- 200 gramos de mantequilla\r\n- 200 gramos de azúcar\r\n- 4 yemas\r\n- 1 cucharadita amplia de royal\r\n- Leche (la necesaria)",
         "proceso": "1. En un tazón grande, bate la mantequilla hasta que tenga una textura cremosa y suave.\r\n2. Agrega el azúcar gradualmente mientras continúas batiendo hasta obtener una mezcla homogénea.\r\n3. Añade las yemas de huevo una a una, batiendo bien después de cada adición para asegurarte de que se incorporen por completo.\r\n4. En otro recipiente, cierne la maicena y el royal juntos para eliminar grumos y asegurar una textura suave en las galletas.\r\n5. Agrega la maicena y el royal cernidos a la mezcla de mantequilla y azúcar. Mezcla bien todos los ingredientes hasta obtener una masa uniforme. Si la masa está muy seca, puedes agregar un poco de leche para suavizarla, pero ten cuidado de no agregar demasiada.\r\n6. Precalienta el horno a 180°C (350°F).\r\n7. En una bandeja para hornear previamente engrasada o forrada con papel de hornear, forma bolitas con la masa de galleta y colócalas en la bandeja, dejando un espacio entre ellas para que no se peguen al hornear.\r\n8. Hornea las galletas en el horno precalentado durante aproximadamente 10-12 minutos, o hasta que los bordes estén ligeramente dorados.\r\n9. Retira las galletas del horno y déjalas enfriar en la bandeja durante unos minutos antes de transferirlas a una rejilla para que se enfríen por completo.",
         "imagen": "https://i.postimg.cc/wBBc7Vp9/71-galletas-maicena.jpg"
@@ -1846,7 +1846,7 @@ const seedRecipes = [
     {
         "titulo": "Galletas con Coca-Cola",
         "tipo": "dulce",
-        "seccion": "galletas y polvorones",
+        "seccion": "galletas-y-polvorones",
         "ingredientes": "- 1 kilo de harina\r\n- 1 Coca-Cola mediana\r\n- Azúcar y canela para rebozar las galletas\r\n- ½ kilo de manteca Inca (manteca vegetal)",
         "proceso": "1. En un tazón grande, bate la manteca Inca hasta que tenga una textura suave y cremosa.\r\n2. Agrega la harina gradualmente, mezclando bien con la manteca.\r\n3. Añade la Coca-Cola a la mezcla de manteca y harina. Ve agregando poco a poco hasta que se forme una masa maleable. Es posible que no necesites utilizar toda la Coca-Cola, dependiendo de la consistencia de la masa.\r\n4. Precalienta el horno a 180°C (350°F).\r\n5. Con las manos, forma bolitas con la masa y colócalas en hojas de horno previamente engrasadas o forradas con papel de hornear. Deja suficiente espacio entre las galletas, ya que se expandirán durante la cocción.\r\n6. Hornea las galletas en el horno precalentado durante aproximadamente 10-12 minutos, o hasta que estén doradas en los bordes.\r\n7. Mientras las galletas aún estén calientes, revuélcalas en una mezcla de azúcar y canela para darles un toque dulce y aromático. Puedes ajustar la cantidad de azúcar y canela según tu preferencia.",
         "imagen": "https://i.postimg.cc/9fNPT7mZ/72-galletas-cocacola.jpg"
@@ -1854,7 +1854,7 @@ const seedRecipes = [
     {
         "titulo": "Polvorones de nuez Lupita",
         "tipo": "dulce",
-        "seccion": "galletas y polvorones",
+        "seccion": "galletas-y-polvorones",
         "ingredientes": "- 750 gramos de harina\r\n- ½ kilo de mantequilla\r\n- 2 tazas de nuez (1 taza molida y 1 taza picada)\r\n- 1 cucharadita de royal (polvo de hornear)\r\n- 3 cucharaditas de vainilla\r\n- ½ cucharadita de sal\r\n- 1 cucharada de azúcar glass\r\n- Azúcar glass para espolvorear",
         "proceso": "1. En un tazón grande, bate la mantequilla hasta que esté esponjosa.\r\n2. Agrega la nuez molida, la nuez picada y la vainilla a la mantequilla batida. Mezcla bien para que se distribuyan de manera uniforme.\r\n3. En otro recipiente, cierne la harina, el royal y la sal. Agrega esta mezcla a la mantequilla y nuez, y revuelve hasta obtener una masa homogénea.\r\n4. Precalienta el horno a una temperatura baja.\r\n5. Toma porciones pequeñas de masa y forma bolitas con las manos. Coloca las bolitas en charolas ligeramente engrasadas, dejando espacio entre ellas, ya que se expandirán durante la cocción.\r\n6. Hornea los polvorones en el horno precalentado a temperatura baja durante aproximadamente 20-25 minutos, o hasta que estén ligeramente dorados en los bordes.\r\n7. Mientras los polvorones aún estén calientes, espolvoréalos con azúcar glass. Puedes utilizar un tamiz o un colador fino para asegurarte de que se distribuya de manera uniforme.\r\n8. Deja que los polvorones se enfríen por completo antes de manipularlos, ya que estarán delicados al salir del horno.",
         "imagen": "https://i.postimg.cc/PxgmVn8q/73-polvorones-lupita.jpg"
@@ -1862,7 +1862,7 @@ const seedRecipes = [
     {
         "titulo": "Lemon bars",
         "tipo": "dulce",
-        "seccion": "galletas y polvorones",
+        "seccion": "galletas-y-polvorones",
         "ingredientes": "Sección 1:\r\n- 2 tazas de harina\r\n- 1 taza de mantequilla o margarina\r\n- ½ taza de azúcar glass\r\n\r\nSección 2:\r\n- 4 huevos\r\n- 2 tazas de azúcar\r\n- ½ taza de jugo de limón",
         "proceso": "1. Precalienta el horno a 350 grados Fahrenheit (175 grados Celsius) y engrasa una charola de horno de 9x13 pulgadas (23x33 cm).\r\n2. En un tazón, mezcla la harina, la mantequilla (o margarina) y el azúcar glass de la Sección 1 hasta obtener una masa que se desmorone. Puedes hacerlo con las manos o utilizando un tenedor.\r\n3. Presiona la masa de la Sección 1 en el fondo de la charola de horno de manera uniforme. Asegúrate de cubrir todo el fondo de manera pareja.\r\n4. Hornea la masa de la Sección 1 en el horno precalentado durante 20 minutos, o hasta que los bordes estén ligeramente dorados.\r\n5. Mientras la masa de la Sección 1 está en el horno, prepara la Sección 2. En un tazón, bate los huevos, el azúcar y el jugo de limón hasta obtener una mezcla suave y homogénea.\r\n6. Vierte la mezcla de la Sección 2 sobre la masa horneada de la Sección 1. Asegúrate de distribuirlo de manera uniforme.\r\n7. Regresa la charola al horno y hornea por otros 25 minutos, o hasta que la parte superior esté firme y ligeramente dorada.\r\n8. Retira la charola del horno y deja que se enfríe completamente. Una vez enfriada, espolvorea azúcar glass sobre la superficie.\r\n9. Corta las barras de limón en cuadros del tamaño deseado y sirve.",
         "imagen": "https://i.postimg.cc/7hSSptgn/74-lemon-bars.jpg"
@@ -1870,7 +1870,7 @@ const seedRecipes = [
     {
         "titulo": "Galletas naturistas",
         "tipo": "dulce",
-        "seccion": "galletas y polvorones",
+        "seccion": "galletas-y-polvorones",
         "ingredientes": "- 3 tazas de avena integral\r\n- 1 taza de salvado natural\r\n- 2 tazas de germen de trigo\r\n- 2 tazas de coco rallado\r\n- 2 tazas de pasas\r\n- 8 huevos\r\n- 2 tazas de leche descremada en polvo\r\n- 2 tazas de ajonjolí\r\n- 1 taza de miel\r\n- ½ pomo de granola de vainilla\r\n- 2 cucharadas soperas de canela\r\n- ½ taza de aceite de cocina (opcional)",
         "proceso": "1. Precalienta el horno a 350 grados Fahrenheit (175 grados Celsius) y prepara charolas de horno forrándolas con papel para hornear o engrasándolas ligeramente.\r\n2. En un tazón grande, mezcla la avena integral, el salvado natural, el germen de trigo, el coco rallado, las pasas, los huevos, la leche descremada en polvo, el ajonjolí, la miel, la granola de vainilla y la canela. Si deseas, puedes agregar el aceite de cocina a la mezcla para obtener una textura más suave.\r\n3. Mezcla todos los ingredientes hasta que estén bien combinados. La masa debe ser pegajosa y manejable.\r\n4. Con una cuchara sopera, coloca porciones de masa en las charolas preparadas, dejando suficiente espacio entre cada galleta.\r\n5. Aplana ligeramente cada porción de masa con la parte posterior de la cuchara o con tus manos para formar las galletas.\r\n6. Hornea las galletas en el horno precalentado durante aproximadamente 12-15 minutos, o hasta que estén doradas en los bordes.",
         "imagen": "https://i.postimg.cc/9X9PR0vw/75-galletas-naturistas.jpg"
@@ -1878,7 +1878,7 @@ const seedRecipes = [
     {
         "titulo": "Fudge",
         "tipo": "dulce",
-        "seccion": "galletas y polvorones",
+        "seccion": "galletas-y-polvorones",
         "ingredientes": "- 3 tazas de azúcar\r\n- 3 cucharadas grandes de cocoa\r\n- 1 cucharadita de miel Karo\r\n- 1 lata de leche clavel (leche evaporada)\r\n- 1 frasco de mantequilla de cacahuate\r\n- 1 taza de nuez picada\r\n- ½ barrita de margarina",
         "proceso": "1. En una olla grande, mezcla el azúcar y la cocoa hasta que estén bien combinados.\r\n2. Agrega la miel Karo y la leche evaporada a la mezcla de azúcar y cocoa. Revuelve bien.\r\n3. Coloca la olla a fuego lento y cocina la mezcla, removiendo constantemente, hasta que alcance el punto de bola blanda. Esto significa que cuando tomes una pequeña cantidad de la mezcla con una cuchara y la dejes caer en un recipiente con agua fría, se formará una bola suave que se puede aplastar fácilmente entre los dedos.\r\n4. Retira la olla del fuego y agrega la mantequilla de cacahuate, la nuez picada y la margarina. Mezcla todo hasta que la mantequilla de cacahuate y la margarina se derritan por completo y se incorporen a la mezcla.\r\n5. Vierte la mezcla de fudge en un molde previamente engrasado. Extiende la mezcla de manera uniforme en el molde.\r\n6. Deja que el fudge se enfríe completamente a temperatura ambiente. Esto puede llevar varias horas.\r\n7. Una vez que el fudge esté completamente frío y firme, córtalo en cuadros.",
         "imagen": "https://i.postimg.cc/tCH3hyjS/76-fudge.jpg"
@@ -1886,7 +1886,7 @@ const seedRecipes = [
     {
         "titulo": "Brownies",
         "tipo": "dulce",
-        "seccion": "galletas y polvorones",
+        "seccion": "galletas-y-polvorones",
         "ingredientes": "- 3 barras de mantequilla (90 gramos cada una)\r\n- 12 cucharadas soperas de cocoa en polvo\r\n- 6 huevos\r\n- 2 tazas de azúcar\r\n- ¾ de taza de harina\r\n- 1 cucharada sopera de polvo de hornear (royal)\r\n- 1 cucharada sopera de extracto de vainilla\r\n- 2 tazas de nueces picadas (opcional)\r\n- Azúcar glass (para espolvorear)",
         "proceso": "1. Prepara un baño maría: llena una olla grande con agua y coloca un recipiente resistente al calor encima. \r\n2. Agrega las barras de mantequilla y la cocoa en el recipiente del baño maría. Calienta a fuego medio-alto y mezcla hasta que la mantequilla se derrita y la cocoa se haya disuelto por completo. Retira el recipiente del baño maría y déjalo enfriar ligeramente.\r\n3. En un tazón grande, bate los huevos y el azúcar hasta obtener una mezcla suave y cremosa.\r\n4. Agrega la mezcla de mantequilla y cocoa derretida a los huevos batidos y mezcla bien.\r\n5. Incorpora la harina y el polvo de hornear a la mezcla de huevo y mantequilla. Mezcla hasta que todos los ingredientes estén bien combinados. Evita mezclar en exceso.\r\n6. Agrega el extracto de vainilla y las nueces picadas (si las estás usando). Mezcla suavemente hasta que estén distribuidas de manera uniforme en la masa.\r\n7. Vierte la masa en un molde para hornear rectangular previamente engrasado y alisar la parte superior con una espátula.\r\n8. Precalienta el horno a 180°C (350°F) y hornea los brownies durante aproximadamente 25-30 minutos, o hasta que un palillo insertado en el centro salga ligeramente húmedo con algunas migas pegadas. No hornees en exceso, ya que los brownies deben estar ligeramente húmedos para obtener una textura suave y fudgy.",
         "imagen": "https://i.postimg.cc/8PBh43k1/77-brownies.jpg"
@@ -1894,7 +1894,7 @@ const seedRecipes = [
     {
         "titulo": "Trufas de coco",
         "tipo": "dulce",
-        "seccion": "galletas y polvorones",
+        "seccion": "galletas-y-polvorones",
         "ingredientes": "- 1 lata de leche condensada\r\n- 1 lata de leche evaporada\r\n- Coco rallado (suficiente cantidad para revolcar las trufas)",
         "proceso": "1. En una olla grande, mezcla la leche condensada y la leche evaporada.\r\n2. Cocina la mezcla a fuego medio-bajo, revolviendo constantemente con una cuchara de madera. Continúa cocinando y revolviendo hasta que la mezcla se espese y se convierta en una masa dura. Esto puede llevar aproximadamente de 30 a 40 minutos.\r\n3. Retira la olla del fuego y deja que la mezcla se enfríe completamente.\r\n4. Una vez que la masa esté fría, forma pequeñas bolitas con las manos limpias. Puedes hacerlas del tamaño que prefieras.\r\n5. En un plato o recipiente aparte, coloca coco rallado.\r\n6. Toma cada bolita y rodéala por el coco rallado hasta que esté completamente cubierta. Presiona ligeramente el coco rallado para que se adhiera bien a la trufa.\r\n7. Repite este proceso con todas las bolitas hasta que hayas utilizado toda la masa.\r\n8. Coloca las trufas de coco en cucuruchos o en una bandeja forrada con papel encerado.\r\n9. Refrigera las trufas durante al menos 1 hora para que se endurezcan y adquieran una textura más firme.",
         "imagen": "https://i.postimg.cc/mgL75wh7/79-trufas-coco.jpg"
@@ -1902,7 +1902,7 @@ const seedRecipes = [
     {
         "titulo": "Dulce de nuez y zanahoria",
         "tipo": "dulce",
-        "seccion": "galletas y polvorones",
+        "seccion": "galletas-y-polvorones",
         "ingredientes": "- 1 lata de leche condensada\r\n- 1 taza de nuez picada\r\n- 4 zanahorias medianas cocidas",
         "proceso": "1. En una licuadora, coloca la leche condensada, la nuez picada y las zanahorias cocidas.\r\n2. Licua todos los ingredientes hasta obtener una mezcla suave y homogénea.\r\n3. Vierte la mezcla en copas individuales o en un recipiente grande.\r\n4. Espolvorea más nuez picada sobre la superficie del dulce para decorar.\r\n5. Cubre las copas o el recipiente con papel film o tapa y colócalos en el refrigerador.\r\n6. Deja que el dulce de nuez y zanahoria se enfríe y se asiente en el refrigerador durante al menos 2 horas, o hasta que esté bien frío y firme.\r\n7. Una vez que esté listo, sirve el dulce de nuez y zanahoria como postre y disfrútalo.",
         "imagen": "https://i.postimg.cc/XvXdVYfJ/80-dulce-nuez-zanahoria.jpg"
@@ -1910,7 +1910,7 @@ const seedRecipes = [
     {
         "titulo": "Cuadritos de chocolate con nuez",
         "tipo": "dulce",
-        "seccion": "galletas y polvorones",
+        "seccion": "galletas-y-polvorones",
         "ingredientes": "- 1 lata de leche condensada\r\n- 1 ½ paquete de bombones (malvaviscos)\r\n- Azúcar al gusto (opcional)\r\n- 1 taza de nuez picada\r\n- Chocolate para decorar (opcional)",
         "proceso": "1. En una olla, agrega la leche condensada y el azúcar al gusto (si lo deseas más dulce). Calienta la mezcla a fuego medio-bajo, revolviendo constantemente, hasta que esté caliente pero no hirviendo.\r\n2. Agrega los bombones (malvaviscos) a la olla y continúa revolviendo hasta que se derritan por completo y se mezclen con la leche condensada.\r\n3. Retira la olla del fuego y añade la nuez picada a la mezcla. Mezcla bien para distribuir la nuez de manera uniforme.\r\n4. Forra un molde largo refractario con papel encerado o papel de aluminio.\r\n5. Vierte la mezcla de chocolate y nuez en el molde forrado y extiéndela de manera uniforme.\r\n6. Opcional: Puedes derretir un poco de chocolate y decorar la parte superior de la mezcla con líneas o diseños.\r\n7. Coloca el molde en el refrigerador y deja que la mezcla se enfríe y cuaje durante al menos 2 horas, o hasta que esté firme al tacto.\r\n8. Una vez que la mezcla haya cuajado, retira el molde del refrigerador y levanta el papel encerado o de aluminio para sacar la mezcla completa.\r\n9. Corta la mezcla en cuadritos del tamaño deseado.",
         "imagen": "https://i.postimg.cc/NF8rN9cN/84-cuadritos-chocolate-nuez.jpg"
@@ -1918,7 +1918,7 @@ const seedRecipes = [
     {
         "titulo": "Crepas Tata",
         "tipo": "dulce",
-        "seccion": "galletas y polvorones",
+        "seccion": "galletas-y-polvorones",
         "ingredientes": "- Crepas (puedes hacerlas siguiendo una receta de crepas básicas)\r\n- Crema pastelera (puedes hacerla siguiendo una receta de crema pastelera)\r\n- Miel de abeja\r\n- Nuez molida",
         "proceso": "1. Prepara las crepas siguiendo tu receta preferida. Si no tienes una receta, aquí tienes una receta básica:\r\n- En un tazón, mezcla 1 taza de harina, 2 huevos, 1 ¼ tazas de leche, una pizca de sal y 2 cucharadas de mantequilla derretida.\r\n- Bate bien la mezcla hasta obtener una masa suave y sin grumos.\r\n- Calienta una sartén antiadherente a fuego medio y vierte aproximadamente ¼ de taza de masa en el centro de la sartén.\r\n- Gira la sartén rápidamente para que la masa se extienda y cubra toda la superficie de la sartén.\r\n- Cocina la crepa durante aproximadamente 1-2 minutos, o hasta que los bordes estén dorados. Luego, dale la vuelta y cocina el otro lado durante otros 1-2 minutos.\r\n- Repite el proceso con el resto de la masa hasta que hayas hecho todas las crepas.\r\n\r\n2. Prepara la crema pastelera siguiendo tu receta preferida. Si no tienes una receta, puedes encontrar muchas opciones en línea. La crema pastelera generalmente se hace calentando leche con azúcar y vainilla, y luego agregando una mezcla de yemas de huevo, almidón de maíz y sal. Cocina a fuego lento hasta que espese y luego deja enfriar.\r\n3. Rellena cada crepa con una porción de crema pastelera. Extiende la crema en el centro de la crepa y luego dóblala o enróllala para formar un paquete.\r\n4. Coloca las crepas rellenas en un plato o bandeja de servir. Unta cada crepa con miel de abeja, asegurándote de cubrir toda la superficie.\r\n5. Espolvorea nuez molida sobre las crepas. Puedes utilizar nuez picada o molida, según tu preferencia.",
         "imagen": "https://i.postimg.cc/NjC2Pv3w/89-crepas-tata.jpg"
@@ -1926,7 +1926,7 @@ const seedRecipes = [
     {
         "titulo": "Bolitas de nuez",
         "tipo": "dulce",
-        "seccion": "galletas y polvorones",
+        "seccion": "galletas-y-polvorones",
         "ingredientes": "- 1/2 kilo de nuez molida\r\n- 600 gramos de azúcar\r\n- 3 cucharadas de leche hervida\r\n- Azúcar granulada\r\n- Canela (opcional)",
         "proceso": "1. En una olla, humedece el azúcar con un poco de agua y llévalo a fuego medio-alto. Cocina el azúcar hasta que alcance el punto de bola tierna. Esto significa que al tomar una pequeña porción del almíbar con los dedos y sumergirlo en agua fría, se formará una bola suave y moldeable.\r\n2. Retira la olla del fuego y agrega la leche hervida. Mezcla bien hasta que esté completamente incorporada.\r\n3. Añade la nuez molida a la mezcla y mezcla vigorosamente hasta obtener una masa homogénea.\r\n4. Deja reposar la masa durante unos minutos para que se enfríe y sea más fácil de manejar.\r\n5. Toma porciones de la masa y forma bolitas del tamaño deseado. Si lo deseas, puedes hacerlas del tamaño de una nuez o más pequeñas, según tu preferencia.\r\n6. En un plato aparte, mezcla azúcar granulada con canela al gusto. Pasa cada bolita de nuez por esta mezcla, asegurándote de que estén bien cubiertas.\r\n7. Coloca las bolitas de nuez en un recipiente o bandeja y déjalas reposar durante al menos una hora para que se endurezcan ligeramente.",
         "imagen": "https://i.postimg.cc/yNwgsX6Q/90-bolitas-nuez.jpg"
@@ -1934,7 +1934,7 @@ const seedRecipes = [
     {
         "titulo": "Bolitas de papa con nuez",
         "tipo": "dulce",
-        "seccion": "galletas y polvorones",
+        "seccion": "galletas-y-polvorones",
         "ingredientes": "- 500 gramos de azúcar granulada\r\n- 500 gramos de nuez molida\r\n- 110 gramos de papa amarilla\r\n- 100 gramos de cerezas\r\n- 100 gramos de cestitos de papel",
         "proceso": "1. Pelar las papas y cocinarlas hasta que estén tiernas. Luego, pasarlas por un prensa papas para obtener un puré de papas suave y sin grumos.\r\n2. En un recipiente grande, mezclar el puré de papas con el azúcar granulada y la nuez molida. Mezclar bien hasta obtener una masa homogénea.\r\n3. Tomar porciones de la masa y formar bolitas del tamaño de una nuez. Puedes utilizar tus manos para darles forma redonda.\r\n4. Colocar los cestitos de papel en una bandeja o plato para servir. Colocar una bolita de papa con nuez en cada cestito.\r\n5. Para decorar, cortar las cerezas en pedacitos y colocar un trozo sobre cada bolita de papa.\r\n6. Dejar reposar las bolitas de papa con nuez en el refrigerador durante al menos 1 hora para que se endurezcan un poco.",
         "imagen": "https://i.postimg.cc/q7thPZr6/91-bolitas-papa-nuez.jpg"
@@ -1942,7 +1942,7 @@ const seedRecipes = [
     {
         "titulo": "Turrones de nuez",
         "tipo": "dulce",
-        "seccion": "galletas y polvorones",
+        "seccion": "galletas-y-polvorones",
         "ingredientes": "- 300 gramos de nuez\r\n- 400 gramos de azúcar glass\r\n- 1 lata de leche condensada\r\n- 50 gramos de nuez entera para decorar",
         "proceso": "1. En un recipiente grande, bate el azúcar glass y la leche condensada con un palo de madera hasta obtener una mezcla suave y homogénea.\r\n2. Agrega la nuez molida a la mezcla y continúa batiendo hasta que todos los ingredientes estén bien incorporados.\r\n3. Forra dos moldes de madera con papel encerado para que sea más fácil desmoldar los turrones más tarde.\r\n4. Vierte la mezcla de nuez en los moldes forrados, asegurándote de distribuir uniformemente.\r\n5. Decora la parte superior de los turrones con nueces enteras, presionándolas ligeramente sobre la mezcla.\r\n6. Deja que los turrones se endurezcan a temperatura ambiente durante varias horas o preferiblemente durante la noche.\r\n7. Una vez que estén completamente firmes, desmolda los turrones cuidadosamente del papel encerado.\r\n8. Se envuelven en plástico delgado y transparente para mantener su frescura y facilitar su almacenamiento.\r\n\r\nNota: Si lo deseas, puedes reemplazar las nueces con almendras en esta receta.",
         "imagen": "https://i.postimg.cc/VvwJbfCX/92-turrones-nuez.jpg"
@@ -1950,7 +1950,7 @@ const seedRecipes = [
     {
         "titulo": "Aceitunas Santa Águeda",
         "tipo": "dulce",
-        "seccion": "galletas y polvorones",
+        "seccion": "galletas-y-polvorones",
         "ingredientes": "- 400 gramos de almendra pelada\r\n- 400 gramos de azúcar\r\n- 2 copitas de licor (puede ser de tu preferencia)\r\n- Vainilla\r\n- Colorante vegetal verde en polvo",
         "proceso": "1. En un recipiente, remoja las almendras en agua caliente durante unos minutos para que sea más fácil pelarlas. Luego, escúrrelas y sécalas bien.\r\n2. Muele las almendras peladas en un molino fino o en un metate hasta obtener una pasta suave y fina.\r\n3. Por separado, muele el azúcar hasta pulverizarlo por completo. Luego, combina el azúcar pulverizado con la pasta de almendra en un recipiente.\r\n4. Agrega las 2 copitas de licor de tu elección a la mezcla de almendra y azúcar. Añade también unas gotas de esencia de vainilla para dar sabor.\r\n5. Amasa todos los ingredientes hasta obtener una masa compacta y homogénea. Si la masa está demasiado pegajosa, puedes agregar un poco más de azúcar o almendra molida para ajustar la consistencia.\r\n6. Divide la masa en porciones pequeñas y añade el colorante vegetal verde en polvo a una de las porciones. Amasa hasta que el color se distribuya de manera uniforme.\r\n7. Extiende un poco de azúcar sobre una hoja de papel encerado y forma aceitunas y hazlas rodar sobre el azúcar.\r\n8. Repite el proceso 3 o 4 veces en el espacio de pocas horas.",
         "imagen": "https://i.postimg.cc/qRVR9JQW/99-aaceitunas-santa-agueda.jpg"
@@ -1958,7 +1958,7 @@ const seedRecipes = [
     {
         "titulo": "Ante de almendra",
         "tipo": "dulce",
-        "seccion": "galletas y polvorones",
+        "seccion": "galletas-y-polvorones",
         "ingredientes": "- 6 marquesotes o 60 soletas\r\n- 100 gramos de pasas\r\n- 100 gramos de almendras peladas, tostadas para el adorno\r\n\r\nPara la miel:\r\n- 600 gramos de azúcar (2 tazas)\r\n- 2 rajas de canela\r\n- 2 tazas de jerez\r\n- 2 tazas de agua\r\n\r\nPara la pasta:\r\n- ¼ de kilo de almendra pelada\r\n- ½ taza de leche\r\n- 1 ½ taza de azúcar",
         "proceso": "1. Prepara la miel: En un cazo a fuego lento, coloca el azúcar, el agua y las rajas de canela. Deja que hierva durante 6 minutos y luego retíralo del fuego. Permite que la mezcla se enfríe y luego añade el jerez. \r\n2. Prepara la pasta de almendra: En un cazo, coloca las almendras peladas y molidas, la leche y el azúcar. Cocina a fuego medio-bajo hasta que la mezcla tome una consistencia espesa. Remueve constantemente para evitar que se pegue. Retira del fuego y deja enfriar.\r\n3. En un molde, coloca 30 soletas en una capa. Baña las soletas con la mitad de la miel preparada anteriormente. Luego, añade la mitad de la pasta de almendra sobre las soletas.\r\n4. Coloca otra capa de soletas sobre la pasta de almendra y repite el proceso, bañando las soletas con la miel restante y agregando la pasta de almendra restante.\r\n5. Decora el ante con almendras tostadas y pasas en forma de flor.",
         "imagen": "https://i.postimg.cc/TwVwxz41/101-ante-almendra.jpg"
@@ -1966,7 +1966,7 @@ const seedRecipes = [
     {
         "titulo": "Mazapán de almendra",
         "tipo": "dulce",
-        "seccion": "galletas y polvorones",
+        "seccion": "galletas-y-polvorones",
         "ingredientes": "- ¼ de kilo de almendra pelada\r\n- 100 gramos de almendra para adornar\r\n- 1 taza de azúcar\r\n- 2 claras de huevo batidas ligeramente\r\n- 1 clara de huevo extra",
         "proceso": "1. Remoja las almendras en agua fría durante al menos 1 día antes de preparar el mazapán. Esto ayudará a que sea más fácil pelarlas.\r\n2. Una vez que las almendras hayan remojado, pélelas y muélalas en un procesador de alimentos o molinillo de café hasta obtener una textura fina.\r\n3. En un recipiente, combina la almendra molida con el azúcar y las claras de huevo ligeramente batidas. Mezcla bien hasta obtener una pasta tersa y homogénea. Puedes hacerlo manualmente o utilizando una batidora eléctrica a velocidad baja.\r\n4. Forma figuras con la pasta de mazapán. Puedes hacer bolitas, animalitos u otras formas creativas. Si la masa está pegajosa, espolvorea un poco de azúcar en tus manos para evitar que se pegue.\r\n5. Para decorar, espolvorea almendra picada sobre las figuras de mazapán. Presiona suavemente las almendras para que se adhieran a la superficie.\r\n6. Barniza las figuras de mazapán con la clara de huevo extra para darles brillo y ayudar a que se doren durante el horneado.\r\n7. Precalienta el horno a 180°C (350°F). Coloca las figuras de mazapán en una bandeja para hornear forrada con papel encerado.\r\n8. Hornea las figuras de mazapán durante aproximadamente 10-12 minutos, o hasta que estén ligeramente doradas en la parte superior.\r\n9. Retira del horno y deja enfriar completamente antes de manipular las figuras de mazapán.",
         "imagen": "https://i.postimg.cc/rwHzNC4V/102-mazapan-almendra.jpg"
@@ -1974,7 +1974,7 @@ const seedRecipes = [
     {
         "titulo": "Rollo de nuez",
         "tipo": "dulce",
-        "seccion": "galletas y polvorones",
+        "seccion": "galletas-y-polvorones",
         "ingredientes": "- 5 tazas de galletas María\r\n- 3 tazas de nueces\r\n- 2 tazas de leche condensada\r\n- ¼ de taza de azúcar glass\r\n- Bolsas de celofán\r\n- Cinta roja\r\n- ½ taza de nueces picadas para cubrir",
         "proceso": "1. En un procesador de alimentos o licuadora, muele las galletas María hasta obtener una textura fina. También puedes triturarlas dentro de una bolsa de plástico utilizando un rodillo.\r\n2. En otro recipiente, muele las nueces hasta que estén bien picadas.\r\n3. En un tazón grande, mezcla las galletas molidas con las nueces picadas. Agrega la leche condensada y mezcla bien hasta obtener una masa homogénea.\r\n4. Extiende la masa sobre una superficie plana y limpia, formando un rectángulo de aproximadamente 1 centímetro de grosor.\r\n5. Espolvorea azúcar glass sobre la masa y luego esparce las nueces picadas sobre ella, presionando ligeramente para que se adhieran.\r\n6. Enrolla la masa cuidadosamente, como si fuera un rollo de sushi, asegurándote de que quede bien compacto.\r\n7. Envuelve el rollo en una bolsa de celofán y átalo en los extremos con una cinta roja.",
         "imagen": "https://i.postimg.cc/pTJ24Dmn/112-rollo-nuez.jpg"
@@ -1982,7 +1982,7 @@ const seedRecipes = [
     {
         "titulo": "Scones",
         "tipo": "dulce",
-        "seccion": "galletas y polvorones",
+        "seccion": "galletas-y-polvorones",
         "ingredientes": "- 1 ¼ de taza de harina\r\n- 60 gramos de azúcar\r\n- 120 gramos de queso crema\r\n- 1 huevo\r\n- 1 cucharadita de esencia de vainilla\r\n- Ralladura de naranja y limón (opcional)\r\n- 80 gramos de mantequilla fría\r\n- 2 cucharaditas de polvo de hornear (royal)",
         "proceso": "1. Precalienta el horno a 200°C.\r\n2. En un tazón grande, mezcla la harina, el azúcar y el polvo de hornear. Si deseas, puedes añadir ralladura de naranja y limón para darle sabor adicional.\r\n3. Agrega la mantequilla fría en cubitos y trabájala en la mezcla de harina con los dedos o utilizando un tenedor o un cortador de masa, hasta que la mezcla tenga una textura similar a las migas de pan.\r\n4. En otro tazón, bate ligeramente el huevo con la esencia de vainilla y el queso crema. Añade esta mezcla a la masa de harina y mantequilla. Mezcla todo hasta obtener una masa homogénea.\r\n5. Espolvorea un poco de harina sobre una superficie de trabajo limpia y vuelca la masa sobre ella. Amasa suavemente la masa durante unos minutos hasta que esté suave y se pueda formar una bola.\r\n6. Con un rodillo, extiende la masa hasta obtener un grosor de aproximadamente 2 cm. Utiliza un cortador de galletas redondo o una taza para cortar los scones en forma de círculos.\r\n7. Coloca los scones en una bandeja para hornear forrada con papel de horno. Deja un espacio de aproximadamente 2 cm entre cada scone, ya que crecerán durante el horneado.\r\n8. Barniza la parte superior de los scones con un poco de huevo batido y espolvorear con azúcar para obtener un acabado dorado y crujiente.\r\n9. Hornea los scones en el horno precalentado durante unos 12-15 minutos, o hasta que estén dorados en la parte superior.",
         "imagen": "https://i.postimg.cc/1XWy5scm/114-scones.jpg"
@@ -1990,7 +1990,7 @@ const seedRecipes = [
     {
         "titulo": "Scones con arándanos",
         "tipo": "dulce",
-        "seccion": "galletas y polvorones",
+        "seccion": "galletas-y-polvorones",
         "ingredientes": "Para los scones:\r\n- 1 taza de azúcar\r\n- 4 tazas de harina\r\n- 4 cucharaditas de polvo de hornear (royal)\r\n- 1 cucharadita de bicarbonato de sodio\r\n- ¾ cucharadita de sal\r\n- 150 gramos de arándanos\r\n- 1 taza de mantequilla fría, cortada en cubos\r\n- 1 huevo\r\n- ¾ de taza de leche\r\n- Ralladura de naranja (opcional)\r\n- 1 cucharadita de esencia de vainilla\r\n\r\nPara el glaseado:\r\n- 2 cucharadas de jugo de naranja\r\n- 1 cucharada de leche derretida con mantequilla\r\n- 1 taza de azúcar glass",
         "proceso": "1. Precalienta el horno a 200°C.\r\n2. En un tazón grande, mezcla el azúcar, la harina, el polvo de hornear, el bicarbonato de sodio y la sal.\r\n3. Agrega la mantequilla fría a la mezcla de harina y, con los dedos o un cortador de masa, incorpora la mantequilla hasta obtener una textura similar a las migas de pan.\r\n4. Añade los arándanos a la mezcla de harina y mantequilla y mezcla suavemente para distribuirlos de manera uniforme.\r\n5. En otro tazón, bate el huevo, la leche, la ralladura de naranja (si la usas) y la esencia de vainilla.\r\n6. Vierte la mezcla líquida en el tazón de ingredientes secos y revuelve hasta que los ingredientes estén apenas combinados. Evita mezclar en exceso para mantener la textura esponjosa de los scones.\r\n7. Transfiere la masa a una superficie de trabajo enharinada y amasa suavemente durante unos minutos hasta que la masa esté suave y manejable.\r\n8. Forma la masa en un disco de aproximadamente 2,5 cm de grosor y corta círculos con un cortador de galletas. Coloca los scones en una bandeja para hornear forrada con papel de horno.\r\n9. Barniza la parte superior de cada scone con un poco de mantequilla derretida.\r\n10. Hornea los scones en el horno precalentado durante unos 15-18 minutos, o hasta que estén dorados en la parte superior.\r\n11. Mientras los scones se enfrían ligeramente, prepara el glaseado mezclando el jugo de naranja, la leche con mantequilla y el azúcar glass en un tazón pequeño hasta obtener una consistencia suave.\r\n12. Una vez que los scones estén completamente fríos, glasea la parte superior de cada uno con el glaseado preparado.",
         "imagen": "https://i.postimg.cc/RCGSTLrk/115-scones-arandanos.jpg"
@@ -1998,7 +1998,7 @@ const seedRecipes = [
     {
         "titulo": "Nieve de Rosita",
         "tipo": "dulce",
-        "seccion": "nieve y otros",
+        "seccion": "nieve-y-otros",
         "ingredientes": "- 1 paquete de pudín \"Jell-O\" del sabor que prefieras\r\n- 1/3 más de la cantidad de leche indicada en el paquete de pudín\r\n- Un poco de azúcar (al gusto)\r\n- ¼ de taza de crema dulce (nata para montar)",
         "proceso": "1. Prepara el pudín \"Jell-O\" según las instrucciones del paquete, pero utiliza 1/3 más de leche de la cantidad indicada. Agrega el azúcar al gusto para endulzar el pudín.\r\n2. Una vez que el pudín esté preparado y haya enfriado, colócalo en la licuadora.\r\n3. Agrega la crema dulce a la licuadora con el pudín y licúa todo hasta obtener una mezcla suave y espumosa.\r\n4. Vierte la mezcla de pudín y crema en un recipiente apto para congelador y colócalo en el congelador.\r\n5. Deja que la mezcla se congele durante al menos 2 horas, o hasta que adquiera una textura similar a la nieve. Puedes remover la mezcla cada 30 minutos durante el primer par de horas para romper los cristales de hielo y obtener una textura más suave.",
         "imagen": "https://i.postimg.cc/zfMW3Y7k/81-nieve-de-rosita.jpg"
@@ -2006,7 +2006,7 @@ const seedRecipes = [
     {
         "titulo": "Nieve de fresa o limón",
         "tipo": "dulce",
-        "seccion": "nieve y otros",
+        "seccion": "nieve-y-otros",
         "ingredientes": "- 1 lata de leche condensada\r\n- 1 lata de media crema Nestlé\r\n- 2 huevos\r\n- 1 ½ tazas de fresas o 1 taza de jugo limón y ralladura de 1 limón",
         "proceso": "1. Se licua todo y se mete al congelador.",
         "imagen": "https://i.postimg.cc/ZnzdFP1B/82-nieve-fresa-limon.jpg"
@@ -2014,7 +2014,7 @@ const seedRecipes = [
     {
         "titulo": "Postre malvavisco con fresas",
         "tipo": "dulce",
-        "seccion": "nieve y otros",
+        "seccion": "nieve-y-otros",
         "ingredientes": "- 1 paquete grande de malvaviscos\r\n- 1 kilo de fresas\r\n- 1 taza de crema\r\n- 2 tazas de leche\r\n- 1 paquete de galletas María",
         "proceso": "1. En una olla, lleva las 2 tazas de leche a hervir. Una vez que hierva, cambia a baño maría.\r\n2. Agrega el paquete de malvaviscos a la leche caliente y mezcla continuamente hasta que se derritan por completo y obtengas una mezcla suave y homogénea. Esto puede llevar unos minutos.\r\n3. Retira la olla del fuego y deja que la mezcla de malvavisco se enfríe un poco.\r\n4. Agrega la crema a la mezcla de malvavisco y revuelve bien hasta que esté completamente incorporada.\r\n5. Unta un refractario grande con mantequilla para evitar que el postre se pegue. Espolvorea una capa de galletas María molida en el fondo del refractario.\r\n6. Vierte la mezcla de malvavisco y crema sobre la capa de galletas en el refractario.\r\n7. Lava y corta las fresas en rodajas o déjalas enteras, según tu preferencia. Coloca las fresas sobre la mezcla de malvavisco y crema en el refractario.\r\n8. Espolvorea otra capa de galletas María molida sobre las fresas.\r\n9. Refrigera el postre durante al menos 2 horas para que se enfríe y tome consistencia.",
         "imagen": "https://i.postimg.cc/V6nS6rdY/93-postre-malvavisco-fresa.jpg"
@@ -2022,7 +2022,7 @@ const seedRecipes = [
     {
         "titulo": "Ciruelas rellenas",
         "tipo": "dulce",
-        "seccion": "nieve y otros",
+        "seccion": "nieve-y-otros",
         "ingredientes": "- 1/2 kilo de almendras\r\n- 1 clara de huevo\r\n- 1 kilo de azúcar granulada\r\n- 1/2 kilo de ciruelas de España secas y frescas",
         "proceso": "1. La noche anterior, remoja las almendras en agua fría. Esto ayudará a que sea más fácil pelarlas.\r\n2. Una vez remojadas, pela las almendras y muélelas junto con un poco de azúcar hasta obtener una pasta fina. Puedes utilizar un procesador de alimentos o una licuadora para hacerlo.\r\n3. En una olla grande, coloca el azúcar y añade un poco de agua suficiente para cubrirlo. Lleva la mezcla a fuego medio y revuelve constantemente hasta que el azúcar se disuelva y se forme un almíbar ligero. Retira del fuego y deja que se enfríe un poco.\r\n4. Agrega la pasta de almendras al almíbar y mezcla bien. Añade la clara de huevo batida a punto de turrón poco a poco, incorporándola a la pasta de almendras. La mezcla debe quedar suave y tersa.\r\n5. Envuelve la masa en una servilleta húmeda y déjala enfriar por completo.\r\n6. Mientras tanto, prepara las ciruelas. Asegúrate de que estén frescas y secas. Retira cuidadosamente el hueso de cada ciruela, dejándolas enteras.\r\n7. Rellena cada ciruela con la pasta de almendras. Puedes utilizar una cucharita o un pequeño tubo de repostería para hacerlo más fácil.\r\n8. Una vez rellenas, revuelca las ciruelas en un poco de azúcar para que se adhiera y déjalas secar.",
         "imagen": "https://i.postimg.cc/wT6tqBHp/96-ciruelas-rellenas.jpg"
@@ -2030,7 +2030,7 @@ const seedRecipes = [
     {
         "titulo": "Ponche",
         "tipo": "dulce",
-        "seccion": "nieve y otros",
+        "seccion": "nieve-y-otros",
         "ingredientes": "- 1 taza de azúcar\r\n- 2 rajas de canela\r\n- 1 limón rebanado con cáscara\r\n- 24 clavos de olor\r\n- 4 tazas de jugo de naranja\r\n- 1 botella de vino tinto de 1 litro",
         "proceso": "1. En una cacerola grande, combina el azúcar, las rajas de canela, las rebanadas de limón y los clavos de olor.\r\n2. Agrega media taza de agua a la cacerola y caliéntala a fuego medio-alto. Remueve constantemente hasta que el azúcar se disuelva por completo y se forme un jarabe.\r\n3. Una vez que el jarabe esté listo, añade el jugo de naranja y el vino tinto a la cacerola. Calienta la mezcla a fuego medio-bajo hasta que esté a punto de hervir, pero evita que hierva completamente.\r\n4. Mientras se calienta, puedes decorar el ponche con rodajas de limón o piña, si lo deseas.\r\n5. Cuando el ponche esté caliente y los sabores se hayan infusionado, puedes servirlo en tazas o vasos individuales.",
         "imagen": "https://i.postimg.cc/YSm0nGN1/100-ponche.jpg"
@@ -2038,7 +2038,7 @@ const seedRecipes = [
     {
         "titulo": "Postre Mayte",
         "tipo": "dulce",
-        "seccion": "nieve y otros",
+        "seccion": "nieve-y-otros",
         "ingredientes": "- 1 litro de nieve (puedes elegir tu sabor favorito, como choco chip, chocolate, etc.)\r\n- 8-9 campechanas (pan dulce)",
         "proceso": "1. Desmenuza las campechanas en pedazos pequeños con las manos.\r\n2. En un tazón grande, mezcla la nieve con las campechanas desmenuzadas. Asegúrate de que la nieve no esté muy dura, para que sea más fácil mezclarla con el pan dulce.\r\n3. Mezcla bien la nieve y las campechanas hasta que estén combinadas de manera uniforme.\r\n4. Prepara un molde rectangular o cuadrado para el postre. Puedes usar un molde para pan o cualquier otro recipiente adecuado. Si deseas, puedes forrar el molde con papel film o papel encerado para facilitar la extracción del postre más tarde.\r\n5. Vierte la mezcla de nieve y campechanas en el molde preparado. Extiende y aplana la mezcla para que quede uniforme en el molde.\r\n6. Cubre el molde con papel film o una tapa adecuada y colócalo en el congelador.\r\n7. Deja que el postre Mayte se congele durante al menos 3-4 horas, o hasta que esté completamente firme.",
         "imagen": "https://i.postimg.cc/PJK5pmhk/104-postre-mayte.jpg"
@@ -2046,7 +2046,7 @@ const seedRecipes = [
     {
         "titulo": "Dulce Sra. Lanzagorta",
         "tipo": "dulce",
-        "seccion": "nieve y otros",
+        "seccion": "nieve-y-otros",
         "ingredientes": "- 1 lata de leche condensada\r\n- 1 lata de leche evaporada\r\n- 1 paquete de panque de pasitas o 1 pan de claras hecho en casa\r\n- ½ taza de jugo de limón \r\n- Duraznos en almíbar para decorar",
         "proceso": "1. En la licuadora, agrega la leche condensada y la leche evaporada. Licúa hasta obtener una mezcla suave y homogénea.\r\n2. Añade el jugo de limón al gusto. Puedes empezar con ½ taza y ajustar la cantidad según tus preferencias de acidez. Licúa nuevamente para mezclar bien.\r\n3. En un molde hondo, coloca una capa de rebanadas de panque o pan de claras en el fondo. Cubre el pan con una capa de la mezcla de leche condensada y limón.\r\n4. Repite el proceso, alternando capas de pan y crema hasta utilizar todo el pan y la crema. Termina con una capa de crema en la parte superior.\r\n5. Decora el dulce con rodajas de durazno en almíbar. Puedes utilizar medio durazno de lata para adornar cada porción o decorar el molde completo.\r\n6. Cubre el molde con papel film o tapa y refrigera el dulce durante al menos 2 horas, o hasta que esté bien frío y cuajado.",
         "imagen": "https://i.postimg.cc/tCy6s538/86-dulce-lanzagorta.jpg"
@@ -2054,7 +2054,7 @@ const seedRecipes = [
     {
         "titulo": "Rollo de almendra",
         "tipo": "dulce",
-        "seccion": "nieve y otros",
+        "seccion": "nieve-y-otros",
         "ingredientes": "- 1/4 de kilo de almendras\r\n- 1/4 de kilo de piñones\r\n- 12 soletas\r\n- 1/2 kilo de azúcar\r\n- 8 yemas de huevo\r\n- 50 gramos de mantequilla\r\n- 1/2 litro de agua",
         "proceso": "1. El día anterior, remoja las almendras en agua fría. Esto ayudará a pelarlas más fácilmente. Una vez remojadas, pela las almendras y sécalas.\r\n2. En una olla grande, prepara una miel espesa mezclando el agua y el azúcar. Lleva la mezcla a fuego medio y revuelve constantemente hasta que el azúcar se disuelva por completo y obtengas un almíbar espeso. Retira del fuego y deja que medio enfríe.\r\n3. Muele las almendras peladas hasta obtener una textura fina.\r\n4. Remoja las soletas en un poco de leche para ablandarlas.\r\n5. Agrega las almendras molidas, las soletas remojadas, y las yemas de huevo batidas al almíbar espeso. Mezcla bien.\r\n6. Agrega la mantequilla derretida y fría a la mezcla y revuelve nuevamente.\r\n7. Vuelve a calentar la mezcla a fuego medio hasta que alcance el punto de cajeta dura. Esto significa que la mezcla se espesará y obtendrá una consistencia similar a la de la cajeta (dulce de leche).\r\n8. Retira la mezcla del fuego y bátela hasta que se enfríe un poco.\r\n9. Extiende la mezcla sobre una toalla húmeda para formar un rectángulo. Espolvorea los piñones sobre la mezcla extendida.\r\n10. Enrolla la mezcla firmemente con la ayuda de la toalla, formando un rollo.",
         "imagen": "https://i.postimg.cc/gkNxnPk6/97-rollo-almenrdra.jpg"
@@ -2062,7 +2062,7 @@ const seedRecipes = [
     {
         "titulo": "Rollo de zanahoria",
         "tipo": "dulce",
-        "seccion": "nieve y otros",
+        "seccion": "nieve-y-otros",
         "ingredientes": "- 500 gramos de zanahoria fresca, rallada\r\n- 100 gramos de almendras peladas y molidas\r\n- 2 latas de leche condensada (la lechera)\r\n- 250 gramos de nueces\r\n- Azúcar glass (la necesaria)",
         "proceso": "1. En una cacerola grande, agrega la zanahoria rallada, las almendras molidas y las dos latas de leche condensada. Mezcla bien todos los ingredientes.\r\n2. Coloca la cacerola a fuego medio y cocina la mezcla, sin dejar de mover, hasta que comience a espesar y se vea el fondo del cazo. Esto puede llevar unos 20-30 minutos. Es importante seguir moviendo constantemente para evitar que la mezcla se pegue al fondo y se queme.\r\n3. Retira la cacerola del fuego y continúa moviendo la mezcla hasta que se enfríe a temperatura ambiente.\r\n4. Espolvorea una superficie de trabajo con azúcar glass y vierte la masa de zanahoria sobre ella. Espolvorea un poco más de azúcar glass sobre la masa para evitar que se pegue.\r\n5. Con la ayuda de un palito o rodillo de amasar, extiende la masa hasta obtener un grosor de aproximadamente 1 centímetro.\r\n6. Espolvorea las nueces sobre la masa extendida, asegurándote de cubrirla de manera uniforme.\r\n7. Enrolla la masa con cuidado, comenzando desde un extremo, para formar un rollo apretado. Asegúrate de que el papel encerado envuelva completamente el rollo.\r\n8. Coloca el rollo en papel encerado y déjalo reposar durante al menos 1 hora para que tome consistencia.\r\n9. Una vez que el rollo de zanahoria esté firme, retira el papel encerado y corta el rollo en rebanadas antes de servir.",
         "imagen": "https://i.postimg.cc/T31pbHpN/98-rollo-zanahoria.jpg"

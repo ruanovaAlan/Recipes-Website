@@ -26,12 +26,24 @@ app.use(express.urlencoded({ extended: true }));
 
 
 //Routes
-app.get('/recipes', async (req, res) => { //Show all recipes
-    const recipes = await Recipe.find({});
-    res.render('recipes/index', { recipes });
+// app.get('/recipes', async (req, res) => { //Show all recipes
+//     const recipes = await Recipe.find({});
+//     res.render('recipes/index', { recipes });
+// })
+
+const categories = ['sopas aguadas y cremas', 'sopas-secas-y-pastas', 'carnes', 'soufflés', 'ensaladas', 'pasteles', 'pie', 'flan-y-gelatina', 'galletas-y-polvorones', 'nieve-y-otros'];
+app.get('/recipes', async (req, res) => {
+    const { seccion } = req.query;
+    if (seccion) {
+        const recipes = await Recipe.find({ seccion })
+        res.render('recipes/index', { recipes, seccion })
+    } else {
+        const recipes = await Recipe.find({})
+        res.render('recipes/index', { recipes, seccion: 'Todas las recetas' }) //show all products
+    }
 })
 
-app.get('/recipes/:id', async (req, res) => {
+app.get('/recipes/:id', async (req, res) => { //Show a specific recipe
     const recipe = await Recipe.findById(req.params.id)
     res.render('recipes/show', { recipe })
 })
