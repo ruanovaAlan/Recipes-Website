@@ -1,0 +1,20 @@
+<% layout('layouts/boilerplate') %>
+
+    <div class="container d-flex justify-content-center">
+        <div class="col-md-7 mb-5">
+            <div class="card">
+                <img src="<%= recipe.imagen %>" class="card-img-top img-fluid show-img" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">
+                        <%= recipe.titulo %>
+                    </h5>
+                    <hr>
+                    <h6 class="card-title">Ingredientes:</h6>
+                    <pre><%= recipe.ingredientes %></pre>
+                    <hr>
+                    <h6 class="card-title">Preparación:</h6>
+                    <pre><%= recipe.proceso %></pre>
+                </div>
+            </div>
+        </div>
+    </div>

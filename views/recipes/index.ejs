@@ -1,27 +1,27 @@
 <% layout('layouts/boilerplate') %>
-    <div class="container-fluid">
+    <div class="container">
         <h1>Todas las Recetas</h1>
     </div>
-    <div class="container-fluid">
+    <div class="container">
+
+
         <div class="row">
-            <% for (let i=0; i < recipes.length; i +=4) { %>
-                <div class="row">
-                    <% for (let j=0; j < 4 && i + j < recipes.length; j++) { %>
-                        <div class="col-lg-3 col-md-4 pb-2">
-                            <!-- Use 'col-md-3' for medium-sized screens to create 4 columns per row -->
-                            <div class="card m-auto mx-0 p-0" style="width: auto;">
-                                <img src=" <%=recipes[i + j].imagen %>" class="card-img-top">
-                                <div class="card-body">
-                                    <h5 class="card-title" style="height: 50px;">
-                                        <%= recipes[i + j].titulo %>
-                                    </h5>
-                                    <pre class="card-text">Receta</pre>
-                                    <a href="#" class="btn btn-primary">Ver Receta</a>
-                                </div>
-                            </div>
+            <% for(let recipe of recipes) { %>
+                <div class="col-lg-3 col-md-4 pb-2">
+                    <!-- Use 'col-md-3' for medium-sized screens to create 4 columns per row -->
+                    <div class="card m-auto mx-0 p-0" style="width: auto;">
+                        <img src=" <%=recipe.imagen %>" class="card-img-top">
+                        <div class="card-body">
+                            <h5 class="card-title" style="height: 50px;">
+                                <%= recipe.titulo %>
+                            </h5>
+                            <pre class="card-text">Receta</pre>
+                            <a href="/recipes/<%= recipe._id %>" class="btn btn-primary">Ver Receta</a>
                         </div>
-                        <% } %>
+                    </div>
                 </div>
                 <% } %>
         </div>
+
+
     </div>

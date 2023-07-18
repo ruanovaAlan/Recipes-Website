@@ -19,6 +19,7 @@ const app = express();
 app.engine("ejs", ejsMate);
 app.set("view engine", "ejs");
 app.set("views", path.join(__dirname, "views"));
+app.use(express.static(path.join(__dirname, '/public')))
 
 //Set the url encoded to parse the body
 app.use(express.urlencoded({ extended: true }));
@@ -28,6 +29,11 @@ app.use(express.urlencoded({ extended: true }));
 app.get('/recipes', async (req, res) => { //Show all recipes
     const recipes = await Recipe.find({});
     res.render('recipes/index', { recipes });
+})
+
+app.get('/recipes/:id', async (req, res) => {
+    const recipe = await Recipe.findById(req.params.id)
+    res.render('recipes/show', { recipe })
 })
 
 app.listen(3000, () => {
