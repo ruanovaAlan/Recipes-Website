@@ -1,4 +1,30 @@
-pre {
+pre.show-recipe {
+    font-family: 'Merriweather', serif;
+    font-weight: 400;
+    font-size: 1em;
     text-align: justify;
     white-space: pre-wrap;
+}
+
+h1,
+h5,
+h6 {
+    font-family: 'Merriweather', serif;
+    font-weight: 900;
+}
+
+a {
+    font-family: 'Merriweather', serif;
+    font-weight: 900;
+}
+
+button.btn {
+    font-family: 'Merriweather', serif;
+    font-weight: 900;
+}
+
+input.form-control {
+    font-family: 'Merriweather', serif;
+    font-weight: 200;
+    width: 100%;
 }

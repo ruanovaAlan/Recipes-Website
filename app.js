@@ -31,7 +31,7 @@ app.use(express.urlencoded({ extended: true }));
 //     res.render('recipes/index', { recipes });
 // })
 
-const categories = ['sopas aguadas y cremas', 'sopas-secas-y-pastas', 'carnes', 'soufflés', 'ensaladas', 'pasteles', 'pie', 'flan-y-gelatina', 'galletas-y-polvorones', 'nieve-y-otros'];
+//const categories = ['sopas aguadas y cremas', 'sopas-secas-y-pastas', 'carnes', 'soufflés', 'ensaladas', 'pasteles', 'pie', 'flan-y-gelatina', 'galletas-y-polvorones', 'nieve-y-otros'];
 app.get('/recipes', async (req, res) => {
     const { seccion } = req.query;
     if (seccion) {
