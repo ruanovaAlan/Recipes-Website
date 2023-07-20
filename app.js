@@ -24,14 +24,6 @@ app.use(express.static(path.join(__dirname, '/public')))
 //Set the url encoded to parse the body
 app.use(express.urlencoded({ extended: true }));
 
-
-//Routes
-// app.get('/recipes', async (req, res) => { //Show all recipes
-//     const recipes = await Recipe.find({});
-//     res.render('recipes/index', { recipes });
-// })
-
-//const categories = ['sopas aguadas y cremas', 'sopas-secas-y-pastas', 'carnes', 'soufflés', 'ensaladas', 'pasteles', 'pie', 'flan-y-gelatina', 'galletas-y-polvorones', 'nieve-y-otros'];
 app.get('/recipes', async (req, res) => {
     const { seccion } = req.query;
     if (seccion) {
