@@ -5,8 +5,6 @@
         </h1>
     </div>
     <div class="container">
-
-
         <div class="row">
             <% for(let recipe of recipes) { %>
                 <div class="col-lg-3 col-md-4 pb-2">
@@ -18,12 +16,20 @@
                                 <%= recipe.titulo %>
                             </h5>
                             <pre class="card-text">Servings: 10</pre>
-                            <a href="/recipes/<%= recipe._id %>" class="btn btn-secondary">Ver Receta</a>
+                            <div class="">
+                                <a href="/recipes/<%= recipe._id %>" class="btn btn-secondary">Ver Receta</a>
+
+                                <a class="btn btn-primary" data-bs-toggle="modal"
+                                    data-bs-target="#exampleModal<%= recipe._id %>">
+                                    Preview
+                                </a>
+                                <!-- <a href=""><i class="fa-regular fa-star fa-xl" style="color: #efa525;"></i></a>
+                                <a href=""><i class="fa-solid fa-star fa-xl" style="color: #efa525;"></i></a> -->
+                            </div>
                         </div>
                     </div>
                 </div>
                 <% } %>
         </div>
-
-
     </div>
+    <%- include('../partials/preview') %>
