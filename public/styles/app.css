@@ -29,10 +29,6 @@ input.form-control {
     width: 100%;
 }
 
-.card:hover {
-    transform: translateY(-5px);
-}
-
 /* Designn options */
 
 body.body-style {
@@ -50,3 +46,8 @@ nav.nav-style {
 */
 
 /* /////////////////////////  */
+
+/* Modal styling*/
+div.bg-style {
+    background-color: rgba(255, 255, 255, 0.7);
+}

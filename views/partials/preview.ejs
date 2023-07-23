@@ -1,6 +1,6 @@
 <% for(let recipe of recipes){ %>
-    <div class="modal fade " id="exampleModal<%= recipe._id %>" tabindex="-1" aria-labelledby="exampleModalLabel"
-        aria-hidden="true">
+    <div class="modal fade bg-style" id="exampleModal<%= recipe._id %>" tabindex="-1"
+        aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog">
             <div class="modal-content">
                 <div class="modal-header">
@@ -14,9 +14,11 @@
                         <img src=" <%=recipe.imagen %>" class="card-img-top">
                         <div class="card-body">
                             <pre class="card-text show-recipe"><%= recipe.ingredientes %></pre>
-                            <div class="">
-                                <a href="/recipes/<%= recipe._id %>" class="btn btn-secondary">Ver Receta</a>
-                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <div class="">
+                            <a href="/recipes/<%= recipe._id %>" class="btn btn-secondary">Ver Receta</a>
                         </div>
                     </div>
                 </div>
