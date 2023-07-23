@@ -28,3 +28,21 @@ input.form-control {
     font-weight: 200;
     width: 100%;
 }
+
+/* Designn options */
+
+body.body-style {
+    background-color: #F4F2DE;
+}
+
+/*
+div.card-body {
+    background-color: #E9B384;
+}
+
+nav.nav-style {
+    background-color: #7C9D96;
+}
+*/
+
+/* /////////////////////////  */

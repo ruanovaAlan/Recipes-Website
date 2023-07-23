@@ -3,6 +3,8 @@ const path = require('path');
 const ejsMate = require("ejs-mate");
 const mongoose = require('mongoose');
 const Recipe = require('./models/recipes')
+const recipeRoutes = require('./routes/recipeRoutes');
+
 
 //Connection to mongoose
 mongoose.connect("mongodb://127.0.0.1:27017/Recipes");
@@ -24,21 +26,8 @@ app.use(express.static(path.join(__dirname, '/public')))
 //Set the url encoded to parse the body
 app.use(express.urlencoded({ extended: true }));
 
-app.get('/recipes', async (req, res) => {
-    const { seccion } = req.query;
-    if (seccion) {
-        const recipes = await Recipe.find({ seccion })
-        res.render('recipes/index', { recipes, seccion })
-    } else {
-        const recipes = await Recipe.find({})
-        res.render('recipes/index', { recipes, seccion: 'Todas las recetas' }) //show all products
-    }
-})
-
-app.get('/recipes/:id', async (req, res) => { //Show a specific recipe
-    const recipe = await Recipe.findById(req.params.id)
-    res.render('recipes/show', { recipe })
-})
+//router
+app.use('/recipes', recipeRoutes);
 
 app.listen(3000, () => {
     console.log("Serving Port 3000");
