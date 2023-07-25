@@ -3,12 +3,16 @@ const path = require('path');
 const ejsMate = require("ejs-mate");
 const mongoose = require('mongoose');
 const Recipe = require('./models/recipes')
+
 const recipeRoutes = require('./routes/recipeRoutes');
+const userRoutes = require('./routes/userRoutes');
+
 const session = require('express-session')
 const flash = require('connect-flash');
 const passport = require('passport');
 const passportLocal = require('passport-local');
 const User = require('./models/user');
+
 
 
 //Connection to mongoose
@@ -54,6 +58,7 @@ passport.deserializeUser(User.deserializeUser()); //how do we get a user out of 
 
 //router
 app.use('/recipes', recipeRoutes);
+app.use('/', userRoutes);
 
 app.listen(3000, () => {
     console.log("Serving Port 3000");
