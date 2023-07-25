@@ -4,6 +4,11 @@ const ejsMate = require("ejs-mate");
 const mongoose = require('mongoose');
 const Recipe = require('./models/recipes')
 const recipeRoutes = require('./routes/recipeRoutes');
+const session = require('express-session')
+const flash = require('connect-flash');
+const passport = require('passport');
+const passportLocal = require('passport-local');
+const User = require('./models/user');
 
 
 //Connection to mongoose
@@ -25,6 +30,27 @@ app.use(express.static(path.join(__dirname, '/public')))
 
 //Set the url encoded to parse the body
 app.use(express.urlencoded({ extended: true }));
+
+const sessionConfig = {
+    secret: 'secretRecipes',
+    resave: false, //erase deprecation warning 
+    saveUninitialized: true, //erase deprecation warning 
+    cookie: { //especify options for cookies
+        httpOnly: true,
+        expires: Date.now() + 1000 * 60 * 60 * 24 * 7, //miliseconds, seconds, hours, hours-per-day, days-week
+        maxAge: 1000 * 60 * 60 * 24 * 7
+    }
+}
+app.use(session(sessionConfig))
+//flash 
+app.use(flash());
+//passport
+app.use(passport.initialize());
+app.use(passport.session()); //this line needs to be below "app.use(session(sessionConfig))"
+passport.use(new passportLocal(User.authenticate())); //Tell passport we want to use a local strategy and 
+// for this strategy we want to authenticate User
+passport.serializeUser(User.serializeUser()); //how do we store data in session
+passport.deserializeUser(User.deserializeUser()); //how do we get a user out of the serialization
 
 //router
 app.use('/recipes', recipeRoutes);
