@@ -27,7 +27,17 @@ const recipeSchema = new Schema({
     imagen: {
         type: String,
         required: true
-    }
+    },
+    author: {
+        type: Schema.Types.ObjectId,
+        ref: 'User'
+    },
+    reviews: [
+        {
+            type: Schema.Types.ObjectId,
+            ref: 'Review'
+        }
+    ]
 })
 
 const Recipe = mongoose.model('Recipe', recipeSchema);

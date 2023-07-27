@@ -2,7 +2,8 @@ const express = require('express');
 const path = require('path');
 const ejsMate = require("ejs-mate");
 const mongoose = require('mongoose');
-const Recipe = require('./models/recipes')
+const Recipe = require('./models/recipe')
+const ExpressError = require('./utils/expressError');
 
 const recipeRoutes = require('./routes/recipeRoutes');
 const userRoutes = require('./routes/userRoutes');
@@ -55,6 +56,13 @@ passport.use(new passportLocal(User.authenticate())); //Tell passport we want to
 // for this strategy we want to authenticate User
 passport.serializeUser(User.serializeUser()); //how do we store data in session
 passport.deserializeUser(User.deserializeUser()); //how do we get a user out of the serialization
+
+app.use((req, res, next) => { //Flash 
+    res.locals.currentUser = req.user;
+    res.locals.success = req.flash('success');
+    res.locals.error = req.flash('error');
+    next();
+})
 
 //router
 app.use('/recipes', recipeRoutes);

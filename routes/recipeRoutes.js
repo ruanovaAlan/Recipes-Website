@@ -1,6 +1,6 @@
 const express = require('express');
 const router = express.Router();
-const Recipe = require('../models/recipes')
+const Recipe = require('../models/recipe')
 
 router.get('/', async (req, res) => {
     const { seccion } = req.query;
