@@ -1,6 +1,8 @@
 const express = require('express');
 const router = express.Router();
 const Recipe = require('../models/recipe')
+const Favorite = require('../models/favorite');
+const { isLoggedIn, storeReturnTo } = require('../middleware/verification');
 
 router.get('/', async (req, res) => {
     const { seccion } = req.query;
@@ -13,9 +15,21 @@ router.get('/', async (req, res) => {
     }
 })
 
-router.get('/:id', async (req, res) => { //Show a specific recipe
+router.get('/favorites', (req, res) => {
+    res.render('users/favorites');
+})
+
+router.post('/favorites', isLoggedIn, async (req, res) => {
+    req.flash('success', 'Recipe Saved!');
+    const { recipeId } = req.body;
+
+    res.redirect('back');
+})
+
+router.get('/:id', storeReturnTo, isLoggedIn, async (req, res) => { //Show a specific recipe
     const recipe = await Recipe.findById(req.params.id)
     res.render('recipes/show', { recipe })
 })
+
 
 module.exports = router
