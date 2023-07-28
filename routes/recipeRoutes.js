@@ -15,14 +15,21 @@ router.get('/', async (req, res) => {
     }
 })
 
-router.get('/favorites', (req, res) => {
-    res.render('users/favorites');
+router.get('/favorites', storeReturnTo, isLoggedIn, async (req, res) => {
+    const user = res.locals.currentUser = req.user;
+    const notPrepared = await Favorite.find({ status: 'sin-preparar', user: user._id }).populate('recipe');
+    const prepared = await Favorite.find({ status: 'preparado', user: user._id }).populate('recipe');
+    const liked = await Favorite.find({ status: 'me-gusta', user: user._id }).populate('recipe');
+    const notLiked = await Favorite.find({ status: 'no-gusta', user: user._id }).populate('recipe');
+    res.render('users/favorites', { notPrepared, prepared, liked, notLiked });
 })
 
-router.post('/favorites', isLoggedIn, async (req, res) => {
-    req.flash('success', 'Recipe Saved!');
+router.post('/favorites', storeReturnTo, isLoggedIn, async (req, res) => {
     const { recipeId } = req.body;
-
+    const user = res.locals.currentUser = req.user;
+    const favorite = new Favorite({ recipe: recipeId, user: user._id })
+    await favorite.save()
+    req.flash('success', 'Recipe Saved!');
     res.redirect('back');
 })
 

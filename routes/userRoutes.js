@@ -37,5 +37,15 @@ router.post('/login', storeReturnTo, passport.authenticate('local', { failureFla
     res.redirect(redirectUrl);
 })
 
+router.get('/logout', (req, res, next) => {
+    req.logout(function (err) {
+        if (err) {
+            return next(err);
+        }
+        req.flash('success', 'Goodbye');
+        res.redirect('/recipes');
+    });
+})
+
 
 module.exports = router;
