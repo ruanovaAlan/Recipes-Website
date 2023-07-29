@@ -33,6 +33,17 @@ router.post('/favorites', storeReturnTo, isLoggedIn, async (req, res) => {
     res.redirect('back');
 })
 
+router.patch('/favorites', async (req, res) => {
+    const { recipeId, newStatus } = req.body;
+    const favorite = await Favorite.findByIdAndUpdate(
+        recipeId,
+        { status: newStatus },
+        { new: true }
+    );
+    req.flash('success', 'Estatus Modificado Exitosamente!');
+    res.redirect(`back`);
+})
+
 router.get('/:id', storeReturnTo, isLoggedIn, async (req, res) => { //Show a specific recipe
     const recipe = await Recipe.findById(req.params.id)
     res.render('recipes/show', { recipe })

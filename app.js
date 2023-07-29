@@ -4,6 +4,7 @@ const ejsMate = require("ejs-mate");
 const mongoose = require('mongoose');
 const Recipe = require('./models/recipe')
 const ExpressError = require('./utils/expressError');
+const methodOverride = require("method-override");
 
 const recipeRoutes = require('./routes/recipeRoutes');
 const userRoutes = require('./routes/userRoutes');
@@ -26,6 +27,8 @@ db.once("open", () => {
 
 //Set the app
 const app = express();
+//Set the update route
+app.use(methodOverride("_method"));
 
 //Set engine view and path
 app.engine("ejs", ejsMate);
