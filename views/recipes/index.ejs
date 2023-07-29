@@ -19,14 +19,20 @@
                             <pre class="card-text">Servings: 10</pre>
                             <div class="d-flex justify-content-between">
                                 <a href="/recipes/<%= recipe._id %>" class="btn btn-secondary">Ver Receta</a>
-                                <form action="/recipes/favorites" method="post" id="save">
-                                    <input type="hidden" name="recipeId" value="<%= recipe._id %>">
-                                    <button><i class="fa-regular fa-heart fa-2xl py-3"
-                                            style="color: #ff5252;"></i></button>
-
-                                    <a href=""><i class="fa-solid fa-heart fa-2xl py-3" style="color: #ff5252;"></i></a>
-                                </form>
-
+                                <% if(!favorite.some(item=> item.recipe._id.toString() === recipe._id.toString())){ %>
+                                    <form action="/recipes/favorites" method="post" id="save">
+                                        <input type="hidden" name="recipeId" value="<%= recipe._id %>">
+                                        <button class="plain-button"><i class="fa-regular fa-heart fa-2xl py-3"
+                                                style="color: #ff5252;"></i></button>
+                                    </form>
+                                    <% }else{ %>
+                                        <form action="/recipes/favorites?_method=DELETE" method="post" id="">
+                                            <input type="hidden" name="recipeId" value="<%= recipe._id %>">
+                                            <button class="plain-button"><a href=""><i
+                                                        class="fa-solid fa-heart fa-2xl py-3"
+                                                        style="color: #ff5252;"></i></a></button>
+                                        </form>
+                                        <% } %>
                             </div>
                         </div>
                     </div>

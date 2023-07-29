@@ -63,3 +63,19 @@ div.bg-style {
 input.form-control {
     width: 50%;
 }
+
+/*Buttons*/
+.plain-button {
+    /* Restablecer estilos predeterminados */
+    background: none;
+    border: none;
+    padding: 0;
+    margin: 0;
+    font-family: inherit;
+    font-size: inherit;
+    color: inherit;
+    cursor: pointer;
+    outline: none;
+    /* Evitar el resaltado de enfoque al hacer clic */
+    /* Agregar otros estilos si es necesario */
+}

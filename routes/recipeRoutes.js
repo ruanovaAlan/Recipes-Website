@@ -6,12 +6,13 @@ const { isLoggedIn, storeReturnTo } = require('../middleware/verification');
 
 router.get('/', async (req, res) => {
     const { seccion } = req.query;
+    const favorite = await Favorite.find({ user: res.locals.currentUser }).populate('recipe');
     if (seccion) {
         const recipes = await Recipe.find({ seccion })
-        res.render('recipes/index', { recipes, seccion })
+        res.render('recipes/index', { recipes, seccion, favorite })
     } else {
         const recipes = await Recipe.find({})
-        res.render('recipes/index', { recipes, seccion: 'Todas las recetas' }) //show all products
+        res.render('recipes/index', { recipes, seccion: 'Todas las recetas', favorite }) //show all products
     }
 })
 
@@ -29,7 +30,7 @@ router.post('/favorites', storeReturnTo, isLoggedIn, async (req, res) => {
     const user = res.locals.currentUser = req.user;
     const favorite = new Favorite({ recipe: recipeId, user: user._id })
     await favorite.save()
-    req.flash('success', 'Recipe Saved!');
+    req.flash('success', 'Se agregó la receta a favoritos');
     res.redirect('back');
 })
 
@@ -44,7 +45,16 @@ router.patch('/favorites', async (req, res) => {
     res.redirect(`back`);
 })
 
-router.get('/:id', storeReturnTo, isLoggedIn, async (req, res) => { //Show a specific recipe
+router.delete('/favorites', async (req, res) => {
+    const { recipeId } = req.body;
+    const favorite = await Favorite.findOne({ recipe: recipeId });
+    const deletefavorite = await Favorite.findByIdAndDelete(favorite._id);
+    console.log(deletefavorite)
+    req.flash('success', 'Se eliminó la receta de favoritos');
+    res.redirect('/recipes');
+})
+
+router.get('/:id', storeReturnTo, async (req, res) => { //Show a specific recipe
     const recipe = await Recipe.findById(req.params.id)
     res.render('recipes/show', { recipe })
 })
