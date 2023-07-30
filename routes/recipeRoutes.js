@@ -2,7 +2,7 @@ const express = require('express');
 const router = express.Router();
 const Recipe = require('../models/recipe')
 const Favorite = require('../models/favorite');
-const { isLoggedIn, storeReturnTo } = require('../middleware/verification');
+const { isLoggedIn } = require('../middleware/verification');
 
 router.get('/', async (req, res) => {
     const { seccion } = req.query;
@@ -16,7 +16,7 @@ router.get('/', async (req, res) => {
     }
 })
 
-router.get('/favorites', storeReturnTo, isLoggedIn, async (req, res) => {
+router.get('/favorites', isLoggedIn, async (req, res) => {
     const user = res.locals.currentUser = req.user;
     const notPrepared = await Favorite.find({ status: 'sin-preparar', user: user._id }).populate('recipe');
     const prepared = await Favorite.find({ status: 'preparado', user: user._id }).populate('recipe');
@@ -25,7 +25,7 @@ router.get('/favorites', storeReturnTo, isLoggedIn, async (req, res) => {
     res.render('users/favorites', { notPrepared, prepared, liked, notLiked });
 })
 
-router.post('/favorites', storeReturnTo, isLoggedIn, async (req, res) => {
+router.post('/favorites', isLoggedIn, async (req, res) => {
     const { recipeId } = req.body;
     const user = res.locals.currentUser = req.user;
     const favorite = new Favorite({ recipe: recipeId, user: user._id })
@@ -54,7 +54,7 @@ router.delete('/favorites', async (req, res) => {
     res.redirect('/recipes');
 })
 
-router.get('/:id', storeReturnTo, async (req, res) => { //Show a specific recipe
+router.get('/:id', async (req, res) => { //Show a specific recipe
     const recipe = await Recipe.findById(req.params.id)
     res.render('recipes/show', { recipe })
 })

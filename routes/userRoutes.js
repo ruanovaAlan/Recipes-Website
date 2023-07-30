@@ -31,7 +31,8 @@ router.get('/login', (req, res) => {
 router.post('/login', storeReturnTo, passport.authenticate('local', { failureFlash: true, failureRedirect: '/login' }), (req, res) => {
     const redirectUrl = res.locals.returnTo || '/recipes';
     if (redirectUrl === '/recipes/favorites') {
-        res.redirect('/recipes')
+        req.flash('success', 'Welcome Back!');
+        return res.redirect('/recipes')
     }
     req.flash('success', 'Welcome Back!');
     res.redirect(redirectUrl);
