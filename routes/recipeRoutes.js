@@ -2,7 +2,7 @@ const express = require('express');
 const router = express.Router();
 const Recipe = require('../models/recipe')
 const Favorite = require('../models/favorite');
-const { isLoggedIn } = require('../middleware/verification');
+const { isLoggedIn, storeReturnTo } = require('../middleware/verification');
 
 router.get('/', async (req, res) => {
     const { seccion } = req.query;
@@ -18,11 +18,12 @@ router.get('/', async (req, res) => {
 
 router.get('/favorites', isLoggedIn, async (req, res) => {
     const user = res.locals.currentUser = req.user;
+    const favorite = await Favorite.find({ user: res.locals.currentUser }).populate('recipe');
     const notPrepared = await Favorite.find({ status: 'sin-preparar', user: user._id }).populate('recipe');
     const prepared = await Favorite.find({ status: 'preparado', user: user._id }).populate('recipe');
     const liked = await Favorite.find({ status: 'me-gusta', user: user._id }).populate('recipe');
     const notLiked = await Favorite.find({ status: 'no-gusta', user: user._id }).populate('recipe');
-    res.render('users/favorites', { notPrepared, prepared, liked, notLiked });
+    res.render('users/favorites', { notPrepared, prepared, liked, notLiked, favorite });
 })
 
 router.post('/favorites', isLoggedIn, async (req, res) => {
@@ -49,7 +50,6 @@ router.delete('/favorites', async (req, res) => {
     const { recipeId } = req.body;
     const favorite = await Favorite.findOne({ recipe: recipeId });
     const deletefavorite = await Favorite.findByIdAndDelete(favorite._id);
-    console.log(deletefavorite)
     req.flash('success', 'Se eliminó la receta de favoritos');
     res.redirect('/recipes');
 })
