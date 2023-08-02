@@ -66,9 +66,7 @@ div.bg-style {
 }
 
 /* Forms */
-input.form-control {
-    width: 50%;
-}
+
 
 /*Buttons*/
 .plain-button {
@@ -84,4 +82,9 @@ input.form-control {
     outline: none;
     /* Evitar el resaltado de enfoque al hacer clic */
     /* Agregar otros estilos si es necesario */
+}
+
+img.login {
+    width: 50%;
+    align-items: center;
 }

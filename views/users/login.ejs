@@ -1,17 +1,29 @@
 <% layout('layouts/boilerplate.ejs') %>
-    <h1>Login</h1>
-    <div class="container-fluid ">
-        <form class="needs-validation" action="/login" method="post" novalidate>
-            <div class="mb-3 ">
-                <label class="col-form-label" for="username">Username</label>
-                <input type="text" class="form-control" name="username" id="username" required>
-                <div class="valid-feedback">Looks good!</div>
+
+<div class="row justify-content-center mb-5">
+    <div class="col-md-5 col-xl-5 col-sm-5">
+        <div class="card shadow">
+            <img src="https://i.postimg.cc/C1zqz5XJ/nt-sucking-into-the-work.png"
+                alt="" class="card-img-top" >
+            <div class="card-body" >
+                <hr>
+                <h5 class="card-title">Login</h5>
+                <form class="needs-validation" action="/login" method="post" novalidate>
+                    <div class="mb-3 ">
+                        <label class="form-label" for="username">Username</label>
+                        <input type="text" class="form-control" name="username" id="username" required autofocus>
+                        <div class="valid-feedback">Looks good!</div>
+                    </div>
+                    <div class="mb-3 ">
+                        <label class="form-label" for="password">Password</label>
+                        <input type="password" class="form-control" name="password" id="password" required>
+                        <div class="valid-feedback">Looks good!</div>
+                    </div>
+                    <div class="d-grid gap-2">
+                        <button class="btn btn-success">Login</button>
+                    </div>
+                </form>
             </div>
-            <div class="mb-3 ">
-                <label class="col-form-label" for="password">Password</label>
-                <input type="password" class="form-control" name="password" id="password" required>
-                <div class="valid-feedback">Looks good!</div>
-            </div>
-            <button class="btn btn-primary">Login</button>
-        </form>
+        </div>
     </div>
+</div>
