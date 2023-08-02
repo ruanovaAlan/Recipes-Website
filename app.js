@@ -68,6 +68,9 @@ app.use((req, res, next) => { //Flash
 })
 
 //router
+app.get('/', (req,res) => {
+    res.render('home.ejs')
+})
 app.use('/recipes', recipeRoutes);
 app.use('/', userRoutes);
 
