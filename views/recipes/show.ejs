@@ -1,20 +1,54 @@
 <% layout('layouts/boilerplate') %>
+<link rel="stylesheet" href="/styles/reviewStars.css">
 
-    <div class="container d-flex justify-content-center">
-        <div class="col-lg-7 mb-5">
-            <div class="card">
-                <img src="<%= recipe.imagen %>" class="card-img-top img-fluid" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">
-                        <%= recipe.titulo %>
-                    </h5>
-                    <hr>
-                    <h6 class="card-title recipe-headers"><b>Ingredientes:</b></h6>
-                    <pre class="show-recipe"><%= recipe.ingredientes %></pre>
-                    <hr>
-                    <h6 class="card-title"><b>Preparación:</b></h6>
-                    <pre class="show-recipe"><%= recipe.proceso %></pre>
-                </div>
+<div class="container d-flex justify-content-around">
+    <!-- Card -->
+    <div class="col-lg-7 mb-5">
+        <div class="card">
+            <img src="<%= recipe.imagen %>" class="card-img-top img-fluid" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">
+                    <%= recipe.titulo %>
+                </h5>
+                <hr>
+                <h6 class="card-title recipe-headers"><b>Ingredientes:</b></h6>
+                <pre class="show-recipe"><%= recipe.ingredientes %></pre>
+                <hr>
+                <h6 class="card-title"><b>Preparación:</b></h6>
+                <pre class="show-recipe"><%= recipe.proceso %></pre>
             </div>
         </div>
     </div>
+    <!-- Review -->
+    <div class="col-lg-6 ps-5">
+        <div class="card">
+            <h5 class="card-header">Nuevo Review</h5>
+            <div class="card-body">
+                <form action="/recipes/<%= recipe._id %>/reviews" method="POST" class="mb-3 needs-validation"
+                    novalidate>
+                    <div class="mb-0">
+                        <fieldset class="starability-basic">
+                            <input type="radio" id="no-rate" class="input-no-rate" name="review[rating]" value="1" checked
+                                aria-label="No rating." />
+                            <input type="radio" id="first-rate1" name="review[rating]" value="1" />
+                            <label for="first-rate1" title="Terrible">1 star</label>
+                            <input type="radio" id="first-rate2" name="review[rating]" value="2" />
+                            <label for="first-rate2" title="Not good">2 stars</label>
+                            <input type="radio" id="first-rate3" name="review[rating]" value="3" />
+                            <label for="first-rate3" title="Average">3 stars</label>
+                            <input type="radio" id="first-rate4" name="review[rating]" value="4" />
+                            <label for="first-rate4" title="Very good">4 stars</label>
+                            <input type="radio" id="first-rate5" name="review[rating]" value="5" />
+                            <label for="first-rate5" title="Amazing">5 stars</label>
+                        </fieldset>
+                    </div>
+                    <div class="mb-3">
+                        <label for="body" class="form-label">Texto del review</label>
+                        <textarea name="review[body]" id="body" cols="30" rows="3" class="form-control" required></textarea>
+                    </div>
+                    <button class="btn btn-success">Enviar</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>

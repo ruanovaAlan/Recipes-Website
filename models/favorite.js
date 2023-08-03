@@ -1,7 +1,5 @@
 const mongoose = require('mongoose');
 const Schema = mongoose.Schema;
-const Recipe = require('./recipe');
-const User = require('./user');
 
 const favoriteSchema = new Schema({
     status: {
