@@ -8,6 +8,7 @@ const methodOverride = require("method-override");
 
 const recipeRoutes = require('./routes/recipeRoutes');
 const userRoutes = require('./routes/userRoutes');
+const reviewRoutes = require('./routes/reviewRoutes');
 
 const session = require('express-session')
 const flash = require('connect-flash');
@@ -72,6 +73,7 @@ app.get('/', (req,res) => {
     res.render('home.ejs')
 })
 app.use('/recipes', recipeRoutes);
+app.use('/recipes/:id/reviews', reviewRoutes);
 app.use('/', userRoutes);
 
 app.listen(3000, () => {

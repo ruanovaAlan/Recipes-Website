@@ -56,9 +56,13 @@ router.delete('/favorites', async (req, res) => {
 })
 
 router.get('/:id', async (req, res) => { //Show a specific recipe
-    const recipe = await Recipe.findById(req.params.id)
+    const recipe = await Recipe.findById(req.params.id).populate({
+        path: 'reviews', populate: { //nested populate; populate the reviews
+            path: 'author' //populate the author of the review
+        }
+    }).populate('author');
     res.render('recipes/show', { recipe })
 })
 
 
-module.exports = router
+module.exports = router;

@@ -4,7 +4,7 @@
 <div class="container d-flex justify-content-around">
     <!-- Card -->
     <div class="col-lg-7 mb-5">
-        <div class="card">
+        <div class="card shadow">
             <img src="<%= recipe.imagen %>" class="card-img-top img-fluid" alt="...">
             <div class="card-body">
                 <h5 class="card-title">
@@ -20,8 +20,9 @@
         </div>
     </div>
     <!-- Review -->
-    <div class="col-lg-6 ps-5">
-        <div class="card">
+    <div class="col-lg-6 ps-5 ">
+        <% if(currentUser) {%>
+        <div class="card shadow mb-3">
             <h5 class="card-header">Nuevo Review</h5>
             <div class="card-body">
                 <form action="/recipes/<%= recipe._id %>/reviews" method="POST" class="mb-3 needs-validation"
@@ -45,10 +46,35 @@
                     <div class="mb-3">
                         <label for="body" class="form-label">Texto del review</label>
                         <textarea name="review[body]" id="body" cols="30" rows="3" class="form-control" required></textarea>
+                        <input type="text" name="id" value="<%= recipe._id %>" hidden>
                     </div>
                     <button class="btn btn-success">Enviar</button>
                 </form>
             </div>
         </div>
+        <% } %>
+            <h1>Reviews</h1>
+            <% for(let review of recipe.reviews){ %>
+                <div class="card shadow mb-2">
+                    <div class="d-flex justify-content-between" style="height:20px;">
+                        <h6 class="card-title ps-2 mt-2"><i class="fa-regular fa-user"></i> <%= review.author.username %></h6>
+                        <p class="starability-result" data-rating="<%= review.rating %>">
+                            Rated: <%= review.rating %> stars
+                        </p>
+                    </div>
+                    <hr class="mt-3 mb-0 p-0">
+                    <div class="card-body">
+                        <p class="card-text"><%= review.body %></p>
+                        <% if(currentUser && review.author.equals(currentUser._id)) { %>
+                            <form action="/recipes/<%= recipe._id %>/reviews/<%= review._id %>?_method=DELETE"
+                                method="post">
+                                <input type="text" value="<%= recipe._id %>" name="id" hidden>
+                                <input type="text" value="<%= review._id %>" name="reviewId" hidden>
+                                <button class="btn btn-sm btn-danger">Delete</button>
+                            </form>
+                            <% } %>
+                    </div>
+                </div>
+                <% } %>
     </div>
 </div>
