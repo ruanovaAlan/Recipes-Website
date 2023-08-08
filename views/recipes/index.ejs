@@ -19,7 +19,11 @@
                     <h5 class="card-title" style="height: 50px;">
                         <%= recipe.titulo %>
                     </h5>
-                    <pre class="card-text">Servings: 10</pre>
+                    <div class="d-flex justify-content-between">
+                        <pre class="card-text"><i class="fa-solid fa-users fa-lg"></i> 5</pre>
+                        <pre class="card-text"><i class="fa-solid fa-clock fa-lg"></i> 30 min</pre>
+                    </div>
+                    
                     <div class="d-flex justify-content-between">
                         <a href="/recipes/<%= recipe._id %>" class="btn btn-secondary">Ver Receta</a>
                         <% if(!favorite.some(item=> item.recipe._id.toString() === recipe._id.toString())){ %>
