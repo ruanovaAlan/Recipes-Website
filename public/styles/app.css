@@ -32,7 +32,11 @@ input.form-control {
 /* Designn options */
 
 body.body-style {
-    background-color: #F4F2DE;
+    background-color: black;
+}
+
+h1#category-title{
+    color: white;
 }
 
 /*
