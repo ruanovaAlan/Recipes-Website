@@ -1,9 +1,10 @@
 <% layout('layouts/boilerplate') %>
 <link rel="stylesheet" href="/styles/reviewStars.css">
 
-<div class="container d-flex justify-content-around">
+
+<div class="row">
     <!-- Card -->
-    <div class="col-lg-7 mb-5">
+    <div class="col-lg-7 col-md-12 mb-5">
         <div class="card shadow">
             <img src="<%= recipe.imagen %>" class="card-img-top img-fluid" alt="...">
             <div class="card-body">
@@ -20,7 +21,7 @@
         </div>
     </div>
     <!-- Review -->
-    <div class="col-lg-6 ps-5 ">
+    <div class="col-lg-5 col-md-12 ps-5 ">
         <% if(currentUser) {%>
         <div class="card shadow mb-3">
             <h5 class="card-header">Nuevo Review</h5>
