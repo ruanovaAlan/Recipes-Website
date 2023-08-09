@@ -32,17 +32,24 @@ input.form-control {
 /* Designn options */
 
 body.body-style {
-    background-color: black;
+    background-color: #FFEDDF;
 }
 
 h1#category-title{
+    color: black;
+}
+
+div.card-body {
+    background-color: whitesmoke;
+}
+
+a.view-recipe {
+    background-color: black;
     color: white;
 }
 
 /*
-div.card-body {
-    background-color: #E9B384;
-}
+
 
 nav.nav-style {
     background-color: #7C9D96;
