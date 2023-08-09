@@ -1,0 +1,25 @@
+h1 {
+    font-family: 'Libre Baskerville', serif;
+    font-weight: 700;
+    font-size: 2rem;
+}
+
+h5.card-title {
+    font-family: 'Libre Baskerville', serif;
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+h6.card-title {
+    font-family: 'Libre Franklin', sans-serif;      
+    font-weight: 400;
+    font-size: 1rem;
+}
+
+pre.show-recipe {
+    font-family: 'Libre Franklin', sans-serif;      
+    font-weight: 400;
+    font-size: .8rem;
+    text-align: justify;
+    white-space: pre-wrap;
+}
