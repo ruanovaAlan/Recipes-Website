@@ -32,21 +32,34 @@ input.form-control {
 /* Designn options */
 
 body.body-style {
-    background-color: black;
+    background-color: #16161a;
 }
 
 h1#category-title{
-    color: white;
+    color: #fffffe;
 }
 
-/*
+a.view-recipe {
+    background-color: #7f5af0;
+    color: #fffffe;
+}
+
 div.card-body {
-    background-color: #E9B384;
+    background-color: #fffffe;
 }
 
 nav.nav-style {
-    background-color: #7C9D96;
+    background-color: #7f5af0;
 }
+
+.card-title{
+    color: #94a1b2;
+}
+
+/*
+
+
+
 */
 
 /* /////////////////////////  */
