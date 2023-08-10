@@ -1,23 +1,26 @@
+<link rel="stylesheet" href="/styles/preview.css">
+
 <% for(let recipe of recipes){ %>
     <div class="modal fade bg-style" id="exampleModal<%= recipe._id %>" tabindex="-1"
         aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog">
             <div class="modal-content">
-                <div class="modal-header">
+                <div class="modal-header pb-0">
                     <h5 class="modal-title" id="exampleModalLabel">
                         <%= recipe.titulo %>
                     </h5>
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
-                    <div class="card m-auto mx-0 p-0" style="width: auto;">
+                    <div class="card m-auto mx-0 p-0 border border-2 border-dark" style="width: auto;">
                         <img src=" <%=recipe.imagen %>" class="card-img-top">
                         <div class="card-body">
+                            <h6 class="ingredients">Ingredientes:</h6>
                             <pre class="card-text show-recipe"><%= recipe.ingredientes %></pre>
                         </div>
                     </div>
                     <div class="modal-footer d-flex justify-content-start">
-                            <a href="/recipes/<%= recipe._id %>" class="btn btn-secondary">Ver Receta</a>
+                            <a href="/recipes/<%= recipe._id %>" class="view">Ver Receta</a>
                     </div>
                 </div>
             </div>
