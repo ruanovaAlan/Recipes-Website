@@ -16,10 +16,22 @@ h6.card-title {
     font-size: 1rem;
 }
 
+h6.username {
+    font-family: 'Libre Baskerville', serif;
+    font-weight: 700;
+    font-size: 1rem;
+}
+
 pre.show-recipe {
     font-family: 'Libre Franklin', sans-serif;      
     font-weight: 400;
     font-size: .8rem;
     text-align: justify;
     white-space: pre-wrap;
+}
+
+p {
+    font-family: 'Libre Franklin', sans-serif;      
+    font-weight: 400;
+    font-size: .8rem;
 }
