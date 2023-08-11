@@ -4,7 +4,8 @@ h1 {
     font-size: 2rem;
 }
 
-h5.card-title {
+h5.card-title,
+h5.card-header {
     font-family: 'Libre Baskerville', serif;
     font-weight: 700;
     font-size: 1.5rem;
@@ -34,4 +35,58 @@ p {
     font-family: 'Libre Franklin', sans-serif;      
     font-weight: 400;
     font-size: .8rem;
+}
+
+label {
+    font-family: 'Libre Franklin', sans-serif;      
+    font-weight: 400;
+    font-size: 1rem;
+}
+
+/* Button */
+.send-review {
+    align-items: center;
+    appearance: none;
+    background-color: #3F784C;
+    border-radius: 4px;
+    border-width: 0;
+    box-shadow: rgba(45, 35, 66, 0.4) 0 2px 4px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, darkgreen 0 -3px 0 inset;
+    box-sizing: border-box;
+    color: white;
+    cursor: pointer;
+    display: inline-flex;
+    font-family: 'Libre Baskerville', serif;
+    font-weight: 700;
+    font-size: .8rem;
+    justify-content: center;
+    line-height: 1;
+    list-style: none;
+    overflow: hidden;
+    padding-left: 15px;
+    padding-right: 15px;
+    height: 30px;
+    position: relative;
+    text-align: left;
+    text-decoration: none;
+    transition: box-shadow .15s, transform .15s;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    white-space: nowrap;
+    will-change: box-shadow, transform;
+}
+
+.send-review:focus {
+    box-shadow: #D6D6E7 0 0 0 1.5px inset, rgba(45, 35, 66, 0.4) 0 2px 4px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
+}
+
+.send-review:hover {
+    box-shadow: rgba(45, 35, 66, 0.4) 0 4px 8px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, darkgreen 0 -3px 0 inset;
+    transform: translateY(-2px);
+    color: white;
+}
+
+.send-review:active {
+    box-shadow: #D6D6E7 0 3px 7px inset;
+    transform: translateY(2px);
 }

@@ -26,7 +26,7 @@
         <% if(currentUser) {%>
         <div class="card shadow-sm mb-3">
             <h5 class="card-header">Nuevo Review</h5>
-            <div class="card-body">
+            <div class="card-body rounded">
                 <form action="/recipes/<%= recipe._id %>/reviews" method="POST" class="mb-3 needs-validation"
                     novalidate>
                     <div class="mb-0">
@@ -50,7 +50,7 @@
                         <textarea name="review[body]" id="body" cols="30" rows="3" class="form-control" required></textarea>
                         <input type="text" name="id" value="<%= recipe._id %>" hidden>
                     </div>
-                    <button class="btn btn-success">Enviar</button>
+                    <button class="send-review">Enviar</button>
                 </form>
             </div>
         </div>
