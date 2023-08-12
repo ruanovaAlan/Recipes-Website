@@ -56,6 +56,10 @@
         </div>
         <% } %>
             <h1>Reviews</h1>
+            <hr class="mt-0">
+            <% if (recipe.reviews.length < 1) {%>
+                <h6 class="card-title">Sé el primero en hacer un review!</h6>
+                <% } %>
             <% for(let review of recipe.reviews){ %>
                 <div class="card shadow mb-2">
                     <div class="d-flex justify-content-between" style="height:20px;">
