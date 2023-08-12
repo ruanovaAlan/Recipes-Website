@@ -40,6 +40,12 @@ a.nav-link {
     color: black;
 }
 
+a.dropdown-item {
+    font-family: 'Libre Franklin', sans-serif;
+    font-weight: 400;
+    font-size: .8rem;
+}
+
 a {
     font-family: 'Libre Baskerville', serif;
     font-weight: 700;
@@ -181,6 +187,12 @@ img.login {
 div.alert {
     font-family: 'Libre Franklin', serif;
     font-weight: 400;
+    font-size: 1rem;
+}
+
+label {
+    font-family: 'Libre Baskerville', serif;
+    font-weight: 700;
     font-size: 1rem;
 }
 
