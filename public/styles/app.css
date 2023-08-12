@@ -74,14 +74,6 @@ div.card-body {
     background-color: whitesmoke;
 }
 
-/* a.view-recipe {
-    background-color: #3F784C;
-    color: white;
-    -webkit-box-shadow: 14px 13px 9px -3px rgba(138, 134, 138, 0.66);
-    -moz-box-shadow: 14px 13px 9px -3px rgba(138, 134, 138, 0.66);
-    box-shadow: 14px 13px 9px -3px rgba(138, 134, 138, 0.66);
-} */
-
 /* Show recipe button */
 .view-recipe {
     align-items: center;
@@ -136,14 +128,6 @@ nav.nav-style {
     background-color: rgba(253, 150, 30, 1);
 }
 
-/*
-
-
-
-*/
-
-/* /////////////////////////  */
-
 /* Modal styling*/
 img.index-img {
     /* Estilos base aquí */
@@ -184,4 +168,24 @@ div.bg-style {
 img.login {
     width: 50%;
     align-items: center;
+}
+
+div.alert {
+    font-family: 'Libre Franklin', serif;
+    font-weight: 400;
+    font-size: 1rem;
+}
+
+
+/* Login/register */
+label.form-label {
+    font-family: 'Libre Franklin', serif;
+    font-weight: 400;
+    font-size: 1rem;
+}
+
+h5.form-title {
+    font-family: 'Libre Baskerville', serif;
+    font-weight: 700;
+    font-size: 1.5rem;
 }
