@@ -4,7 +4,7 @@ const Recipe = require('../models/recipe')
 const Favorite = require('../models/favorite');
 const { isLoggedIn, storeReturnTo } = require('../middleware/verification');
 
-router.get('/', async (req, res) => {
+router.get('/', async (req, res) => { //view all recipes
     const { seccion } = req.query;
     const favorite = await Favorite.find({ user: res.locals.currentUser }).populate('recipe');
     if (seccion) {
@@ -14,6 +14,10 @@ router.get('/', async (req, res) => {
         const recipes = await Recipe.find({})
         res.render('recipes/index', { recipes, seccion: 'Todas las recetas', favorite }) //show all products
     }
+});
+
+router.get('/addRecipe', (req,res) => {
+    res.render('recipes/new');
 })
 
 router.get('/favorites', isLoggedIn, async (req, res) => {
