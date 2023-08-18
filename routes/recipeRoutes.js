@@ -24,10 +24,8 @@ router.post('/', async (req, res) => {
     const { titulo, imagen, ingredientes} = req.body;
     console.log(ingredientes)
     const ingredientList = ingredientes.slice(1);
-    const formattedIngredients = ingredientList.map(ingredient => `- ${ingredient}`).join('\r\n- ');
+    const formattedIngredients = ingredientList.map(ingredient => `${ingredient}`).join('\r\n');
     
-    
-
     const procedureSteps = [];
     for (let i = 1; i <= Number(req.body.procedureCounter); i++) {
         if (req.body[`proceso-${i}`]) {
@@ -42,9 +40,12 @@ router.post('/', async (req, res) => {
         imagen,
         ingredientes: formattedIngredients,
         proceso: formattedProcedure,
+        seccion: "carnes",
+        tipo: "salada",
     });
+    await newRecipe.save()
     console.log(newRecipe);
-    res.send(formattedProcedure);
+    res.redirect("/recipes");
 });
 
 

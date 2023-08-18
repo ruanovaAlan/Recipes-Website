@@ -37,7 +37,7 @@
             </div>
             <button type="button" class="btn btn-primary mt-2" id="add-ingredient">Agregar Ingrediente</button>
         </div>
-        <input type="hidden" id="ingredient-list" name="ingredientes" value="">
+        <input type="hidden" id="ingredient-list" name="ingredientes" value="-">
 
         <div class="mb-2">
             <label for="">Procedimiento:</label>
@@ -109,7 +109,7 @@
     });
 
     document.querySelector('form').addEventListener('submit', () => {
-        const ingredients = Array.from(document.querySelectorAll('.ingredient-input')).map(input => input.value);
+        const ingredients = Array.from(document.querySelectorAll('.ingredient-input')).map(input => "- " + input.value);
         ingredientListInput.value = ingredients.join('\r\n');
         
         const procedureSteps = Array.from(document.querySelectorAll('.procedure-input')).map(input => input.value);
