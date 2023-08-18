@@ -20,6 +20,34 @@ router.get('/addRecipe', (req,res) => {
     res.render('recipes/new');
 })
 
+router.post('/', async (req, res) => {
+    const { titulo, imagen, ingredientes} = req.body;
+    console.log(ingredientes)
+    const ingredientList = ingredientes.slice(1);
+    const formattedIngredients = ingredientList.map(ingredient => `- ${ingredient}`).join('\r\n- ');
+    
+    
+
+    const procedureSteps = [];
+    for (let i = 1; i <= Number(req.body.procedureCounter); i++) {
+        if (req.body[`proceso-${i}`]) {
+            procedureSteps.push(req.body[`proceso-${i}`]);
+        }
+    }
+    // Agregar números a cada paso del procedimiento
+    const formattedProcedure = procedureSteps.map((step, index) => `${index + 1}. ${step}`).join('\r\n');
+
+    const newRecipe = new Recipe({
+        titulo,
+        imagen,
+        ingredientes: formattedIngredients,
+        proceso: formattedProcedure,
+    });
+    console.log(newRecipe);
+    res.send(formattedProcedure);
+});
+
+
 router.get('/favorites', isLoggedIn, async (req, res) => {
     const user = res.locals.currentUser = req.user;
     const recipes = await Recipe.find({})

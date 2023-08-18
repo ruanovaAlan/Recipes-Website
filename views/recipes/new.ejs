@@ -1,6 +1,6 @@
 <% layout('layouts/boilerplate') %>
 
-<div class="container">
+<!-- <div class="container">
     <h1 class="d-flex justify-content-center">Nueva Receta</h1>
     <div>
         <form action="/" method="post">
@@ -13,8 +13,106 @@
             <input type="file" name="imagen" id="imagen" class="form-control">
         </div>
         <div class="mb-2">
-            <label for=""></label>
+            <label for="">Ingredientes:</label>
         </div>
         </form>
     </div>
+</div> -->
+
+<div class="container">
+    <h1 class="d-flex justify-content-center">Nueva Receta</h1>
+    <form action="/recipes" method="post">
+        <div class="mb-2">
+            <label for="title" class="form-label">Título</label>
+            <input type="text" class="form-control" id="title" name="titulo" placeholder="Título...">
+        </div>
+        <div class="mb-2">
+            <label for="imagen" class="form-label">Imagen</label>
+            <input type="file" name="imagen" id="imagen" class="form-control">
+        </div>
+        <div class="mb-2">
+            <label for="">Ingredientes:</label>
+            <div id="ingredient-container">
+                <input type="text" class="form-control ingredient-input" name="ingredientes" placeholder="Ingrediente...">
+            </div>
+            <button type="button" class="btn btn-primary mt-2" id="add-ingredient">Agregar Ingrediente</button>
+        </div>
+        <input type="hidden" id="ingredient-list" name="ingredientes" value="">
+
+        <div class="mb-2">
+            <label for="">Procedimiento:</label>
+            <div id="procedure-container">
+                <input type="text" class="form-control procedure-input" name="proceso-1" placeholder="Paso 1...">
+            </div>
+            <button type="button" class="btn btn-primary mt-2" id="add-procedure">Agregar Paso</button>
+        </div>
+        <input type="hidden" id="procedure-counter" name="procedureCounter" value="1">
+        
+        <button type="submit" class="btn btn-primary">Guardar Receta</button>
+    </form>
 </div>
+
+<!-- <script>
+    document.addEventListener("DOMContentLoaded", () => {
+        const addIngredientButton = document.getElementById("add-ingredient");
+        const ingredientContainer = document.getElementById("ingredient-container");
+        const ingredientListInput = document.getElementById("ingredient-list");
+
+        addIngredientButton.addEventListener("click", () => {
+            const newIngredientInput = document.createElement("input");
+            newIngredientInput.type = "text";
+            newIngredientInput.className = "form-control ingredient-input mt-2";
+            newIngredientInput.placeholder = "Ingrediente...";
+            ingredientContainer.appendChild(newIngredientInput);
+        });
+
+        const form = document.querySelector("form");
+        form.addEventListener("submit", () => {
+            const ingredientInputs = document.querySelectorAll(".ingredient-input");
+            const ingredients = [];
+            ingredientInputs.forEach(input => {
+                if (input.value.trim() !== "") {
+                    ingredients.push("- " + input.value);
+                }
+            });
+            ingredientListInput.value = ingredients.join("\r\n");
+        });
+    });
+</script> -->
+
+<script>
+    const ingredientContainer = document.getElementById('ingredient-container');
+    const addIngredientButton = document.getElementById('add-ingredient');
+    const ingredientListInput = document.getElementById('ingredient-list');
+
+    const procedureContainer = document.getElementById('procedure-container');
+    const addProcedureButton = document.getElementById('add-procedure');
+    const procedureCounterInput = document.getElementById('procedure-counter');
+
+    let procedureStep = 1; // Contador para el número de pasos
+
+    addIngredientButton.addEventListener('click', () => {
+        const ingredientInput = document.createElement('input');
+        ingredientInput.className = 'form-control ingredient-input mt-2';
+        ingredientInput.placeholder = 'Ingrediente...';
+        ingredientContainer.appendChild(ingredientInput);
+    });
+
+    addProcedureButton.addEventListener('click', () => {
+        procedureStep++; // Incrementar el contador
+        const procedureInput = document.createElement('input');
+        procedureInput.className = 'form-control procedure-input mt-2';
+        procedureInput.name = `proceso-${procedureStep}`; // Nombre único para cada paso
+        procedureInput.placeholder = `Paso ${procedureStep}...`;
+        procedureContainer.appendChild(procedureInput);
+        procedureCounterInput.value = procedureStep; // Actualizar el valor del contador en el campo oculto
+    });
+
+    document.querySelector('form').addEventListener('submit', () => {
+        const ingredients = Array.from(document.querySelectorAll('.ingredient-input')).map(input => input.value);
+        ingredientListInput.value = ingredients.join('\r\n');
+        
+        const procedureSteps = Array.from(document.querySelectorAll('.procedure-input')).map(input => input.value);
+        procedureListInput.value = procedureSteps;
+    });
+</script>
