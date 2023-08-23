@@ -21,7 +21,7 @@ router.get('/addRecipe', (req,res) => {
 })
 
 router.post('/', async (req, res) => {
-    const { titulo, imagen, ingredientes} = req.body;
+    const { titulo, imagen, ingredientes, seccion, tipo} = req.body;
     console.log(ingredientes)
     const ingredientList = ingredientes.slice(1);
     const formattedIngredients = ingredientList.map(ingredient => `${ingredient}`).join('\r\n');
@@ -40,8 +40,8 @@ router.post('/', async (req, res) => {
         imagen,
         ingredientes: formattedIngredients,
         proceso: formattedProcedure,
-        seccion: "carnes",
-        tipo: "salada",
+        seccion,
+        tipo,
     });
     await newRecipe.save()
     console.log(newRecipe);

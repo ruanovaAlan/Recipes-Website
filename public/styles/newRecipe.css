@@ -1,0 +1,11 @@
+label.form-label {
+    font-family: 'Libre Baskerville', serif;
+    font-weight: 700;
+    font-size: 1rem;
+}
+
+label.form-check-label {
+    font-family: 'Libre Franklin', serif;
+    font-weight: 400;
+    font-size: 1rem;
+}

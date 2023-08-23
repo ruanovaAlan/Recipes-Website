@@ -1,27 +1,9 @@
 <% layout('layouts/boilerplate') %>
+<link rel="stylesheet" href="/styles/newRecipe.css">
 
-<!-- <div class="container">
+<div class="container col-md-5 col-xl-5 col-sm-5 mb-5">
     <h1 class="d-flex justify-content-center">Nueva Receta</h1>
-    <div>
-        <form action="/" method="post">
-            <div class="mb-2">
-            <label for="title" class="form-label">Título</label>
-            <input type="text" class="form-control" id="title" name="titulo" placeholder="Título...">
-        </div>
-        <div class="mb-2">
-            <label for="imagen" class="form-label">Imagen</label>
-            <input type="file" name="imagen" id="imagen" class="form-control">
-        </div>
-        <div class="mb-2">
-            <label for="">Ingredientes:</label>
-        </div>
-        </form>
-    </div>
-</div> -->
-
-<div class="container">
-    <h1 class="d-flex justify-content-center">Nueva Receta</h1>
-    <form action="/recipes" method="post">
+    <form action="/recipes" method="post" class="mt-4">
         <div class="mb-2">
             <label for="title" class="form-label">Título</label>
             <input type="text" class="form-control" id="title" name="titulo" placeholder="Título...">
@@ -31,24 +13,51 @@
             <input type="file" name="imagen" id="imagen" class="form-control">
         </div>
         <div class="mb-2">
-            <label for="">Ingredientes:</label>
+            <label for="" class="form-label">Tipo de Receta:</label>
+            <div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="tipo" id="dulce" value="dulce">
+                    <label class="form-check-label" for="dulce">Dulce</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="tipo" id="salada" value="salada">
+                    <label class="form-check-label" for="salada">Salada</label>
+                </div>
+            </div>
+        </div>
+        <div class="mb-2">
+            <label for="category" class="form-label">Categoría</label>
+            <div>
+            <select name="seccion" id="category" class="form-select">
+                <option selected>Seleccionar Categoría</option>
+                <option value="sopas-aguadas-y-cremas">Sopas Aguadas y Cremas</option>
+                <option value="sopas-secas-y-pastas">Sopas Secas y Pastas</option>
+                <option value="carnes">Carnes</option>
+                <option value="soufflés">Soufflés</option>
+                <option value="ensaladas">Ensaladas</option>
+            </select>
+        </div>
+        </div>
+        <div class="mb-2">
+            <label for="" class="form-label">Ingredientes:</label>
             <div id="ingredient-container">
                 <input type="text" class="form-control ingredient-input" name="ingredientes" placeholder="Ingrediente...">
             </div>
-            <button type="button" class="btn btn-primary mt-2" id="add-ingredient">Agregar Ingrediente</button>
+            <button type="button" class="btn btn-secondary mt-2" id="add-ingredient">Agregar Ingrediente</button>
         </div>
         <input type="hidden" id="ingredient-list" name="ingredientes" value="-">
 
         <div class="mb-2">
-            <label for="">Procedimiento:</label>
+            <label for="" class="form-label">Procedimiento:</label>
             <div id="procedure-container">
                 <input type="text" class="form-control procedure-input" name="proceso-1" placeholder="Paso 1...">
             </div>
-            <button type="button" class="btn btn-primary mt-2" id="add-procedure">Agregar Paso</button>
+            <button type="button" class="btn btn-secondary mt-2" id="add-procedure">Agregar Paso</button>
         </div>
         <input type="hidden" id="procedure-counter" name="procedureCounter" value="1">
-        
-        <button type="submit" class="btn btn-primary">Guardar Receta</button>
+        <div class="d-grid gap-2">
+            <button type="submit" class="btn btn-success">Guardar Receta</button>
+        </div>
     </form>
 </div>
 
