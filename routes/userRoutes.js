@@ -1,52 +1,18 @@
 const express = require('express');
 const router = express.Router();
-const User = require('../models/user');
+const user = require('../controllers/userController')
 const passport = require('passport');
 const { storeReturnTo } = require('../middleware/verification');
 
-router.get('/register', (req, res) => {
-    res.render('users/register');
-})
+router.route('/register')
+    .get(user.getRegister)
+    .post(user.postRegister);
 
-router.post('/register', async (req, res, next) => {
-    try {
-        const { email, username, password } = req.body;
-        const user = new User({ email, username });
-        const registerUser = await User.register(user, password);
-        req.login(registerUser, err => { //middleware to login when register
-            if (err) return next(err);
-            req.flash('success', "Welcome to Rousy's Kitchen");
-            res.redirect('/recipes');
-        })
-    } catch (e) {
-        req.flash('error', e.message);
-        res.redirect('/register');
-    }
-})
+router.route('/login')
+    .get(user.getLogin)
+    .post(storeReturnTo, passport.authenticate('local', { failureFlash: true, failureRedirect: '/login' }), user.postLogin);
 
-router.get('/login', (req, res) => {
-    res.render('users/login');
-})
-
-router.post('/login', storeReturnTo, passport.authenticate('local', { failureFlash: true, failureRedirect: '/login' }), (req, res) => {
-    const redirectUrl = res.locals.returnTo || '/recipes';
-    if (redirectUrl === '/recipes/favorites') {
-        req.flash('success', 'Welcome Back!');
-        return res.redirect('/recipes')
-    }
-    req.flash('success', 'Welcome Back!');
-    res.redirect(redirectUrl);
-})
-
-router.get('/logout', (req, res, next) => {
-    req.logout(function (err) {
-        if (err) {
-            return next(err);
-        }
-        req.flash('success', 'Goodbye');
-        res.redirect('/recipes');
-    });
-})
-
+router.route('/logout')
+    .get(user.logout);
 
 module.exports = router;
