@@ -1,5 +1,6 @@
 const Recipe = require('../models/recipe');
 const Favorite = require('../models/favorite');
+const { cloudinary } = require('../cloudinary');
 
 
 module.exports.index = async(req,res) => { //view all recipes
@@ -19,8 +20,8 @@ module.exports.addRecipe = (req,res) => {
 }
 
 module.exports.newRecipe = async(req,res) => {
-    const { titulo, imagen, ingredientes, seccion, tipo} = req.body;
-    console.log(ingredientes)
+    const { titulo, ingredientes, seccion, tipo} = req.body;
+    const imagen = req.file.path;
     const ingredientList = ingredientes.slice(1);
     const formattedIngredients = ingredientList.map(ingredient => `${ingredient}`).join('\r\n');
     

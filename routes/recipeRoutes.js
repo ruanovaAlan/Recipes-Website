@@ -2,11 +2,17 @@ const express = require('express');
 const router = express.Router();
 const recipes = require('../controllers/recipeController');
 const { isLoggedIn, storeReturnTo } = require('../middleware/verification');
+const multer = require('multer');
+const { storage } = require('../cloudinary');
+const upload = multer({ storage });
 
 router.route('/')
     .get(recipes.index)//view all recipes
-    .post(recipes.newRecipe);
-
+    .post(upload.single('imagen'), recipes.newRecipe);
+    // .post(upload.single('imagen'), (req,res)=> {
+    //     console.log(req.body, req.file)
+    //     res.send("It worked")
+    // })
 
 router.route('/addRecipe')
     .get(recipes.addRecipe);
