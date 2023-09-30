@@ -10,6 +10,7 @@ const Recipe = require('./models/recipe')
 const ExpressError = require('./utils/expressError');
 const methodOverride = require("method-override");
 const mongoSanitize = require('express-mongo-sanitize');
+const helmet = require('helmet')
 
 const recipeRoutes = require('./routes/recipeRoutes');
 const userRoutes = require('./routes/userRoutes');
@@ -75,6 +76,52 @@ app.use((req, res, next) => { //Flash
 
 //Mongo sanitize
 app.use(mongoSanitize());
+
+//helmet
+app.use(helmet());
+
+
+const scriptSrcUrls = [
+    "https://stackpath.bootstrapcdn.com/",
+    "https://ka-f.fontawesome.com",
+    "https://kit.fontawesome.com/",
+    "https://ka-f.fontawesome.com/",
+    "https://cdnjs.cloudflare.com/",
+    "https://cdn.jsdelivr.net",
+];
+const styleSrcUrls = [
+    "https://kit-free.fontawesome.com/",
+    "https://ka-f.fontawesome.com",
+    "https://stackpath.bootstrapcdn.com/",
+    "https://fonts.googleapis.com/",
+    "https://use.fontawesome.com/",
+    "https://cdn.jsdelivr.net/"
+];
+const connectSrcUrls = ["https://ka-f.fontawesome.com"];
+const fontSrcUrls = ["https://ka-f.fontawesome.com/", "https://fonts.gstatic.com"];
+
+app.use(
+    helmet.contentSecurityPolicy({
+        directives: {
+            defaultSrc: ["'self'", 'https://ka-f.fontawesome.com', 'https://fonts.gstatic.com'],
+            connectSrc: ["'self'", ...connectSrcUrls],
+            scriptSrc: ["'unsafe-inline'", "'self'", ...scriptSrcUrls],
+            styleSrc: ["'self'", "'unsafe-inline'", ...styleSrcUrls],
+            workerSrc: ["'self'", "blob:"],
+            objectSrc: [],
+            imgSrc: [
+                "'self'",
+                "blob:",
+                "data:",
+                "https://res.cloudinary.com/dmt9srumx/", //SHOULD MATCH YOUR CLOUDINARY ACCOUNT! 
+                "https://images.unsplash.com/",
+                "https://i.postimg.cc/"
+            ],
+            fontSrc: ["'self'", ...fontSrcUrls],
+        },
+    })
+);
+
 
 //router
 app.get('/', (req,res) => {
