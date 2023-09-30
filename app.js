@@ -9,6 +9,7 @@ const mongoose = require('mongoose');
 const Recipe = require('./models/recipe')
 const ExpressError = require('./utils/expressError');
 const methodOverride = require("method-override");
+const mongoSanitize = require('express-mongo-sanitize');
 
 const recipeRoutes = require('./routes/recipeRoutes');
 const userRoutes = require('./routes/userRoutes');
@@ -71,6 +72,9 @@ app.use((req, res, next) => { //Flash
     res.locals.error = req.flash('error');
     next();
 })
+
+//Mongo sanitize
+app.use(mongoSanitize());
 
 //router
 app.get('/', (req,res) => {
