@@ -7,10 +7,10 @@ module.exports.index = async(req,res) => { //view all recipes
     const { seccion } = req.query;
     const favorite = await Favorite.find({ user: res.locals.currentUser }).populate('recipe');
     if (seccion) {
-        const recipes = await Recipe.find({ seccion })
+        const recipes = await Recipe.find({ seccion }).populate('reviews');
         res.render('recipes/index', { recipes, seccion, favorite })
     } else {
-        const recipes = await Recipe.find({})
+        const recipes = await Recipe.find({}).populate('reviews');
         res.render('recipes/index', { recipes, seccion: 'Todas las recetas', favorite }) //show all products
     }
 };
