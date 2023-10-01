@@ -11,6 +11,7 @@ const ExpressError = require('./utils/expressError');
 const methodOverride = require("method-override");
 const mongoSanitize = require('express-mongo-sanitize');
 const helmet = require('helmet')
+const MongoStore = require('connect-mongo');
 
 const recipeRoutes = require('./routes/recipeRoutes');
 const userRoutes = require('./routes/userRoutes');
@@ -23,9 +24,9 @@ const passportLocal = require('passport-local');
 const User = require('./models/user');
 
 
+const dbUrl = process.env.DB_URL || "mongodb://127.0.0.1:27017/Recipes";
+mongoose.connect(dbUrl); //local database
 
-//Connection to mongoose
-mongoose.connect("mongodb://127.0.0.1:27017/Recipes");
 const db = mongoose.connection;
 db.on("error", console.error.bind(console, "Connection erro:"));
 db.once("open", () => {
@@ -45,6 +46,19 @@ app.use(express.static(path.join(__dirname, '/public')))
 
 //Set the url encoded to parse the body
 app.use(express.urlencoded({ extended: true }));
+
+//Mongo store
+const secret = process.env.SECRET || 'thisShouldBeSecret'
+const store = MongoStore.create({
+    mongoUrl: dbUrl,
+    touchAfter: 24 * 60 * 60,
+    crypto: {
+        secret
+    }
+})
+store.on("error", function(e) {
+    console.log("Session store error")
+})
 
 const sessionConfig = {
     secret: 'secretRecipes',
@@ -130,6 +144,17 @@ app.get('/', (req,res) => {
 app.use('/recipes', recipeRoutes);
 app.use('/recipes/:id/reviews', reviewRoutes);
 app.use('/', userRoutes);
+
+
+app.all('*', (req, res, next) => {
+    next(new ExpressError('Page not found', 404));
+})
+
+app.use((err, req, res, next) => {
+    const { statusCode = 500 } = err;
+    if (!err.message) err.message = 'Oh NO, Something went wrong';
+    res.status(statusCode).render('error', { err });
+})
 
 app.listen(3000, () => {
     console.log("Serving Port 3000");
