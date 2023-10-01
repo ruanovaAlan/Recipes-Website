@@ -216,3 +216,9 @@ img.register-img{
     height: 200px;
     align-items: center;
 }
+
+p.dropdown-label {
+    font-family: 'Libre Baskerville', serif;
+    font-weight: 700;
+    font-size: 1rem;
+}
