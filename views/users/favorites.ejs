@@ -55,9 +55,9 @@
         <h5 class="card-title" style="height: 50px;">
           <%= favorite.recipe.titulo %>
         </h5>
-        <pre class="card-text">Servings: 10</pre>
+        
         <div class="d-flex justify-content-between">
-          <a href="/recipes/<%= favorite.recipe._id %>" class="btn btn-secondary">Ver
+          <a href="/recipes/<%= favorite.recipe._id %>" class="view-recipe">Ver
             Receta</a>
           <form action="/recipes/favorites?_method=DELETE" method="post" id="">
             <input type="hidden" name="recipeId" value="<%= favorite.recipe._id %>">
