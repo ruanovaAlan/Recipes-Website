@@ -1,5 +1,5 @@
 const mongoose = require('mongoose');
-const Recipe = require('../models/recipes');
+const Recipe = require('../models/recipe');
 
 mongoose.connect('mongodb://127.0.0.1:27017/Recipes')
     .then(() => {
