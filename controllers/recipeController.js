@@ -76,7 +76,7 @@ module.exports.changeStatus = async(req,res) => {
         { new: true }
     );
     req.flash('success', 'Estatus Modificado Exitosamente!');
-    res.redirect(`back`);
+    res.redirect(`/recipes/favorites`);
 }
 
 module.exports.deleteFavorite = async(req,res) => {
