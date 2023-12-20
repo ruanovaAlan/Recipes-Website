@@ -64,7 +64,8 @@ module.exports.addFavorite = async(req,res) => {
     const favorite = new Favorite({ recipe: recipeId, user: user._id })
     await favorite.save()
     req.flash('success', 'Se agregó la receta a favoritos');
-    res.redirect('back');
+    res.redirect('/recipes');
+    
 }
 
 module.exports.changeStatus = async(req,res) => {
