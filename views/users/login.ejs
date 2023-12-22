@@ -1,6 +1,6 @@
 <% layout('layouts/boilerplate.ejs') %>
 
-<div class="row justify-content-center mb-5 mt-5">
+<div class="row justify-content-center mt-5">
     <div class="col-12 col-sm-10 col-md-6 col-lg-4 col-xl-4">
         <div class="card shadow">
             <div class="d-flex justify-content-center">
@@ -9,7 +9,7 @@
             </div>
             <div class="card-body rounded pt-0">
                 <hr>
-                <h5 class="card-title form-title">Login</h5>
+                <h5 class="card-title form-title text-center">Login</h5>
                 <form class="needs-validation" action="/login" method="post" novalidate>
                     <div class="mb-3 ">
                         <label class="form-label" for="username">Usuario</label>
@@ -29,3 +29,5 @@
         </div>
     </div>
 </div>
+
+<%- include('../partials/footer') %>
