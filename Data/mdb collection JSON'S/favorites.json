@@ -1,0 +1,13 @@
+[{
+  "_id": {
+    "$oid": "65834b0f55ac587bc0fd808e"
+  },
+  "status": "sin-preparar",
+  "recipe": {
+    "$oid": "658329b7aba8be051204734c"
+  },
+  "user": {
+    "$oid": "65832b0f56d00d98e29c21c2"
+  },
+  "__v": 0
+}]
