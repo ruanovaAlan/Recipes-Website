@@ -6,7 +6,7 @@ const multer = require('multer');
 const { storage } = require('../cloudinary');
 const upload = multer({ storage });
 
-router.route('/')
+router.route('/recipes')
     .get(recipes.index)//view all recipes
     .post(upload.single('imagen'), recipes.newRecipe);
     // .post(upload.single('imagen'), (req,res)=> {
