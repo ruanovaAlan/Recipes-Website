@@ -141,7 +141,7 @@ app.use(
 app.get('/', (req,res) => {
     res.render('home.ejs')
 })
-app.use('/recipes', recipeRoutes);
+app.use('/', recipeRoutes);
 app.use('/recipes/:id/reviews', reviewRoutes);
 app.use('/', userRoutes);
 

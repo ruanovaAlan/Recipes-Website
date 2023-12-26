@@ -9,11 +9,8 @@ const upload = multer({ storage });
 router.route('/recipes')
     .get(recipes.index)//view all recipes
     .post(upload.single('imagen'), recipes.newRecipe);
-    // .post(upload.single('imagen'), (req,res)=> {
-    //     console.log(req.body, req.file)
-    //     res.send("It worked")
-    // })
 
+    
 router.route('/addRecipe')
     .get(recipes.addRecipe);
 
