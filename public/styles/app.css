@@ -134,6 +134,10 @@ nav.nav-style {
     background-color: rgba(253, 150, 30, 1);
 }
 
+.nav{
+    box-sizing: border-box;;
+}
+
 /* Modal styling*/
 img.index-img {
     transform: scale(1);
