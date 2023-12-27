@@ -9,7 +9,8 @@ const mongoose = require('mongoose');
 const ExpressError = require('./utils/expressError');
 const methodOverride = require("method-override");
 const mongoSanitize = require('express-mongo-sanitize');
-const helmet = require('helmet')
+const helmet = require('helmet');
+const User = require('./models/user');
 const MongoStore = require('connect-mongo');
 
 const session = require('express-session')
