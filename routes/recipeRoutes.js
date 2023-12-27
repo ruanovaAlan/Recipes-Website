@@ -6,11 +6,11 @@ const multer = require('multer');
 const { storage } = require('../cloudinary');
 const upload = multer({ storage });
 
-router.route('/recipes')
+router.route('/')
     .get(recipes.index)//view all recipes
     .post(upload.single('imagen'), recipes.newRecipe);
 
-    
+
 router.route('/addRecipe')
     .get(recipes.addRecipe);
 
