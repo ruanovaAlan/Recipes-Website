@@ -1,33 +1,37 @@
 <% layout('layouts/boilerplate.ejs') %>
 
-<div class="row justify-content-center mt-5">
-    <div class="col-12 col-sm-10 col-md-6 col-lg-4 col-xl-4">
-        <div class="card shadow">
-            <div class="d-flex justify-content-center">
-            <img src="https://i.postimg.cc/C1zqz5XJ/nt-sucking-into-the-work.png"
-                alt="" class="card-img-top login-img " >
-            </div>
-            <div class="card-body rounded pt-0">
-                <hr>
-                <h5 class="card-title form-title text-center">Login</h5>
-                <form class="needs-validation" action="/login" method="post" novalidate>
-                    <div class="mb-3 ">
-                        <label class="form-label" for="username">Usuario</label>
-                        <input type="text" class="form-control" name="username" id="username" required autofocus>
-                        <div class="valid-feedback">Looks good!</div>
-                    </div>
-                    <div class="mb-3 ">
-                        <label class="form-label" for="password">Contraseña</label>
-                        <input type="password" class="form-control" name="password" id="password" required>
-                        <div class="valid-feedback">Looks good!</div>
-                    </div>
-                    <div class="d-grid gap-2">
-                        <button class="btn btn-success">Login</button>
-                    </div>
-                </form>
+    <div class="row justify-content-center mt-5">
+        <div class="col-12 col-sm-10 col-md-6 col-lg-4 col-xl-4">
+            <div class="card shadow">
+                <div class="d-flex justify-content-center">
+                    <img src="https://i.postimg.cc/C1zqz5XJ/nt-sucking-into-the-work.png" alt=""
+                        class="card-img-top login-img ">
+                </div>
+                <div class="card-body rounded pt-0">
+                    <hr>
+                    <h5 class="card-title form-title text-center">Login</h5>
+                    <form class="needs-validation" action="/login" method="post" novalidate>
+                        <div class="mb-3 ">
+                            <label class="form-label" for="username">Usuario</label>
+                            <input type="text" class="form-control" name="username" id="username" required autofocus>
+                            <div class="valid-feedback">Looks good!</div>
+                        </div>
+                        <div class="mb-3 ">
+                            <label class="form-label" for="password">Contraseña</label>
+                            <input type="password" class="form-control" name="password" id="password" required>
+                            <div class="valid-feedback">Looks good!</div>
+                        </div>
+                        <div class="d-grid gap-2">
+                            <button class="btn btn-success">Login</button>
+                        </div>
+                    </form>
+                    <section>
+                        <hr>
+                        <p class="text-center">¿No tienes una cuenta? <a href="/register">Regístrate</a></p>
+                    </section>
+                </div>
             </div>
         </div>
     </div>
-</div>
 
-<%- include('../partials/footer') %>
+    <%- include('../partials/footer') %>
